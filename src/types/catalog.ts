@@ -1,14 +1,29 @@
 export interface ServiceItem {
     id: string;
     name: string;
-    description: string;
-    pricingType: 'fixed' | 'perPerson' | 'perHour' | 'perUnit' | 'quoteOnly';
-    priceUSD: number | null;
+    description?: string;
+    pricingType?: 'fixed' | 'perPerson' | 'perHour' | 'perUnit' | 'quoteOnly' | 'range';
+    priceUSD?: number | null;
+    priceRange?: {
+        min: number;
+        max: number;
+        raw: string;
+    };
     unitLabel: string;
-    imageQuery: string;
+    imageQuery?: string;
     imageUrl?: string;
     defaultQty?: number | null;
     allowCustomQty?: boolean;
+    freeWithBundle?: boolean;
+    popupInfo?: {
+        shortText: string;
+        buttonText: string;
+        title: string;
+        imageQuery?: string;
+        includedText: string[];
+        factorsText?: string[];
+        realValueText?: string;
+    };
 }
 
 export interface ServiceSubcategory {

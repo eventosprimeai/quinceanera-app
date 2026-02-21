@@ -1,0 +1,115 @@
+import { X, CheckCircle2 } from 'lucide-react';
+import { useEffect } from 'react';
+
+interface PopupInfo {
+    shortText: string;
+    buttonText: string;
+    title: string;
+    imageQuery?: string;
+    includedText: string[];
+    factorsText?: string[];
+    realValueText?: string;
+}
+
+interface Props {
+    info: PopupInfo;
+    onClose: () => void;
+}
+
+export default function ServiceInfoPopup({ info, onClose }: Props) {
+    // Prevent scrolling behind modal
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, []);
+
+    return (
+        <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 animate-in fade-in duration-200"
+            onClick={onClose}
+        >
+            <div
+                className="bg-[#0a0a0a] border border-[#2a2a2a] w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden max-h-[90vh] flex flex-col"
+                onClick={e => e.stopPropagation()}
+            >
+                {/* Header */}
+                <div className="flex items-center justify-between p-5 border-b border-[#2a2a2a] bg-[#141414]">
+                    <h3 className="text-xl font-bold text-white pr-4" style={{ fontFamily: 'var(--font-serif)' }}>
+                        {info.title}
+                    </h3>
+                    <button
+                        onClick={onClose}
+                        className="w-8 h-8 rounded-full bg-[#1e1e1e] flex items-center justify-center text-[#888] hover:text-white transition-colors flex-shrink-0"
+                    >
+                        <X className="w-4 h-4" />
+                    </button>
+                </div>
+
+                {/* Scrollable Content */}
+                <div className="p-5 overflow-y-auto custom-scrollbar flex-1 space-y-6">
+                    {/* Short Text Intro */}
+                    <p className="text-[#aaa] text-sm leading-relaxed">
+                        {info.shortText}
+                    </p>
+
+                    {/* Includes Section */}
+                    {info.includedText && info.includedText.length > 0 && (
+                        <div>
+                            <h4 className="text-sm font-semibold text-[#c9a96e] mb-3 uppercase tracking-wider text-[11px]">
+                                ¿Qué incluye generalmente?
+                            </h4>
+                            <ul className="space-y-2">
+                                {info.includedText.map((item, idx) => (
+                                    <li key={idx} className="flex items-start gap-2 text-sm text-[#ddd]">
+                                        <CheckCircle2 className="w-4 h-4 text-[#c9a96e]/60 mt-0.5 flex-shrink-0" />
+                                        <span className="leading-snug">{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
+                    {/* Factors Section */}
+                    {info.factorsText && info.factorsText.length > 0 && (
+                        <div>
+                            <h4 className="text-sm font-semibold text-[#c9a96e] mb-3 uppercase tracking-wider text-[11px]">
+                                Qué influye en el precio
+                            </h4>
+                            <ul className="list-disc pl-4 space-y-1.5 marker:text-[#555]">
+                                {info.factorsText.map((item, idx) => (
+                                    <li key={idx} className="text-sm text-[#aaa]">
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
+                    {/* Real Value Section */}
+                    {info.realValueText && (
+                        <div className="bg-[#c9a96e]/10 border border-[#c9a96e]/20 p-4 rounded-xl">
+                            <h4 className="text-sm font-semibold text-[#c9a96e] mb-1">
+                                Valor Real
+                            </h4>
+                            <p className="text-sm text-[#eee] leading-relaxed">
+                                {info.realValueText}
+                            </p>
+                        </div>
+                    )}
+                </div>
+
+                {/* Footer */}
+                <div className="p-4 border-t border-[#2a2a2a] bg-[#141414] mt-auto">
+                    <button
+                        onClick={onClose}
+                        className="w-full btn-gold !py-3 justify-center text-sm font-semibold"
+                    >
+                        Entendido
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+}

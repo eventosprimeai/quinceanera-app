@@ -11,14 +11,23 @@ import {
     CheckCircle2, Loader2
 } from 'lucide-react';
 
-function calcLine(item: any, qty: number, guests: number, hours: number): number {
-    if (!item.priceUSD) return 0;
+function calcLine(item: any, qty: number, guests: number, hours: number): { min: number; max: number } {
+    if (item.pricingType === 'range' && item.priceRange) {
+        let multiplier = 1;
+        const labels = (item.unitLabel || '').toLowerCase();
+        if (labels.includes('invitado') || labels.includes('persona')) multiplier = guests;
+        else if (labels.includes('hora')) multiplier = hours;
+        else if (labels.includes('unidad') || labels.includes('set') || labels.includes('pastel')) multiplier = qty;
+        return { min: item.priceRange.min * multiplier, max: item.priceRange.max * multiplier };
+    }
+
+    if (!item.priceUSD) return { min: 0, max: 0 };
     switch (item.pricingType) {
-        case 'fixed': return item.priceUSD;
-        case 'perPerson': return item.priceUSD * guests;
-        case 'perHour': return item.priceUSD * hours;
-        case 'perUnit': return item.priceUSD * qty;
-        default: return 0;
+        case 'fixed': return { min: item.priceUSD, max: item.priceUSD };
+        case 'perPerson': return { min: item.priceUSD * guests, max: item.priceUSD * guests };
+        case 'perHour': return { min: item.priceUSD * hours, max: item.priceUSD * hours };
+        case 'perUnit': return { min: item.priceUSD * qty, max: item.priceUSD * qty };
+        default: return { min: 0, max: 0 };
     }
 }
 
@@ -97,8 +106,10 @@ export default function ResumenPage() {
                     {/* Items table */}
                     {categories.map(cat => {
                         const catItems = selectedItems.filter(i => i.categoryName === cat);
-                        const catSubtotal = catItems.reduce((sum, sel) =>
-                            sum + calcLine(sel.item, sel.quantity, formData.guestCount, formData.eventHours), 0);
+                        const catSubtotal = catItems.reduce((sum, sel) => {
+                            const line = calcLine(sel.item, sel.quantity, formData.guestCount, formData.eventHours);
+                            return { min: sum.min + line.min, max: sum.max + line.max };
+                        }, { min: 0, max: 0 });
 
                         return (
                             <div key={cat} className="mb-6">
@@ -129,19 +140,25 @@ export default function ResumenPage() {
                                                                     <CircleDollarSign className="w-3 h-3" /> A cotizar
                                                                 </span>
                                                             ) : (
-                                                                <span className="text-white">${lineTotal.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
+                                                                <span className="text-white">
+                                                                    {lineTotal.min !== lineTotal.max
+                                                                        ? `$${lineTotal.min.toLocaleString()} - $${lineTotal.max.toLocaleString()}`
+                                                                        : `$${lineTotal.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}
+                                                                </span>
                                                             )}
                                                         </td>
                                                     </tr>
                                                 );
                                             })}
                                         </tbody>
-                                        {catSubtotal > 0 && (
+                                        {catSubtotal.max > 0 && (
                                             <tfoot>
                                                 <tr className="border-t border-[#2a2a2a]">
-                                                    <td colSpan={2} className="py-2 px-4 text-xs text-[#888] text-right">Subtotal</td>
-                                                    <td className="py-2 px-4 text-right text-xs font-mono text-white font-semibold">
-                                                        ${catSubtotal.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+                                                    <td colSpan={2} className="py-2 px-4 text-xs text-[#888] text-right">Subtotal Estimado</td>
+                                                    <td className="py-2 px-4 text-right text-xs font-mono text-white font-semibold flex justify-end">
+                                                        {catSubtotal.min !== catSubtotal.max
+                                                            ? `$${catSubtotal.min.toLocaleString()} - $${catSubtotal.max.toLocaleString()}`
+                                                            : `$${catSubtotal.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}
                                                     </td>
                                                 </tr>
                                             </tfoot>
@@ -154,10 +171,12 @@ export default function ResumenPage() {
 
                     {/* Grand total */}
                     <div className="glass-card p-5 mb-6 border-[#c9a96e]/20">
-                        <div className="flex justify-between items-baseline">
-                            <span className="text-lg font-semibold text-white">Total estimado</span>
-                            <span className="text-3xl font-bold text-gold-gradient" style={{ fontFamily: 'var(--font-serif)' }}>
-                                ${total.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+                        <div className="flex flex-col gap-1 items-start">
+                            <span className="text-lg font-semibold text-white">Inversión Estimada</span>
+                            <span className="text-3xl font-bold text-gold-gradient leading-tight" style={{ fontFamily: 'var(--font-serif)' }}>
+                                {total.min !== total.max
+                                    ? `$${total.min.toLocaleString()} - $${total.max.toLocaleString()}`
+                                    : `$${total.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}
                             </span>
                         </div>
                         {itemsQuoteOnly.length > 0 && (
@@ -186,7 +205,7 @@ export default function ResumenPage() {
                         </button>
                         <a
                             href={`https://wa.me/593969324140?text=${encodeURIComponent(
-                                `Hola, acabo de armar mi cotización de quinceañera:\n• ${selectedItems.length} servicios seleccionados\n• Total estimado: $${total.toFixed(2)} USD\n• ${itemsQuoteOnly.length} ítems para cotizar\n\nQuiero agendar una llamada para confirmar detalles.`
+                                `Hola, acabo de armar mi cotización de quinceañera:\n• ${selectedItems.length} servicios seleccionados\n• Inversión estimada: $${total.min.toFixed(2)}${total.max !== total.min ? ` - $${total.max.toFixed(2)}` : ''} USD\n• ${itemsQuoteOnly.length} ítems adicionales para cotizar a la medida\n\nQuiero agendar una llamada para confirmar detalles.`
                             )}`}
                             target="_blank"
                             rel="noopener noreferrer"

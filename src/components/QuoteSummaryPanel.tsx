@@ -38,28 +38,46 @@ export default function QuoteSummaryPanel({ onRequestPDF, mobileMode }: Props) {
                 return (
                     <div key={cat}>
                         <h4 className="text-xs font-semibold text-[#c9a96e] uppercase tracking-wider mb-2">{cat}</h4>
-                        {catItems.map(sel => (
-                            <div key={sel.item.id} className="flex items-center justify-between py-1.5 group">
-                                <div className="flex-1 min-w-0">
-                                    <p className="text-xs text-[#ccc] truncate">{sel.item.name}</p>
-                                    <p className="text-[10px] text-[#555]">{sel.quantity}x · {sel.item.unitLabel}</p>
+                        {catItems.map(sel => {
+                            let lineMin = 0; let lineMax = 0;
+                            if (sel.item.pricingType === 'range' && sel.item.priceRange) {
+                                let multiplier = 1;
+                                const labels = sel.item.unitLabel.toLowerCase();
+                                if (labels.includes('invitado') || labels.includes('persona')) multiplier = formData.guestCount;
+                                else if (labels.includes('hora')) multiplier = formData.eventHours;
+                                else if (labels.includes('unidad') || labels.includes('set') || labels.includes('pastel')) multiplier = sel.quantity;
+                                lineMin = sel.item.priceRange.min * multiplier;
+                                lineMax = sel.item.priceRange.max * multiplier;
+                            } else if (sel.item.priceUSD) {
+                                lineMin = sel.item.priceUSD * sel.quantity;
+                                lineMax = sel.item.priceUSD * sel.quantity;
+                            }
+
+                            return (
+                                <div key={sel.item.id} className="flex items-center justify-between py-1.5 group">
+                                    <div className="flex-1 min-w-0 pr-2">
+                                        <p className="text-xs text-[#ccc] truncate">{sel.item.name}</p>
+                                        <p className="text-[10px] text-[#555]">{sel.quantity}x · {sel.item.unitLabel}</p>
+                                    </div>
+                                    <div className="flex items-center gap-2 shrink-0">
+                                        <span className="text-xs font-mono text-white text-right">
+                                            {lineMin !== lineMax
+                                                ? `$${lineMin.toLocaleString()} - $${lineMax.toLocaleString()}`
+                                                : `$${lineMin.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}
+                                        </span>
+                                        <button
+                                            onClick={(e) => { e.stopPropagation(); removeItem(sel.item.id); }}
+                                            className="opacity-0 group-hover:opacity-100 text-[#555] hover:text-red-400 transition-all"
+                                        >
+                                            <X className="w-3 h-3" />
+                                        </button>
+                                    </div>
                                 </div>
-                                <div className="flex items-center gap-2">
-                                    <span className="text-xs font-mono text-white">
-                                        ${sel.item.priceUSD ? (sel.item.priceUSD * sel.quantity).toLocaleString('en-US', { minimumFractionDigits: 2 }) : '0.00'}
-                                    </span>
-                                    <button
-                                        onClick={(e) => { e.stopPropagation(); removeItem(sel.item.id); }}
-                                        className="opacity-0 group-hover:opacity-100 text-[#555] hover:text-red-400 transition-all"
-                                    >
-                                        <X className="w-3 h-3" />
-                                    </button>
-                                </div>
-                            </div>
-                        ))}
+                            );
+                        })}
                         <div className="flex justify-between text-xs font-medium text-[#888] border-t border-[#2a2a2a] pt-1.5 mt-1.5">
-                            <span>Subtotal</span>
-                            <span>${subtotal.toLocaleString('en-US', { minimumFractionDigits: 2 })}</span>
+                            <span>Subtotal Estimado</span>
+                            <span>{subtotal.min !== subtotal.max ? `$${subtotal.min.toLocaleString()} - $${subtotal.max.toLocaleString()}` : `$${subtotal.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}</span>
                         </div>
                     </div>
                 );
@@ -91,10 +109,10 @@ export default function QuoteSummaryPanel({ onRequestPDF, mobileMode }: Props) {
 
             {/* Total */}
             <div className="border-t border-[#c9a96e]/20 pt-3">
-                <div className="flex justify-between items-baseline">
-                    <span className="text-sm font-semibold text-white">Total estimado</span>
-                    <span className="text-xl font-bold text-gold-gradient" style={{ fontFamily: 'var(--font-serif)' }}>
-                        ${total.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+                <div className="flex flex-col gap-1">
+                    <span className="text-sm font-semibold text-white">Inversión Estimada</span>
+                    <span className="text-xl font-bold text-gold-gradient leading-tight" style={{ fontFamily: 'var(--font-serif)' }}>
+                        {total.min !== total.max ? `$${total.min.toLocaleString()} - $${total.max.toLocaleString()}` : `$${total.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}
                     </span>
                 </div>
                 {itemsQuoteOnly.length > 0 && (
@@ -131,8 +149,8 @@ export default function QuoteSummaryPanel({ onRequestPDF, mobileMode }: Props) {
                     <div className="flex items-center justify-between">
                         <div>
                             <p className="text-xs text-[#888]">{selectedItems.length} servicios</p>
-                            <p className="text-lg font-bold text-gold-gradient" style={{ fontFamily: 'var(--font-serif)' }}>
-                                ${total.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+                            <p className="text-lg font-bold text-gold-gradient leading-tight" style={{ fontFamily: 'var(--font-serif)' }}>
+                                {total.min !== total.max ? `$${total.min.toLocaleString()} - $${total.max.toLocaleString()}` : `$${total.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}
                             </p>
                         </div>
                         <button

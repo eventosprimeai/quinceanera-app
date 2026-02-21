@@ -65,7 +65,7 @@ export default function CotizarPage() {
         for (const cat of catalog.categories) {
             const allItems = getAllItems(cat);
             for (const item of allItems) {
-                if (item.name.toLowerCase().includes(q) || item.description.toLowerCase().includes(q)) {
+                if (item.name.toLowerCase().includes(q) || item.description?.toLowerCase().includes(q)) {
                     results.push({ item, catName: cat.name });
                 }
             }
