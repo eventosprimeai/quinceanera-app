@@ -53,7 +53,7 @@ const server = http.createServer((req, res) => {
                 log('Git pull OK');
                 execSync(`cd ${APP_DIR} && npm install --production 2>&1`, { timeout: 120000 });
                 log('npm install OK');
-                execSync(`cd ${APP_DIR} && npm run build 2>&1`, { timeout: 120000 });
+                execSync(`cd ${APP_DIR} && npm run build 2>&1`, { timeout: 300000 });
                 log('Build OK');
                 execSync('pm2 restart quinceanera 2>&1', { timeout: 10000 });
                 log('PM2 restart OK — Deploy complete!');
