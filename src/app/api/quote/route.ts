@@ -40,8 +40,29 @@ export async function POST(req: NextRequest) {
 
     const quoteId = `Q-${Date.now().toString(36).toUpperCase()}`;
     const itemsQuoteOnly = selectedItems.filter(
-      (s: any) => s.item.priceUSD === null || s.item.pricingType === 'quoteOnly'
+      (s: any) => (!s.item.priceUSD && !s.item.priceRange) || s.item.pricingType === 'quoteOnly'
     );
+    const totalObj = typeof total === 'object' && total !== null ? total : { min: Number(total) || 0, max: Number(total) || 0 };
+
+    function calcLine(item: any, qty: number, guests: number, hours: number): { min: number; max: number } {
+      if (item.pricingType === 'range' && item.priceRange) {
+        let multiplier = 1;
+        const labels = (item.unitLabel || '').toLowerCase();
+        if (labels.includes('invitado') || labels.includes('persona')) multiplier = guests;
+        else if (labels.includes('hora')) multiplier = hours;
+        else if (labels.includes('unidad') || labels.includes('set') || labels.includes('pastel')) multiplier = qty;
+        return { min: item.priceRange.min * multiplier, max: item.priceRange.max * multiplier };
+      }
+
+      if (!item.priceUSD) return { min: 0, max: 0 };
+      switch (item.pricingType) {
+        case 'fixed': return { min: item.priceUSD, max: item.priceUSD };
+        case 'perPerson': return { min: item.priceUSD * guests, max: item.priceUSD * guests };
+        case 'perHour': return { min: item.priceUSD * hours, max: item.priceUSD * hours };
+        case 'perUnit': return { min: item.priceUSD * qty, max: item.priceUSD * qty };
+        default: return { min: 0, max: 0 };
+      }
+    }
 
     // 1. Save to database
     try {
@@ -49,7 +70,7 @@ export async function POST(req: NextRequest) {
         quoteId,
         ...cleanData,
         selectedItems,
-        totalEstimated: Number(total) || 0,
+        totalEstimated: totalObj.min || 0,
         itemsCount: selectedItems.length,
         quoteOnlyCount: itemsQuoteOnly.length,
       });
@@ -66,7 +87,7 @@ export async function POST(req: NextRequest) {
         quoteId,
         formData: cleanData,
         selectedItems,
-        total: Number(total) || 0,
+        total: totalObj,
       });
       markPdfGenerated(quoteId);
       console.log(`[PDF] Generated for ${quoteId} (${pdfBuffer.length} bytes)`);
@@ -88,18 +109,25 @@ export async function POST(req: NextRequest) {
         </div>
 
         <h2 style="color: #c9a96e; font-size: 14px; margin: 16px 0 8px;">Servicios (${selectedItems.length})</h2>
-        ${selectedItems.map((s: any) => `
+        ${selectedItems.map((s: any) => {
+      const isQO = (!s.item.priceUSD && !s.item.priceRange) || s.item.pricingType === 'quoteOnly';
+      const line = calcLine(s.item, s.quantity, cleanData.guestCount, cleanData.eventHours);
+      const valStr = isQO ? 'A cotizar' : (line.min !== line.max ? '$' + line.min.toLocaleString('en-US') + ' - $' + line.max.toLocaleString('en-US') : '$' + line.min.toLocaleString('en-US', { minimumFractionDigits: 2 }));
+
+      return `
           <div style="display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #1a1a1a; font-size: 12px;">
             <span style="color: #ccc;">${sanitize(s.item.name)}</span>
-            <span style="color: ${!s.item.priceUSD || s.item.pricingType === 'quoteOnly' ? '#c9a96e' : '#fff'};">
-              ${!s.item.priceUSD || s.item.pricingType === 'quoteOnly' ? 'A cotizar' : '$' + (s.item.priceUSD * s.quantity).toFixed(2)}
+            <span style="color: ${isQO ? '#c9a96e' : '#fff'};">
+              ${valStr}
             </span>
           </div>
-        `).join('')}
+        `}).join('')}
 
         <div style="background: #141414; border: 1px solid rgba(201,169,110,0.2); border-radius: 10px; padding: 16px; margin-top: 16px; text-align: right;">
           <p style="color: #888; font-size: 11px; margin: 0;">Total estimado</p>
-          <p style="color: #c9a96e; font-size: 26px; font-weight: bold; margin: 4px 0;">$${Number(total).toLocaleString('en-US', { minimumFractionDigits: 2 })}</p>
+          <p style="color: #c9a96e; font-size: 26px; font-weight: bold; margin: 4px 0;">
+            ${totalObj.min !== totalObj.max ? '$' + totalObj.min.toLocaleString('en-US') + ' - $' + totalObj.max.toLocaleString('en-US') : '$' + totalObj.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+          </p>
           ${itemsQuoteOnly.length > 0 ? `<p style="color: #555; font-size: 10px;">+ ${itemsQuoteOnly.length} ítems pendientes de cotización</p>` : ''}
         </div>
 

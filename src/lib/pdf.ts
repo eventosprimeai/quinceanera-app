@@ -64,18 +64,38 @@ interface QuotePDFData {
         isOutsideGuayaquil: boolean;
     };
     selectedItems: Array<{
-        item: { id: string; name: string; pricingType: string; priceUSD: number | null; unitLabel: string };
+        item: { id: string; name: string; pricingType: string; priceUSD?: number | null; priceRange?: { min: number; max: number }; unitLabel: string };
         categoryName: string;
         quantity: number;
     }>;
-    total: number;
+    total: { min: number; max: number };
+}
+
+function calcLine(item: any, qty: number, guests: number, hours: number): { min: number; max: number } {
+    if (item.pricingType === 'range' && item.priceRange) {
+        let multiplier = 1;
+        const labels = (item.unitLabel || '').toLowerCase();
+        if (labels.includes('invitado') || labels.includes('persona')) multiplier = guests;
+        else if (labels.includes('hora')) multiplier = hours;
+        else if (labels.includes('unidad') || labels.includes('set') || labels.includes('pastel')) multiplier = qty;
+        return { min: item.priceRange.min * multiplier, max: item.priceRange.max * multiplier };
+    }
+
+    if (!item.priceUSD) return { min: 0, max: 0 };
+    switch (item.pricingType) {
+        case 'fixed': return { min: item.priceUSD, max: item.priceUSD };
+        case 'perPerson': return { min: item.priceUSD * guests, max: item.priceUSD * guests };
+        case 'perHour': return { min: item.priceUSD * hours, max: item.priceUSD * hours };
+        case 'perUnit': return { min: item.priceUSD * qty, max: item.priceUSD * qty };
+        default: return { min: 0, max: 0 };
+    }
 }
 
 /* ─── PDF COMPONENT ─── */
 function QuoteDocument({ data }: { data: QuotePDFData }) {
     const { quoteId, formData: fd, selectedItems, total } = data;
     const categories = [...new Set(selectedItems.map(i => i.categoryName))];
-    const quoteOnlyCount = selectedItems.filter(s => !s.item.priceUSD || s.item.pricingType === 'quoteOnly').length;
+    const quoteOnlyCount = selectedItems.filter(s => (!s.item.priceUSD && !s.item.priceRange) || s.item.pricingType === 'quoteOnly').length;
 
     return React.createElement(Document, {},
         React.createElement(Page, { size: 'A4', style: s.page },
@@ -122,8 +142,10 @@ function QuoteDocument({ data }: { data: QuotePDFData }) {
                         ),
                         // Rows
                         ...items.map((si, idx) => {
-                            const isQO = !si.item.priceUSD || si.item.pricingType === 'quoteOnly';
-                            const lineTotal = isQO ? 0 : (si.item.priceUSD! * si.quantity);
+                            const isQO = (!si.item.priceUSD && !si.item.priceRange) || si.item.pricingType === 'quoteOnly';
+                            const line = calcLine(si.item, si.quantity, fd.guestCount, fd.eventHours);
+                            const valStr = isQO ? 'A cotizar' : (line.min !== line.max ? '$' + line.min.toLocaleString('en-US') + ' - $' + line.max.toLocaleString('en-US') : '$' + line.min.toLocaleString('en-US', { minimumFractionDigits: 2 }));
+
                             return React.createElement(View, { key: idx, style: s.tableRow },
                                 React.createElement(View, { style: s.colName },
                                     React.createElement(Text, { style: s.tdText }, si.item.name),
@@ -131,7 +153,7 @@ function QuoteDocument({ data }: { data: QuotePDFData }) {
                                 ),
                                 React.createElement(Text, { style: { ...s.tdText, ...s.colQty } }, String(si.quantity)),
                                 React.createElement(Text, { style: { ...(isQO ? s.tdGold : s.tdText), ...s.colPrice } },
-                                    isQO ? 'A cotizar' : `$${lineTotal.toLocaleString('en-US', { minimumFractionDigits: 2 })}`
+                                    valStr
                                 )
                             );
                         })
@@ -142,7 +164,7 @@ function QuoteDocument({ data }: { data: QuotePDFData }) {
             // Total
             React.createElement(View, { style: s.totalBox },
                 React.createElement(Text, { style: s.totalLabel }, 'Total estimado'),
-                React.createElement(Text, { style: s.totalAmount }, `$${Number(total).toLocaleString('en-US', { minimumFractionDigits: 2 })}`),
+                React.createElement(Text, { style: s.totalAmount }, total.min !== total.max ? `$${total.min.toLocaleString('en-US')} - $${total.max.toLocaleString('en-US')}` : `$${total.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`),
                 quoteOnlyCount > 0
                     ? React.createElement(Text, { style: s.totalNote }, `+ ${quoteOnlyCount} ítems pendientes de cotización`)
                     : null
