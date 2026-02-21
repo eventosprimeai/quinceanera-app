@@ -66,10 +66,11 @@
                 "realValueText": "Garantiza que el maquillaje luzca perfecto en fotos, video y bajo iluminación escénica.",
                 "mainImage": "/images/services/main_maquillaje_profesional.jpg",
                 "galleryImages": [
-                  "/images/services/gallery_maquillaje_profesional.jpg_0.jpg",
-                  "/images/services/gallery_maquillaje_profesional.jpg_1.jpg",
-                  "/images/services/gallery_maquillaje_profesional.jpg_2.jpg",
-                  "/images/services/gallery_maquillaje_profesional.jpg_3.jpg"
+                  "/images/services/gallery_maquillaje_profesional_0.jpg",
+                  "/images/services/gallery_maquillaje_profesional_1.jpg",
+                  "/images/services/gallery_maquillaje_profesional_2.jpg",
+                  "/images/services/gallery_maquillaje_profesional_3.jpg",
+                  "/images/services/gallery_maquillaje_profesional_4.jpg"
                 ]
               }
             },
@@ -102,11 +103,13 @@
                   "Estilista seleccionado"
                 ],
                 "realValueText": "Debe resistir calor, movimiento y horas de celebración.",
-                "mainImage": "/images/services/main_peinado_quincea_era.jpg",
+                "mainImage": "/images/services/main_peinado_quinceanera.jpg",
                 "galleryImages": [
-                  "/images/services/gallery_peinado_quincea_era.jpg_0.jpg",
-                  "/images/services/gallery_peinado_quincea_era.jpg_1.jpg",
-                  "/images/services/gallery_peinado_quincea_era.jpg_2.jpg"
+                  "/images/services/gallery_peinado_quinceanera_0.jpg",
+                  "/images/services/gallery_peinado_quinceanera_1.jpg",
+                  "/images/services/gallery_peinado_quinceanera_2.jpg",
+                  "/images/services/gallery_peinado_quinceanera_3.jpg",
+                  "/images/services/gallery_peinado_quinceanera_4.jpg"
                 ]
               }
             },
@@ -137,8 +140,11 @@
                 "realValueText": "Reduce estrés el día del evento y evita sorpresas.",
                 "mainImage": "/images/services/main_prueba_previa__makeup___peinado_.jpg",
                 "galleryImages": [
-                  "/images/services/gallery_prueba_previa__makeup___peinado_.jpg_0.jpg",
-                  "/images/services/gallery_prueba_previa__makeup___peinado_.jpg_1.jpg"
+                  "/images/services/gallery_prueba_previa__makeup___peinado__0.jpg",
+                  "/images/services/gallery_prueba_previa__makeup___peinado__1.jpg",
+                  "/images/services/gallery_prueba_previa__makeup___peinado__2.jpg",
+                  "/images/services/gallery_prueba_previa__makeup___peinado__3.jpg",
+                  "/images/services/gallery_prueba_previa__makeup___peinado__4.jpg"
                 ]
               }
             },
@@ -168,8 +174,11 @@
                 "realValueText": "Permite mantener frescura durante fotos y baile.",
                 "mainImage": "/images/services/main_kit_de_retoque.jpg",
                 "galleryImages": [
-                  "/images/services/gallery_kit_de_retoque.jpg_0.jpg",
-                  "/images/services/gallery_kit_de_retoque.jpg_1.jpg"
+                  "/images/services/gallery_kit_de_retoque_0.jpg",
+                  "/images/services/gallery_kit_de_retoque_1.jpg",
+                  "/images/services/gallery_kit_de_retoque_2.jpg",
+                  "/images/services/gallery_kit_de_retoque_3.jpg",
+                  "/images/services/gallery_kit_de_retoque_4.jpg"
                 ]
               }
             },
@@ -203,8 +212,11 @@
                 "realValueText": "Garantiza que la quinceañera luzca impecable hasta el final.",
                 "mainImage": "/images/services/main_retoque_durante_el_evento.jpg",
                 "galleryImages": [
-                  "/images/services/gallery_retoque_durante_el_evento.jpg_0.jpg",
-                  "/images/services/gallery_retoque_durante_el_evento.jpg_1.jpg"
+                  "/images/services/gallery_retoque_durante_el_evento_0.jpg",
+                  "/images/services/gallery_retoque_durante_el_evento_1.jpg",
+                  "/images/services/gallery_retoque_durante_el_evento_2.jpg",
+                  "/images/services/gallery_retoque_durante_el_evento_3.jpg",
+                  "/images/services/gallery_retoque_durante_el_evento_4.jpg"
                 ]
               }
             }
@@ -242,7 +254,15 @@
                   "Complejidad del look",
                   "Desplazamiento"
                 ],
-                "realValueText": "La madre es una figura central en fotos y protocolo. Su imagen debe estar al mismo nivel de elegancia."
+                "realValueText": "La madre es una figura central en fotos y protocolo. Su imagen debe estar al mismo nivel de elegancia.",
+                "mainImage": "/images/services/main_maquillaje_mama.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_maquillaje_mama_0.jpg",
+                  "/images/services/gallery_maquillaje_mama_1.jpg",
+                  "/images/services/gallery_maquillaje_mama_2.jpg",
+                  "/images/services/gallery_maquillaje_mama_3.jpg",
+                  "/images/services/gallery_maquillaje_mama_4.jpg"
+                ]
               }
             },
             {
@@ -267,7 +287,15 @@
                   "Alineación con vestido"
                 ],
                 "factorsText": [],
-                "realValueText": "Aporta coherencia estética familiar en fotografías oficiales."
+                "realValueText": "Aporta coherencia estética familiar en fotografías oficiales.",
+                "mainImage": "/images/services/main_peinado_mama.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_peinado_mama_0.jpg",
+                  "/images/services/gallery_peinado_mama_1.jpg",
+                  "/images/services/gallery_peinado_mama_2.jpg",
+                  "/images/services/gallery_peinado_mama_3.jpg",
+                  "/images/services/gallery_peinado_mama_4.jpg"
+                ]
               }
             },
             {
@@ -296,7 +324,15 @@
                   "Complejidad de peinados",
                   "Ubicación del servicio"
                 ],
-                "realValueText": "Garantiza uniformidad visual en entrada, vals y fotografías grupales."
+                "realValueText": "Garantiza uniformidad visual en entrada, vals y fotografías grupales.",
+                "mainImage": "/images/services/main_paquete_belleza_corte.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_paquete_belleza_corte_0.jpg",
+                  "/images/services/gallery_paquete_belleza_corte_1.jpg",
+                  "/images/services/gallery_paquete_belleza_corte_2.jpg",
+                  "/images/services/gallery_paquete_belleza_corte_3.jpg",
+                  "/images/services/gallery_paquete_belleza_corte_4.jpg"
+                ]
               }
             },
             {
@@ -323,7 +359,15 @@
                   "Guía de fotografía grupal"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita descoordinación visual en fotos oficiales y protocolo."
+                "realValueText": "Evita descoordinación visual en fotos oficiales y protocolo.",
+                "mainImage": "/images/services/main_coordinacion_de_look_familiar.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_coordinacion_de_look_familiar_0.jpg",
+                  "/images/services/gallery_coordinacion_de_look_familiar_1.jpg",
+                  "/images/services/gallery_coordinacion_de_look_familiar_2.jpg",
+                  "/images/services/gallery_coordinacion_de_look_familiar_3.jpg",
+                  "/images/services/gallery_coordinacion_de_look_familiar_4.jpg"
+                ]
               }
             }
           ]
@@ -354,7 +398,15 @@
                   "Calendario previo al evento"
                 ],
                 "factorsText": [],
-                "realValueText": "Mejora resultado del maquillaje el día del evento."
+                "realValueText": "Mejora resultado del maquillaje el día del evento.",
+                "mainImage": "/images/services/main_plan_de_cuidado_de_piel.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_plan_de_cuidado_de_piel_0.jpg",
+                  "/images/services/gallery_plan_de_cuidado_de_piel_1.jpg",
+                  "/images/services/gallery_plan_de_cuidado_de_piel_2.jpg",
+                  "/images/services/gallery_plan_de_cuidado_de_piel_3.jpg",
+                  "/images/services/gallery_plan_de_cuidado_de_piel_4.jpg"
+                ]
               }
             },
             {
@@ -382,7 +434,15 @@
                   "Diseño",
                   "Duración"
                 ],
-                "realValueText": "Las manos aparecen constantemente en fotos (anillo, ramo, pastel)."
+                "realValueText": "Las manos aparecen constantemente en fotos (anillo, ramo, pastel).",
+                "mainImage": "/images/services/main_manicure.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_manicure_0.jpg",
+                  "/images/services/gallery_manicure_1.jpg",
+                  "/images/services/gallery_manicure_2.jpg",
+                  "/images/services/gallery_manicure_3.jpg",
+                  "/images/services/gallery_manicure_4.jpg"
+                ]
               }
             },
             {
@@ -406,7 +466,15 @@
                   "Acabado profesional"
                 ],
                 "factorsText": [],
-                "realValueText": "Complementa el cuidado integral previo al evento."
+                "realValueText": "Complementa el cuidado integral previo al evento.",
+                "mainImage": "/images/services/main_pedicure.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pedicure_0.jpg",
+                  "/images/services/gallery_pedicure_1.jpg",
+                  "/images/services/gallery_pedicure_2.jpg",
+                  "/images/services/gallery_pedicure_3.jpg",
+                  "/images/services/gallery_pedicure_4.jpg"
+                ]
               }
             }
           ]
@@ -453,7 +521,15 @@
                   "Prestigio del catering",
                   "Cantidad de personal requerido"
                 ],
-                "realValueText": "Es el formato más elegante y organizado. Ideal para quinceañeras formales y protocolo estructurado."
+                "realValueText": "Es el formato más elegante y organizado. Ideal para quinceañeras formales y protocolo estructurado.",
+                "mainImage": "/images/services/main_cena_servida__plato_a_la_mesa_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_cena_servida__plato_a_la_mesa__0.jpg",
+                  "/images/services/gallery_cena_servida__plato_a_la_mesa__1.jpg",
+                  "/images/services/gallery_cena_servida__plato_a_la_mesa__2.jpg",
+                  "/images/services/gallery_cena_servida__plato_a_la_mesa__3.jpg",
+                  "/images/services/gallery_cena_servida__plato_a_la_mesa__4.jpg"
+                ]
               }
             },
             {
@@ -485,7 +561,15 @@
                   "Decoración de estación",
                   "Cantidad de invitados"
                 ],
-                "realValueText": "Permite mayor variedad y control de porciones según invitado."
+                "realValueText": "Permite mayor variedad y control de porciones según invitado.",
+                "mainImage": "/images/services/main_buffet.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_buffet_0.jpg",
+                  "/images/services/gallery_buffet_1.jpg",
+                  "/images/services/gallery_buffet_2.jpg",
+                  "/images/services/gallery_buffet_3.jpg",
+                  "/images/services/gallery_buffet_4.jpg"
+                ]
               }
             },
             {
@@ -515,7 +599,15 @@
                   "Estaciones interactivas",
                   "Duración del servicio"
                 ],
-                "realValueText": "Ideal para eventos más dinámicos donde la pista y la interacción son protagonistas."
+                "realValueText": "Ideal para eventos más dinámicos donde la pista y la interacción son protagonistas.",
+                "mainImage": "/images/services/main_coctel___finger_food_premium.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_coctel___finger_food_premium_0.jpg",
+                  "/images/services/gallery_coctel___finger_food_premium_1.jpg",
+                  "/images/services/gallery_coctel___finger_food_premium_2.jpg",
+                  "/images/services/gallery_coctel___finger_food_premium_3.jpg",
+                  "/images/services/gallery_coctel___finger_food_premium_4.jpg"
+                ]
               }
             },
             {
@@ -543,7 +635,15 @@
                   "Alineación con temática"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita elegir platos al azar y asegura coherencia entre experiencia y concepto."
+                "realValueText": "Evita elegir platos al azar y asegura coherencia entre experiencia y concepto.",
+                "mainImage": "/images/services/main_diseno_de_menu__propuesta_gastronomica_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_diseno_de_menu__propuesta_gastronomica__0.jpg",
+                  "/images/services/gallery_diseno_de_menu__propuesta_gastronomica__1.jpg",
+                  "/images/services/gallery_diseno_de_menu__propuesta_gastronomica__2.jpg",
+                  "/images/services/gallery_diseno_de_menu__propuesta_gastronomica__3.jpg",
+                  "/images/services/gallery_diseno_de_menu__propuesta_gastronomica__4.jpg"
+                ]
               }
             },
             {
@@ -567,7 +667,15 @@
                   "Bebida básica"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita desperdicio de menú adulto en niños y mejora experiencia familiar."
+                "realValueText": "Evita desperdicio de menú adulto en niños y mejora experiencia familiar.",
+                "mainImage": "/images/services/main_menu_infantil.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_menu_infantil_0.jpg",
+                  "/images/services/gallery_menu_infantil_1.jpg",
+                  "/images/services/gallery_menu_infantil_2.jpg",
+                  "/images/services/gallery_menu_infantil_3.jpg",
+                  "/images/services/gallery_menu_infantil_4.jpg"
+                ]
               }
             },
             {
@@ -591,7 +699,15 @@
                   "Coordinación con catering principal"
                 ],
                 "factorsText": [],
-                "realValueText": "Demuestra consideración y profesionalismo hacia todos los invitados."
+                "realValueText": "Demuestra consideración y profesionalismo hacia todos los invitados.",
+                "mainImage": "/images/services/main_opcion_vegetariana___vegana.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_opcion_vegetariana___vegana_0.jpg",
+                  "/images/services/gallery_opcion_vegetariana___vegana_1.jpg",
+                  "/images/services/gallery_opcion_vegetariana___vegana_2.jpg",
+                  "/images/services/gallery_opcion_vegetariana___vegana_3.jpg",
+                  "/images/services/gallery_opcion_vegetariana___vegana_4.jpg"
+                ]
               }
             }
           ]
@@ -629,7 +745,15 @@
                   "Cristalería premium",
                   "Cantidad de invitados"
                 ],
-                "realValueText": "Es el servicio más práctico y común para quinceañeras sin alcohol."
+                "realValueText": "Es el servicio más práctico y común para quinceañeras sin alcohol.",
+                "mainImage": "/images/services/main_bebidas_soft_ilimitadas.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_bebidas_soft_ilimitadas_0.jpg",
+                  "/images/services/gallery_bebidas_soft_ilimitadas_1.jpg",
+                  "/images/services/gallery_bebidas_soft_ilimitadas_2.jpg",
+                  "/images/services/gallery_bebidas_soft_ilimitadas_3.jpg",
+                  "/images/services/gallery_bebidas_soft_ilimitadas_4.jpg"
+                ]
               }
             },
             {
@@ -661,7 +785,15 @@
                   "Tipo de cafetera (industrial o espresso)",
                   "Cristalería o vajilla premium"
                 ],
-                "realValueText": "Ideal para cierre del evento o eventos familiares formales."
+                "realValueText": "Ideal para cierre del evento o eventos familiares formales.",
+                "mainImage": "/images/services/main_estacion_de_cafe__agua_y_te.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_estacion_de_cafe__agua_y_te_0.jpg",
+                  "/images/services/gallery_estacion_de_cafe__agua_y_te_1.jpg",
+                  "/images/services/gallery_estacion_de_cafe__agua_y_te_2.jpg",
+                  "/images/services/gallery_estacion_de_cafe__agua_y_te_3.jpg",
+                  "/images/services/gallery_estacion_de_cafe__agua_y_te_4.jpg"
+                ]
               }
             },
             {
@@ -692,7 +824,15 @@
                   "Tipo de cristalería",
                   "Duración del servicio"
                 ],
-                "realValueText": "Eleva la experiencia sin necesidad de incluir alcohol."
+                "realValueText": "Eleva la experiencia sin necesidad de incluir alcohol.",
+                "mainImage": "/images/services/main_bar_de_mocktails__sin_alcohol_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_bar_de_mocktails__sin_alcohol__0.jpg",
+                  "/images/services/gallery_bar_de_mocktails__sin_alcohol__1.jpg",
+                  "/images/services/gallery_bar_de_mocktails__sin_alcohol__2.jpg",
+                  "/images/services/gallery_bar_de_mocktails__sin_alcohol__3.jpg",
+                  "/images/services/gallery_bar_de_mocktails__sin_alcohol__4.jpg"
+                ]
               }
             },
             {
@@ -722,7 +862,15 @@
                   "Decoración floral",
                   "Rellenos premium"
                 ],
-                "realValueText": "Es uno de los momentos más fotografiados del evento."
+                "realValueText": "Es uno de los momentos más fotografiados del evento.",
+                "mainImage": "/images/services/main_pastel___torta_principal.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pastel___torta_principal_0.jpg",
+                  "/images/services/gallery_pastel___torta_principal_1.jpg",
+                  "/images/services/gallery_pastel___torta_principal_2.jpg",
+                  "/images/services/gallery_pastel___torta_principal_3.jpg",
+                  "/images/services/gallery_pastel___torta_principal_4.jpg"
+                ]
               }
             },
             {
@@ -746,7 +894,15 @@
                   "Coordinación con pastel real de servicio"
                 ],
                 "factorsText": [],
-                "realValueText": "Permite tener un pastel alto y espectacular sin elevar tanto el costo real de porciones."
+                "realValueText": "Permite tener un pastel alto y espectacular sin elevar tanto el costo real de porciones.",
+                "mainImage": "/images/services/main_torta_falsa_para_foto.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_torta_falsa_para_foto_0.jpg",
+                  "/images/services/gallery_torta_falsa_para_foto_1.jpg",
+                  "/images/services/gallery_torta_falsa_para_foto_2.jpg",
+                  "/images/services/gallery_torta_falsa_para_foto_3.jpg",
+                  "/images/services/gallery_torta_falsa_para_foto_4.jpg"
+                ]
               }
             },
             {
@@ -777,7 +933,15 @@
                   "Nivel decorativo",
                   "Personalización temática"
                 ],
-                "realValueText": "Se convierte en un punto social y visual del evento."
+                "realValueText": "Se convierte en un punto social y visual del evento.",
+                "mainImage": "/images/services/main_mesa_dulce___candy_bar.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_mesa_dulce___candy_bar_0.jpg",
+                  "/images/services/gallery_mesa_dulce___candy_bar_1.jpg",
+                  "/images/services/gallery_mesa_dulce___candy_bar_2.jpg",
+                  "/images/services/gallery_mesa_dulce___candy_bar_3.jpg",
+                  "/images/services/gallery_mesa_dulce___candy_bar_4.jpg"
+                ]
               }
             },
             {
@@ -802,7 +966,15 @@
                   "Personal de apoyo"
                 ],
                 "factorsText": [],
-                "realValueText": "Genera interacción y momento divertido especialmente para invitados jóvenes."
+                "realValueText": "Genera interacción y momento divertido especialmente para invitados jóvenes.",
+                "mainImage": "/images/services/main_fuente_de_chocolate.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_fuente_de_chocolate_0.jpg",
+                  "/images/services/gallery_fuente_de_chocolate_1.jpg",
+                  "/images/services/gallery_fuente_de_chocolate_2.jpg",
+                  "/images/services/gallery_fuente_de_chocolate_3.jpg",
+                  "/images/services/gallery_fuente_de_chocolate_4.jpg"
+                ]
               }
             },
             {
@@ -826,7 +998,15 @@
                   "Coordinación con catering"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_meseros.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_meseros_0.jpg",
+                  "/images/services/gallery_meseros_1.jpg",
+                  "/images/services/gallery_meseros_2.jpg",
+                  "/images/services/gallery_meseros_3.jpg",
+                  "/images/services/gallery_meseros_4.jpg"
+                ]
               }
             },
             {
@@ -851,7 +1031,15 @@
                   "Orden y limpieza del área"
                 ],
                 "factorsText": [],
-                "realValueText": "Mejora la experiencia y evita desorden en estaciones."
+                "realValueText": "Mejora la experiencia y evita desorden en estaciones.",
+                "mainImage": "/images/services/main_bartenders___baristas.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_bartenders___baristas_0.jpg",
+                  "/images/services/gallery_bartenders___baristas_1.jpg",
+                  "/images/services/gallery_bartenders___baristas_2.jpg",
+                  "/images/services/gallery_bartenders___baristas_3.jpg",
+                  "/images/services/gallery_bartenders___baristas_4.jpg"
+                ]
               }
             },
             {
@@ -883,7 +1071,15 @@
                   "Marca de vino",
                   "Tipo de cerveza"
                 ],
-                "realValueText": "Controla el presupuesto sin eliminar la experiencia adulta."
+                "realValueText": "Controla el presupuesto sin eliminar la experiencia adulta.",
+                "mainImage": "/images/services/main_bar_estandar__cerveza___vino_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_bar_estandar__cerveza___vino__0.jpg",
+                  "/images/services/gallery_bar_estandar__cerveza___vino__1.jpg",
+                  "/images/services/gallery_bar_estandar__cerveza___vino__2.jpg",
+                  "/images/services/gallery_bar_estandar__cerveza___vino__3.jpg",
+                  "/images/services/gallery_bar_estandar__cerveza___vino__4.jpg"
+                ]
               }
             },
             {
@@ -917,7 +1113,15 @@
                   "Nivel de marcas",
                   "Número de bartenders"
                 ],
-                "realValueText": "Es la opción más común cuando se desea un evento más festivo."
+                "realValueText": "Es la opción más común cuando se desea un evento más festivo.",
+                "mainImage": "/images/services/main_open_bar_nacional.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_open_bar_nacional_0.jpg",
+                  "/images/services/gallery_open_bar_nacional_1.jpg",
+                  "/images/services/gallery_open_bar_nacional_2.jpg",
+                  "/images/services/gallery_open_bar_nacional_3.jpg",
+                  "/images/services/gallery_open_bar_nacional_4.jpg"
+                ]
               }
             },
             {
@@ -952,7 +1156,15 @@
                   "Cantidad de invitados",
                   "Nivel de cristalería"
                 ],
-                "realValueText": "Eleva el perfil del evento y la percepción de lujo."
+                "realValueText": "Eleva el perfil del evento y la percepción de lujo.",
+                "mainImage": "/images/services/main_open_bar_premium__importado_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_open_bar_premium__importado__0.jpg",
+                  "/images/services/gallery_open_bar_premium__importado__1.jpg",
+                  "/images/services/gallery_open_bar_premium__importado__2.jpg",
+                  "/images/services/gallery_open_bar_premium__importado__3.jpg",
+                  "/images/services/gallery_open_bar_premium__importado__4.jpg"
+                ]
               }
             },
             {
@@ -972,7 +1184,15 @@
                 "imageQuery": "Bar con sistema de tickets o control digital.",
                 "includedText": [],
                 "factorsText": [],
-                "realValueText": "Permite control financiero Evita sobreestimaciones Reduce riesgo de desperdicio"
+                "realValueText": "Permite control financiero Evita sobreestimaciones Reduce riesgo de desperdicio",
+                "mainImage": "/images/services/main_bar_por_consumo__modalidad_controlada_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_bar_por_consumo__modalidad_controlada__0.jpg",
+                  "/images/services/gallery_bar_por_consumo__modalidad_controlada__1.jpg",
+                  "/images/services/gallery_bar_por_consumo__modalidad_controlada__2.jpg",
+                  "/images/services/gallery_bar_por_consumo__modalidad_controlada__3.jpg",
+                  "/images/services/gallery_bar_por_consumo__modalidad_controlada__4.jpg"
+                ]
               }
             }
           ]
@@ -1014,7 +1234,15 @@
                   "Resumen estratégico entregado el mismo día"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita decisiones improvisadas y gastos innecesarios desde el inicio."
+                "realValueText": "Evita decisiones improvisadas y gastos innecesarios desde el inicio.",
+                "mainImage": "/images/services/main_sesion_creativa_inicial.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_sesion_creativa_inicial_0.jpg",
+                  "/images/services/gallery_sesion_creativa_inicial_1.jpg",
+                  "/images/services/gallery_sesion_creativa_inicial_2.jpg",
+                  "/images/services/gallery_sesion_creativa_inicial_3.jpg",
+                  "/images/services/gallery_sesion_creativa_inicial_4.jpg"
+                ]
               }
             },
             {
@@ -1044,7 +1272,15 @@
                   "Revisión y ajustes"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita que el evento se vea genérico o incoherente."
+                "realValueText": "Evita que el evento se vea genérico o incoherente.",
+                "mainImage": "/images/services/main_desarrollo_de_tematica_completa.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_desarrollo_de_tematica_completa_0.jpg",
+                  "/images/services/gallery_desarrollo_de_tematica_completa_1.jpg",
+                  "/images/services/gallery_desarrollo_de_tematica_completa_2.jpg",
+                  "/images/services/gallery_desarrollo_de_tematica_completa_3.jpg",
+                  "/images/services/gallery_desarrollo_de_tematica_completa_4.jpg"
+                ]
               }
             },
             {
@@ -1074,7 +1310,15 @@
                   "Lineamientos para proveedores"
                 ],
                 "factorsText": [],
-                "realValueText": "Garantiza armonía estética y percepción de lujo."
+                "realValueText": "Garantiza armonía estética y percepción de lujo.",
+                "mainImage": "/images/services/main_paleta_de_color___guia_de_estilo.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_paleta_de_color___guia_de_estilo_0.jpg",
+                  "/images/services/gallery_paleta_de_color___guia_de_estilo_1.jpg",
+                  "/images/services/gallery_paleta_de_color___guia_de_estilo_2.jpg",
+                  "/images/services/gallery_paleta_de_color___guia_de_estilo_3.jpg",
+                  "/images/services/gallery_paleta_de_color___guia_de_estilo_4.jpg"
+                ]
               }
             },
             {
@@ -1104,7 +1348,15 @@
                   "Documento para proveedores"
                 ],
                 "factorsText": [],
-                "realValueText": "Mantiene energía y fluidez sin silencios incómodos."
+                "realValueText": "Mantiene energía y fluidez sin silencios incómodos.",
+                "mainImage": "/images/services/main_storyboard_de_experiencia.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_storyboard_de_experiencia_0.jpg",
+                  "/images/services/gallery_storyboard_de_experiencia_1.jpg",
+                  "/images/services/gallery_storyboard_de_experiencia_2.jpg",
+                  "/images/services/gallery_storyboard_de_experiencia_3.jpg",
+                  "/images/services/gallery_storyboard_de_experiencia_4.jpg"
+                ]
               }
             },
             {
@@ -1130,7 +1382,15 @@
                   "Aplicaciones básicas"
                 ],
                 "factorsText": [],
-                "realValueText": "Eleva el evento a experiencia con identidad propia."
+                "realValueText": "Eleva el evento a experiencia con identidad propia.",
+                "mainImage": "/images/services/main_monograma___logo_del_evento.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_monograma___logo_del_evento_0.jpg",
+                  "/images/services/gallery_monograma___logo_del_evento_1.jpg",
+                  "/images/services/gallery_monograma___logo_del_evento_2.jpg",
+                  "/images/services/gallery_monograma___logo_del_evento_3.jpg",
+                  "/images/services/gallery_monograma___logo_del_evento_4.jpg"
+                ]
               }
             },
             {
@@ -1157,7 +1417,15 @@
                   "Archivos listos para impresión y pantalla"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita improvisación gráfica y mantiene coherencia estética."
+                "realValueText": "Evita improvisación gráfica y mantiene coherencia estética.",
+                "mainImage": "/images/services/main_paquete_de_assets_visuales.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_paquete_de_assets_visuales_0.jpg",
+                  "/images/services/gallery_paquete_de_assets_visuales_1.jpg",
+                  "/images/services/gallery_paquete_de_assets_visuales_2.jpg",
+                  "/images/services/gallery_paquete_de_assets_visuales_3.jpg",
+                  "/images/services/gallery_paquete_de_assets_visuales_4.jpg"
+                ]
               }
             },
             {
@@ -1183,7 +1451,15 @@
                   "Pruebas técnicas"
                 ],
                 "factorsText": [],
-                "realValueText": "Eleva la experiencia escénica y evita fondos genéricos."
+                "realValueText": "Eleva la experiencia escénica y evita fondos genéricos.",
+                "mainImage": "/images/services/main_diseno_de_contenido_para_pantalla.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_diseno_de_contenido_para_pantalla_0.jpg",
+                  "/images/services/gallery_diseno_de_contenido_para_pantalla_1.jpg",
+                  "/images/services/gallery_diseno_de_contenido_para_pantalla_2.jpg",
+                  "/images/services/gallery_diseno_de_contenido_para_pantalla_3.jpg",
+                  "/images/services/gallery_diseno_de_contenido_para_pantalla_4.jpg"
+                ]
               }
             },
             {
@@ -1215,7 +1491,15 @@
                   "Instrucciones formales al DJ"
                 ],
                 "factorsText": [],
-                "realValueText": "Mantiene coherencia emocional y energía constante. Evita momentos incómodos y protege la armonía familiar."
+                "realValueText": "Mantiene coherencia emocional y energía constante. Evita momentos incómodos y protege la armonía familiar.",
+                "mainImage": "/images/services/main_curaduria_musical_por_momentos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_curaduria_musical_por_momentos_0.jpg",
+                  "/images/services/gallery_curaduria_musical_por_momentos_1.jpg",
+                  "/images/services/gallery_curaduria_musical_por_momentos_2.jpg",
+                  "/images/services/gallery_curaduria_musical_por_momentos_3.jpg",
+                  "/images/services/gallery_curaduria_musical_por_momentos_4.jpg"
+                ]
               }
             }
           ]
@@ -1259,7 +1543,15 @@
                   "Cantidad de ensayos",
                   "Trayectoria del coreógrafo"
                 ],
-                "realValueText": "Es el momento ceremonial más importante del evento."
+                "realValueText": "Es el momento ceremonial más importante del evento.",
+                "mainImage": "/images/services/main_vals_tradicional.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_vals_tradicional_0.jpg",
+                  "/images/services/gallery_vals_tradicional_1.jpg",
+                  "/images/services/gallery_vals_tradicional_2.jpg",
+                  "/images/services/gallery_vals_tradicional_3.jpg",
+                  "/images/services/gallery_vals_tradicional_4.jpg"
+                ]
               }
             },
             {
@@ -1284,7 +1576,15 @@
                   "Coordinación de entrada y salida"
                 ],
                 "factorsText": [],
-                "realValueText": "Genera uno de los momentos más emotivos del evento."
+                "realValueText": "Genera uno de los momentos más emotivos del evento.",
+                "mainImage": "/images/services/main_baile_quinceanera___papa.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_baile_quinceanera___papa_0.jpg",
+                  "/images/services/gallery_baile_quinceanera___papa_1.jpg",
+                  "/images/services/gallery_baile_quinceanera___papa_2.jpg",
+                  "/images/services/gallery_baile_quinceanera___papa_3.jpg",
+                  "/images/services/gallery_baile_quinceanera___papa_4.jpg"
+                ]
               }
             },
             {
@@ -1315,7 +1615,15 @@
                   "Cantidad de ensayos",
                   "Nivel técnico del coreógrafo"
                 ],
-                "realValueText": "Es uno de los momentos que más reacción genera en invitados."
+                "realValueText": "Es uno de los momentos que más reacción genera en invitados.",
+                "mainImage": "/images/services/main_baile_sorpresa__coreografia_moderna_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_baile_sorpresa__coreografia_moderna__0.jpg",
+                  "/images/services/gallery_baile_sorpresa__coreografia_moderna__1.jpg",
+                  "/images/services/gallery_baile_sorpresa__coreografia_moderna__2.jpg",
+                  "/images/services/gallery_baile_sorpresa__coreografia_moderna__3.jpg",
+                  "/images/services/gallery_baile_sorpresa__coreografia_moderna__4.jpg"
+                ]
               }
             },
             {
@@ -1339,7 +1647,15 @@
                   "Corrección técnica"
                 ],
                 "factorsText": [],
-                "realValueText": "Permite perfeccionar movimientos y ganar seguridad."
+                "realValueText": "Permite perfeccionar movimientos y ganar seguridad.",
+                "mainImage": "/images/services/main_ensayos_adicionales.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_ensayos_adicionales_0.jpg",
+                  "/images/services/gallery_ensayos_adicionales_1.jpg",
+                  "/images/services/gallery_ensayos_adicionales_2.jpg",
+                  "/images/services/gallery_ensayos_adicionales_3.jpg",
+                  "/images/services/gallery_ensayos_adicionales_4.jpg"
+                ]
               }
             },
             {
@@ -1364,7 +1680,15 @@
                   "Coordinación con producción técnica"
                 ],
                 "factorsText": [],
-                "realValueText": "Garantiza coherencia escénica y ejecución profesional."
+                "realValueText": "Garantiza coherencia escénica y ejecución profesional.",
+                "mainImage": "/images/services/main_coreografo_a_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_coreografo_a__0.jpg",
+                  "/images/services/gallery_coreografo_a__1.jpg",
+                  "/images/services/gallery_coreografo_a__2.jpg",
+                  "/images/services/gallery_coreografo_a__3.jpg",
+                  "/images/services/gallery_coreografo_a__4.jpg"
+                ]
               }
             }
           ]
@@ -1400,7 +1724,15 @@
                   "Duración del evento",
                   "Nivel de formalidad"
                 ],
-                "realValueText": "Evita silencios incómodos y mantiene fluidez del evento."
+                "realValueText": "Evita silencios incómodos y mantiene fluidez del evento.",
+                "mainImage": "/images/services/main_maestro_a__de_ceremonias__mc_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_maestro_a__de_ceremonias__mc__0.jpg",
+                  "/images/services/gallery_maestro_a__de_ceremonias__mc__1.jpg",
+                  "/images/services/gallery_maestro_a__de_ceremonias__mc__2.jpg",
+                  "/images/services/gallery_maestro_a__de_ceremonias__mc__3.jpg",
+                  "/images/services/gallery_maestro_a__de_ceremonias__mc__4.jpg"
+                ]
               }
             },
             {
@@ -1430,7 +1762,15 @@
                   "Duración",
                   "Requerimientos técnicos"
                 ],
-                "realValueText": "Eleva el evento a nivel espectáculo."
+                "realValueText": "Eleva el evento a nivel espectáculo.",
+                "mainImage": "/images/services/main_banda_en_vivo.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_banda_en_vivo_0.jpg",
+                  "/images/services/gallery_banda_en_vivo_1.jpg",
+                  "/images/services/gallery_banda_en_vivo_2.jpg",
+                  "/images/services/gallery_banda_en_vivo_3.jpg",
+                  "/images/services/gallery_banda_en_vivo_4.jpg"
+                ]
               }
             },
             {
@@ -1454,7 +1794,15 @@
                   "Repertorio acordado"
                 ],
                 "factorsText": [],
-                "realValueText": "Aporta tradición y momento emotivo."
+                "realValueText": "Aporta tradición y momento emotivo.",
+                "mainImage": "/images/services/main_mariachi__opcional_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_mariachi__opcional__0.jpg",
+                  "/images/services/gallery_mariachi__opcional__1.jpg",
+                  "/images/services/gallery_mariachi__opcional__2.jpg",
+                  "/images/services/gallery_mariachi__opcional__3.jpg",
+                  "/images/services/gallery_mariachi__opcional__4.jpg"
+                ]
               }
             },
             {
@@ -1478,7 +1826,15 @@
                   "Coordinación con producción"
                 ],
                 "factorsText": [],
-                "realValueText": "Aporta sofisticación y ambientación elegante."
+                "realValueText": "Aporta sofisticación y ambientación elegante.",
+                "mainImage": "/images/services/main_saxofonista___musica_ambiental.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_saxofonista___musica_ambiental_0.jpg",
+                  "/images/services/gallery_saxofonista___musica_ambiental_1.jpg",
+                  "/images/services/gallery_saxofonista___musica_ambiental_2.jpg",
+                  "/images/services/gallery_saxofonista___musica_ambiental_3.jpg",
+                  "/images/services/gallery_saxofonista___musica_ambiental_4.jpg"
+                ]
               }
             }
           ]
@@ -1515,7 +1871,15 @@
                   "Efectos visuales incluidos",
                   "Complejidad coreográfica"
                 ],
-                "realValueText": "Es el momento donde la fiesta alcanza su punto máximo de energía."
+                "realValueText": "Es el momento donde la fiesta alcanza su punto máximo de energía.",
+                "mainImage": "/images/services/main_hora_loca_clasica__show_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_hora_loca_clasica__show__0.jpg",
+                  "/images/services/gallery_hora_loca_clasica__show__1.jpg",
+                  "/images/services/gallery_hora_loca_clasica__show__2.jpg",
+                  "/images/services/gallery_hora_loca_clasica__show__3.jpg",
+                  "/images/services/gallery_hora_loca_clasica__show__4.jpg"
+                ]
               }
             },
             {
@@ -1545,7 +1909,15 @@
                   "Duración",
                   "Producción técnica asociada"
                 ],
-                "realValueText": "Convierte la hora loca en un mini espectáculo profesional."
+                "realValueText": "Convierte la hora loca en un mini espectáculo profesional.",
+                "mainImage": "/images/services/main_hora_loca___paquete_de_personajes.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_hora_loca___paquete_de_personajes_0.jpg",
+                  "/images/services/gallery_hora_loca___paquete_de_personajes_1.jpg",
+                  "/images/services/gallery_hora_loca___paquete_de_personajes_2.jpg",
+                  "/images/services/gallery_hora_loca___paquete_de_personajes_3.jpg",
+                  "/images/services/gallery_hora_loca___paquete_de_personajes_4.jpg"
+                ]
               }
             },
             {
@@ -1565,7 +1937,15 @@
                 "imageQuery": "",
                 "includedText": [],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_cotillon_adicional.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_cotillon_adicional_0.jpg",
+                  "/images/services/gallery_cotillon_adicional_1.jpg",
+                  "/images/services/gallery_cotillon_adicional_2.jpg",
+                  "/images/services/gallery_cotillon_adicional_3.jpg",
+                  "/images/services/gallery_cotillon_adicional_4.jpg"
+                ]
               }
             },
             {
@@ -1595,7 +1975,15 @@
                   "Nivel de personalización",
                   "Accesorios LED o simples"
                 ],
-                "realValueText": "Aumenta participación y dinamismo en pista."
+                "realValueText": "Aumenta participación y dinamismo en pista.",
+                "mainImage": "/images/services/main_o.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_o_0.jpg",
+                  "/images/services/gallery_o_1.jpg",
+                  "/images/services/gallery_o_2.jpg",
+                  "/images/services/gallery_o_3.jpg",
+                  "/images/services/gallery_o_4.jpg"
+                ]
               }
             },
             {
@@ -1626,7 +2014,15 @@
                   "Vestuario personalizado",
                   "Requerimientos técnicos"
                 ],
-                "realValueText": "Eleva coherencia creativa del evento y evita shows genéricos."
+                "realValueText": "Eleva coherencia creativa del evento y evita shows genéricos.",
+                "mainImage": "/images/services/main_show_tematico.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_show_tematico_0.jpg",
+                  "/images/services/gallery_show_tematico_1.jpg",
+                  "/images/services/gallery_show_tematico_2.jpg",
+                  "/images/services/gallery_show_tematico_3.jpg",
+                  "/images/services/gallery_show_tematico_4.jpg"
+                ]
               }
             }
           ]
@@ -1662,7 +2058,15 @@
                   "Requerimientos técnicos",
                   "Exclusividad"
                 ],
-                "realValueText": "Genera un momento inolvidable y diferenciador."
+                "realValueText": "Genera un momento inolvidable y diferenciador.",
+                "mainImage": "/images/services/main_artista_sorpresa___performance.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_artista_sorpresa___performance_0.jpg",
+                  "/images/services/gallery_artista_sorpresa___performance_1.jpg",
+                  "/images/services/gallery_artista_sorpresa___performance_2.jpg",
+                  "/images/services/gallery_artista_sorpresa___performance_3.jpg",
+                  "/images/services/gallery_artista_sorpresa___performance_4.jpg"
+                ]
               }
             },
             {
@@ -1691,7 +2095,15 @@
                   "Duración del efecto",
                   "Permisos requeridos"
                 ],
-                "realValueText": "Genera efecto cinematográfico en momentos clave."
+                "realValueText": "Genera efecto cinematográfico en momentos clave.",
+                "mainImage": "/images/services/main_pirotecnia_fria__si_aplica_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pirotecnia_fria__si_aplica__0.jpg",
+                  "/images/services/gallery_pirotecnia_fria__si_aplica__1.jpg",
+                  "/images/services/gallery_pirotecnia_fria__si_aplica__2.jpg",
+                  "/images/services/gallery_pirotecnia_fria__si_aplica__3.jpg",
+                  "/images/services/gallery_pirotecnia_fria__si_aplica__4.jpg"
+                ]
               }
             }
           ]
@@ -1732,7 +2144,15 @@
                   "Revisión y ajustes"
                 ],
                 "factorsText": [],
-                "realValueText": "Permite visualizar el evento antes de invertir en producción física. Evita cambios costosos de última hora."
+                "realValueText": "Permite visualizar el evento antes de invertir en producción física. Evita cambios costosos de última hora.",
+                "mainImage": "/images/services/main_diseno_decorativo__concepto___render_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_diseno_decorativo__concepto___render__0.jpg",
+                  "/images/services/gallery_diseno_decorativo__concepto___render__1.jpg",
+                  "/images/services/gallery_diseno_decorativo__concepto___render__2.jpg",
+                  "/images/services/gallery_diseno_decorativo__concepto___render__3.jpg",
+                  "/images/services/gallery_diseno_decorativo__concepto___render__4.jpg"
+                ]
               }
             },
             {
@@ -1763,7 +2183,15 @@
                   "Tiempo requerido"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_equipo_de_montaje_decor.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_equipo_de_montaje_decor_0.jpg",
+                  "/images/services/gallery_equipo_de_montaje_decor_1.jpg",
+                  "/images/services/gallery_equipo_de_montaje_decor_2.jpg",
+                  "/images/services/gallery_equipo_de_montaje_decor_3.jpg",
+                  "/images/services/gallery_equipo_de_montaje_decor_4.jpg"
+                ]
               }
             },
             {
@@ -1793,7 +2221,15 @@
                   "Iluminación integrada"
                 ],
                 "factorsText": [],
-                "realValueText": "Es el primer impacto visual del evento y el punto más fotografiado."
+                "realValueText": "Es el primer impacto visual del evento y el punto más fotografiado.",
+                "mainImage": "/images/services/main_area_de_bienvenida___photo_moment.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_area_de_bienvenida___photo_moment_0.jpg",
+                  "/images/services/gallery_area_de_bienvenida___photo_moment_1.jpg",
+                  "/images/services/gallery_area_de_bienvenida___photo_moment_2.jpg",
+                  "/images/services/gallery_area_de_bienvenida___photo_moment_3.jpg",
+                  "/images/services/gallery_area_de_bienvenida___photo_moment_4.jpg"
+                ]
               }
             },
             {
@@ -1824,7 +2260,15 @@
                   "Integración floral"
                 ],
                 "factorsText": [],
-                "realValueText": "Define el punto focal del evento."
+                "realValueText": "Define el punto focal del evento.",
+                "mainImage": "/images/services/main_backdrop_principal__escenografia_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_backdrop_principal__escenografia__0.jpg",
+                  "/images/services/gallery_backdrop_principal__escenografia__1.jpg",
+                  "/images/services/gallery_backdrop_principal__escenografia__2.jpg",
+                  "/images/services/gallery_backdrop_principal__escenografia__3.jpg",
+                  "/images/services/gallery_backdrop_principal__escenografia__4.jpg"
+                ]
               }
             },
             {
@@ -1853,7 +2297,15 @@
                   "Integración de nombre o letrero"
                 ],
                 "factorsText": [],
-                "realValueText": "Genera contenido visual espectacular para redes y recuerdo familiar."
+                "realValueText": "Genera contenido visual espectacular para redes y recuerdo familiar.",
+                "mainImage": "/images/services/main_muro_floral__floral_wall_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_muro_floral__floral_wall__0.jpg",
+                  "/images/services/gallery_muro_floral__floral_wall__1.jpg",
+                  "/images/services/gallery_muro_floral__floral_wall__2.jpg",
+                  "/images/services/gallery_muro_floral__floral_wall__3.jpg",
+                  "/images/services/gallery_muro_floral__floral_wall__4.jpg"
+                ]
               }
             },
             {
@@ -1881,7 +2333,15 @@
                   "El costo de dulces y repostería se cotiza aparte (catering)."
                 ],
                 "factorsText": [],
-                "realValueText": "Convierte la mesa dulce en pieza decorativa, no solo funcional."
+                "realValueText": "Convierte la mesa dulce en pieza decorativa, no solo funcional.",
+                "mainImage": "/images/services/main_mesa_de_dulces___diseno_y_styling.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_mesa_de_dulces___diseno_y_styling_0.jpg",
+                  "/images/services/gallery_mesa_de_dulces___diseno_y_styling_1.jpg",
+                  "/images/services/gallery_mesa_de_dulces___diseno_y_styling_2.jpg",
+                  "/images/services/gallery_mesa_de_dulces___diseno_y_styling_3.jpg",
+                  "/images/services/gallery_mesa_de_dulces___diseno_y_styling_4.jpg"
+                ]
               }
             },
             {
@@ -1907,7 +2367,15 @@
                   "Montaje"
                 ],
                 "factorsText": [],
-                "realValueText": "Crea un recuerdo tangible y organizado del evento."
+                "realValueText": "Crea un recuerdo tangible y organizado del evento.",
+                "mainImage": "/images/services/main_mesa_de_firmas___libro_de_recuerdos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_mesa_de_firmas___libro_de_recuerdos_0.jpg",
+                  "/images/services/gallery_mesa_de_firmas___libro_de_recuerdos_1.jpg",
+                  "/images/services/gallery_mesa_de_firmas___libro_de_recuerdos_2.jpg",
+                  "/images/services/gallery_mesa_de_firmas___libro_de_recuerdos_3.jpg",
+                  "/images/services/gallery_mesa_de_firmas___libro_de_recuerdos_4.jpg"
+                ]
               }
             },
             {
@@ -1933,7 +2401,15 @@
                   "Montaje y desmontaje"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita desorden y mantiene coherencia estética."
+                "realValueText": "Evita desorden y mantiene coherencia estética.",
+                "mainImage": "/images/services/main_mesa_de_regalos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_mesa_de_regalos_0.jpg",
+                  "/images/services/gallery_mesa_de_regalos_1.jpg",
+                  "/images/services/gallery_mesa_de_regalos_2.jpg",
+                  "/images/services/gallery_mesa_de_regalos_3.jpg",
+                  "/images/services/gallery_mesa_de_regalos_4.jpg"
+                ]
               }
             }
           ]
@@ -1969,7 +2445,15 @@
                   "Integración de velas o cristalería adicional"
                 ],
                 "factorsText": [],
-                "realValueText": "Mantiene visibilidad entre invitados y aporta elegancia sin obstrucción visual."
+                "realValueText": "Mantiene visibilidad entre invitados y aporta elegancia sin obstrucción visual.",
+                "mainImage": "/images/services/main_centros_de_mesa_bajos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_centros_de_mesa_bajos_0.jpg",
+                  "/images/services/gallery_centros_de_mesa_bajos_1.jpg",
+                  "/images/services/gallery_centros_de_mesa_bajos_2.jpg",
+                  "/images/services/gallery_centros_de_mesa_bajos_3.jpg",
+                  "/images/services/gallery_centros_de_mesa_bajos_4.jpg"
+                ]
               }
             },
             {
@@ -1999,7 +2483,15 @@
                   "Flor natural premium",
                   "Densidad floral"
                 ],
-                "realValueText": "Aporta verticalidad y sofisticación al salón."
+                "realValueText": "Aporta verticalidad y sofisticación al salón.",
+                "mainImage": "/images/services/main_centros_de_mesa_altos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_centros_de_mesa_altos_0.jpg",
+                  "/images/services/gallery_centros_de_mesa_altos_1.jpg",
+                  "/images/services/gallery_centros_de_mesa_altos_2.jpg",
+                  "/images/services/gallery_centros_de_mesa_altos_3.jpg",
+                  "/images/services/gallery_centros_de_mesa_altos_4.jpg"
+                ]
               }
             },
             {
@@ -2028,7 +2520,15 @@
                   "Integración con iluminación"
                 ],
                 "factorsText": [],
-                "realValueText": "Define el área más fotografiada del evento."
+                "realValueText": "Define el área más fotografiada del evento.",
+                "mainImage": "/images/services/main_flor_para_mesa_principal.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_flor_para_mesa_principal_0.jpg",
+                  "/images/services/gallery_flor_para_mesa_principal_1.jpg",
+                  "/images/services/gallery_flor_para_mesa_principal_2.jpg",
+                  "/images/services/gallery_flor_para_mesa_principal_3.jpg",
+                  "/images/services/gallery_flor_para_mesa_principal_4.jpg"
+                ]
               }
             },
             {
@@ -2053,7 +2553,15 @@
                   "Entrega coordinada"
                 ],
                 "factorsText": [],
-                "realValueText": "Complementa el look y refuerza coherencia visual."
+                "realValueText": "Complementa el look y refuerza coherencia visual.",
+                "mainImage": "/images/services/main_ramo_de_quinceanera.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_ramo_de_quinceanera_0.jpg",
+                  "/images/services/gallery_ramo_de_quinceanera_1.jpg",
+                  "/images/services/gallery_ramo_de_quinceanera_2.jpg",
+                  "/images/services/gallery_ramo_de_quinceanera_3.jpg",
+                  "/images/services/gallery_ramo_de_quinceanera_4.jpg"
+                ]
               }
             },
             {
@@ -2084,7 +2592,15 @@
                   "Tiempo de uso",
                   "Ubicación dentro del venue"
                 ],
-                "realValueText": "Crea espacios de conversación y descanso con estilo."
+                "realValueText": "Crea espacios de conversación y descanso con estilo.",
+                "mainImage": "/images/services/main_mobiliario_lounge.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_mobiliario_lounge_0.jpg",
+                  "/images/services/gallery_mobiliario_lounge_1.jpg",
+                  "/images/services/gallery_mobiliario_lounge_2.jpg",
+                  "/images/services/gallery_mobiliario_lounge_3.jpg",
+                  "/images/services/gallery_mobiliario_lounge_4.jpg"
+                ]
               }
             },
             {
@@ -2112,7 +2628,15 @@
                   "Transporte"
                 ],
                 "factorsText": [],
-                "realValueText": "La silla es uno de los elementos más visibles del montaje."
+                "realValueText": "La silla es uno de los elementos más visibles del montaje.",
+                "mainImage": "/images/services/main_sillas_premium__tiffany___ghost_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_sillas_premium__tiffany___ghost__0.jpg",
+                  "/images/services/gallery_sillas_premium__tiffany___ghost__1.jpg",
+                  "/images/services/gallery_sillas_premium__tiffany___ghost__2.jpg",
+                  "/images/services/gallery_sillas_premium__tiffany___ghost__3.jpg",
+                  "/images/services/gallery_sillas_premium__tiffany___ghost__4.jpg"
+                ]
               }
             },
             {
@@ -2141,7 +2665,15 @@
                   "Cantidad de capas"
                 ],
                 "factorsText": [],
-                "realValueText": "Define la base visual de cada mesa."
+                "realValueText": "Define la base visual de cada mesa.",
+                "mainImage": "/images/services/main_manteleria_premium___caminos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_manteleria_premium___caminos_0.jpg",
+                  "/images/services/gallery_manteleria_premium___caminos_1.jpg",
+                  "/images/services/gallery_manteleria_premium___caminos_2.jpg",
+                  "/images/services/gallery_manteleria_premium___caminos_3.jpg",
+                  "/images/services/gallery_manteleria_premium___caminos_4.jpg"
+                ]
               }
             },
             {
@@ -2169,7 +2701,15 @@
                   "Cantidad de piezas"
                 ],
                 "factorsText": [],
-                "realValueText": "Eleva inmediatamente la percepción de lujo."
+                "realValueText": "Eleva inmediatamente la percepción de lujo.",
+                "mainImage": "/images/services/main_vajilla_y_cristaleria_premium.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_vajilla_y_cristaleria_premium_0.jpg",
+                  "/images/services/gallery_vajilla_y_cristaleria_premium_1.jpg",
+                  "/images/services/gallery_vajilla_y_cristaleria_premium_2.jpg",
+                  "/images/services/gallery_vajilla_y_cristaleria_premium_3.jpg",
+                  "/images/services/gallery_vajilla_y_cristaleria_premium_4.jpg"
+                ]
               }
             },
             {
@@ -2198,7 +2738,15 @@
                   "Integración con iluminación"
                 ],
                 "factorsText": [],
-                "realValueText": "Puede transformar un salón sencillo en un espacio completamente elegante."
+                "realValueText": "Puede transformar un salón sencillo en un espacio completamente elegante.",
+                "mainImage": "/images/services/main_drapeado_con_telas__techo___pared_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_drapeado_con_telas__techo___pared__0.jpg",
+                  "/images/services/gallery_drapeado_con_telas__techo___pared__1.jpg",
+                  "/images/services/gallery_drapeado_con_telas__techo___pared__2.jpg",
+                  "/images/services/gallery_drapeado_con_telas__techo___pared__3.jpg",
+                  "/images/services/gallery_drapeado_con_telas__techo___pared__4.jpg"
+                ]
               }
             }
           ]
@@ -2241,7 +2789,15 @@
                   "Decoración especial",
                   "Cantidad de invitados"
                 ],
-                "realValueText": "Marca el inicio del evento con atención personalizada."
+                "realValueText": "Marca el inicio del evento con atención personalizada.",
+                "mainImage": "/images/services/main_bebida_de_bienvenida.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_bebida_de_bienvenida_0.jpg",
+                  "/images/services/gallery_bebida_de_bienvenida_1.jpg",
+                  "/images/services/gallery_bebida_de_bienvenida_2.jpg",
+                  "/images/services/gallery_bebida_de_bienvenida_3.jpg",
+                  "/images/services/gallery_bebida_de_bienvenida_4.jpg"
+                ]
               }
             },
             {
@@ -2266,7 +2822,15 @@
                   "Presentación personalizada"
                 ],
                 "factorsText": [],
-                "realValueText": "Demuestra cuidado hacia la comodidad del invitado."
+                "realValueText": "Demuestra cuidado hacia la comodidad del invitado.",
+                "mainImage": "/images/services/main_kit_de_amenidades.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_kit_de_amenidades_0.jpg",
+                  "/images/services/gallery_kit_de_amenidades_1.jpg",
+                  "/images/services/gallery_kit_de_amenidades_2.jpg",
+                  "/images/services/gallery_kit_de_amenidades_3.jpg",
+                  "/images/services/gallery_kit_de_amenidades_4.jpg"
+                ]
               }
             },
             {
@@ -2296,7 +2860,15 @@
                   "Tipo de mobiliario",
                   "Duración del evento"
                 ],
-                "realValueText": "Mejora experiencia social y estética del evento."
+                "realValueText": "Mejora experiencia social y estética del evento.",
+                "mainImage": "/images/services/main_area_lounge.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_area_lounge_0.jpg",
+                  "/images/services/gallery_area_lounge_1.jpg",
+                  "/images/services/gallery_area_lounge_2.jpg",
+                  "/images/services/gallery_area_lounge_3.jpg",
+                  "/images/services/gallery_area_lounge_4.jpg"
+                ]
               }
             }
           ]
@@ -2327,7 +2899,15 @@
                   "Montaje y desmontaje"
                 ],
                 "factorsText": [],
-                "realValueText": "Genera contenido orgánico en redes sociales."
+                "realValueText": "Genera contenido orgánico en redes sociales.",
+                "mainImage": "/images/services/main_zona_instagrammable.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_zona_instagrammable_0.jpg",
+                  "/images/services/gallery_zona_instagrammable_1.jpg",
+                  "/images/services/gallery_zona_instagrammable_2.jpg",
+                  "/images/services/gallery_zona_instagrammable_3.jpg",
+                  "/images/services/gallery_zona_instagrammable_4.jpg"
+                ]
               }
             },
             {
@@ -2352,7 +2932,15 @@
                   "Duración 2–4 horas"
                 ],
                 "factorsText": [],
-                "realValueText": "Aumenta energía y participación en pista."
+                "realValueText": "Aumenta energía y participación en pista.",
+                "mainImage": "/images/services/main_glitter_bar___beauty_bar.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_glitter_bar___beauty_bar_0.jpg",
+                  "/images/services/gallery_glitter_bar___beauty_bar_1.jpg",
+                  "/images/services/gallery_glitter_bar___beauty_bar_2.jpg",
+                  "/images/services/gallery_glitter_bar___beauty_bar_3.jpg",
+                  "/images/services/gallery_glitter_bar___beauty_bar_4.jpg"
+                ]
               }
             },
             {
@@ -2376,7 +2964,15 @@
                   "Instalación básica"
                 ],
                 "factorsText": [],
-                "realValueText": "Elemento altamente fotografiable y moderno."
+                "realValueText": "Elemento altamente fotografiable y moderno.",
+                "mainImage": "/images/services/main_neon_personalizado.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_neon_personalizado_0.jpg",
+                  "/images/services/gallery_neon_personalizado_1.jpg",
+                  "/images/services/gallery_neon_personalizado_2.jpg",
+                  "/images/services/gallery_neon_personalizado_3.jpg",
+                  "/images/services/gallery_neon_personalizado_4.jpg"
+                ]
               }
             }
           ]
@@ -2410,7 +3006,15 @@
                   "Nivel de personalización",
                   "Cantidad de invitados"
                 ],
-                "realValueText": "Deja huella tangible del evento."
+                "realValueText": "Deja huella tangible del evento.",
+                "mainImage": "/images/services/main_recuerdos_personalizados.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_recuerdos_personalizados_0.jpg",
+                  "/images/services/gallery_recuerdos_personalizados_1.jpg",
+                  "/images/services/gallery_recuerdos_personalizados_2.jpg",
+                  "/images/services/gallery_recuerdos_personalizados_3.jpg",
+                  "/images/services/gallery_recuerdos_personalizados_4.jpg"
+                ]
               }
             },
             {
@@ -2435,7 +3039,15 @@
                   "Cantidad definida o ilimitada según paquete"
                 ],
                 "factorsText": [],
-                "realValueText": "Refuerza experiencia interactiva y recuerdo físico inmediato."
+                "realValueText": "Refuerza experiencia interactiva y recuerdo físico inmediato.",
+                "mainImage": "/images/services/main_impresion_de_fotos_en_sitio.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_impresion_de_fotos_en_sitio_0.jpg",
+                  "/images/services/gallery_impresion_de_fotos_en_sitio_1.jpg",
+                  "/images/services/gallery_impresion_de_fotos_en_sitio_2.jpg",
+                  "/images/services/gallery_impresion_de_fotos_en_sitio_3.jpg",
+                  "/images/services/gallery_impresion_de_fotos_en_sitio_4.jpg"
+                ]
               }
             }
           ]
@@ -2479,7 +3091,15 @@
                   "Edición avanzada",
                   "Prestigio del fotógrafo"
                 ],
-                "realValueText": "Se utiliza para invitaciones, pantalla LED y recuerdos."
+                "realValueText": "Se utiliza para invitaciones, pantalla LED y recuerdos.",
+                "mainImage": "/images/services/main_sesion_pre_quince__fotografia_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_sesion_pre_quince__fotografia__0.jpg",
+                  "/images/services/gallery_sesion_pre_quince__fotografia__1.jpg",
+                  "/images/services/gallery_sesion_pre_quince__fotografia__2.jpg",
+                  "/images/services/gallery_sesion_pre_quince__fotografia__3.jpg",
+                  "/images/services/gallery_sesion_pre_quince__fotografia__4.jpg"
+                ]
               }
             },
             {
@@ -2509,7 +3129,15 @@
                   "Grabación en varias locaciones",
                   "Uso de drone"
                 ],
-                "realValueText": "Eleva la invitación digital y genera expectativa."
+                "realValueText": "Eleva la invitación digital y genera expectativa.",
+                "mainImage": "/images/services/main_video_save_the_date.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_video_save_the_date_0.jpg",
+                  "/images/services/gallery_video_save_the_date_1.jpg",
+                  "/images/services/gallery_video_save_the_date_2.jpg",
+                  "/images/services/gallery_video_save_the_date_3.jpg",
+                  "/images/services/gallery_video_save_the_date_4.jpg"
+                ]
               }
             }
           ]
@@ -2546,7 +3174,15 @@
                   "Segundo fotógrafo",
                   "Nivel de edición"
                 ],
-                "realValueText": "Captura momentos irrepetibles del evento."
+                "realValueText": "Captura momentos irrepetibles del evento.",
+                "mainImage": "/images/services/main_cobertura_fotografica.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_cobertura_fotografica_0.jpg",
+                  "/images/services/gallery_cobertura_fotografica_1.jpg",
+                  "/images/services/gallery_cobertura_fotografica_2.jpg",
+                  "/images/services/gallery_cobertura_fotografica_3.jpg",
+                  "/images/services/gallery_cobertura_fotografica_4.jpg"
+                ]
               }
             },
             {
@@ -2577,7 +3213,15 @@
                   "Nivel de edición",
                   "Colorización avanzada"
                 ],
-                "realValueText": "Permite revivir la experiencia completa del evento."
+                "realValueText": "Permite revivir la experiencia completa del evento.",
+                "mainImage": "/images/services/main_cobertura_de_video.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_cobertura_de_video_0.jpg",
+                  "/images/services/gallery_cobertura_de_video_1.jpg",
+                  "/images/services/gallery_cobertura_de_video_2.jpg",
+                  "/images/services/gallery_cobertura_de_video_3.jpg",
+                  "/images/services/gallery_cobertura_de_video_4.jpg"
+                ]
               }
             },
             {
@@ -2605,7 +3249,15 @@
                   "Permisos requeridos",
                   "Condiciones climáticas"
                 ],
-                "realValueText": "Aporta perspectiva cinematográfica y espectacular."
+                "realValueText": "Aporta perspectiva cinematográfica y espectacular.",
+                "mainImage": "/images/services/main_drone__si_el_venue_permite_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_drone__si_el_venue_permite__0.jpg",
+                  "/images/services/gallery_drone__si_el_venue_permite__1.jpg",
+                  "/images/services/gallery_drone__si_el_venue_permite__2.jpg",
+                  "/images/services/gallery_drone__si_el_venue_permite__3.jpg",
+                  "/images/services/gallery_drone__si_el_venue_permite__4.jpg"
+                ]
               }
             }
           ]
@@ -2643,7 +3295,15 @@
                   "Número de cámaras",
                   "Efectos adicionales"
                 ],
-                "realValueText": "Es el video más compartido y emocional del evento."
+                "realValueText": "Es el video más compartido y emocional del evento.",
+                "mainImage": "/images/services/main_video_highlight_cinematografico.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_video_highlight_cinematografico_0.jpg",
+                  "/images/services/gallery_video_highlight_cinematografico_1.jpg",
+                  "/images/services/gallery_video_highlight_cinematografico_2.jpg",
+                  "/images/services/gallery_video_highlight_cinematografico_3.jpg",
+                  "/images/services/gallery_video_highlight_cinematografico_4.jpg"
+                ]
               }
             },
             {
@@ -2670,7 +3330,15 @@
                   "Duración aproximada 45–120 minutos"
                 ],
                 "factorsText": [],
-                "realValueText": "Permite revivir el evento completo en el futuro."
+                "realValueText": "Permite revivir el evento completo en el futuro.",
+                "mainImage": "/images/services/main_video_completo_del_evento.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_video_completo_del_evento_0.jpg",
+                  "/images/services/gallery_video_completo_del_evento_1.jpg",
+                  "/images/services/gallery_video_completo_del_evento_2.jpg",
+                  "/images/services/gallery_video_completo_del_evento_3.jpg",
+                  "/images/services/gallery_video_completo_del_evento_4.jpg"
+                ]
               }
             },
             {
@@ -2695,7 +3363,15 @@
                   "Música optimizada para redes"
                 ],
                 "factorsText": [],
-                "realValueText": "Maximiza visibilidad y recuerdo digital del evento."
+                "realValueText": "Maximiza visibilidad y recuerdo digital del evento.",
+                "mainImage": "/images/services/main_paquete_de_reels__vertical_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_paquete_de_reels__vertical__0.jpg",
+                  "/images/services/gallery_paquete_de_reels__vertical__1.jpg",
+                  "/images/services/gallery_paquete_de_reels__vertical__2.jpg",
+                  "/images/services/gallery_paquete_de_reels__vertical__3.jpg",
+                  "/images/services/gallery_paquete_de_reels__vertical__4.jpg"
+                ]
               }
             },
             {
@@ -2720,7 +3396,15 @@
                   "Tiempo limitado de hospedaje"
                 ],
                 "factorsText": [],
-                "realValueText": "Facilita compartir fotos sin enviar archivos individuales."
+                "realValueText": "Facilita compartir fotos sin enviar archivos individuales.",
+                "mainImage": "/images/services/main_galeria_online_privada.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_galeria_online_privada_0.jpg",
+                  "/images/services/gallery_galeria_online_privada_1.jpg",
+                  "/images/services/gallery_galeria_online_privada_2.jpg",
+                  "/images/services/gallery_galeria_online_privada_3.jpg",
+                  "/images/services/gallery_galeria_online_privada_4.jpg"
+                ]
               }
             },
             {
@@ -2750,7 +3434,15 @@
                   "Cantidad de páginas",
                   "Caja de presentación"
                 ],
-                "realValueText": "Es el recuerdo físico que perdura décadas."
+                "realValueText": "Es el recuerdo físico que perdura décadas.",
+                "mainImage": "/images/services/main_album_fisico_premium.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_album_fisico_premium_0.jpg",
+                  "/images/services/gallery_album_fisico_premium_1.jpg",
+                  "/images/services/gallery_album_fisico_premium_2.jpg",
+                  "/images/services/gallery_album_fisico_premium_3.jpg",
+                  "/images/services/gallery_album_fisico_premium_4.jpg"
+                ]
               }
             }
           ]
@@ -2786,7 +3478,15 @@
                   "Tipo de impresión",
                   "Personalización"
                 ],
-                "realValueText": "Genera interacción y recuerdo físico inmediato."
+                "realValueText": "Genera interacción y recuerdo físico inmediato.",
+                "mainImage": "/images/services/main_cabina_fotografica___photobooth.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_cabina_fotografica___photobooth_0.jpg",
+                  "/images/services/gallery_cabina_fotografica___photobooth_1.jpg",
+                  "/images/services/gallery_cabina_fotografica___photobooth_2.jpg",
+                  "/images/services/gallery_cabina_fotografica___photobooth_3.jpg",
+                  "/images/services/gallery_cabina_fotografica___photobooth_4.jpg"
+                ]
               }
             },
             {
@@ -2811,7 +3511,15 @@
                   "Personal de apoyo"
                 ],
                 "factorsText": [],
-                "realValueText": "Eleva la experiencia frente a un photobooth tradicional."
+                "realValueText": "Eleva la experiencia frente a un photobooth tradicional.",
+                "mainImage": "/images/services/main_espejo_magico__mirror_booth_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_espejo_magico__mirror_booth__0.jpg",
+                  "/images/services/gallery_espejo_magico__mirror_booth__1.jpg",
+                  "/images/services/gallery_espejo_magico__mirror_booth__2.jpg",
+                  "/images/services/gallery_espejo_magico__mirror_booth__3.jpg",
+                  "/images/services/gallery_espejo_magico__mirror_booth__4.jpg"
+                ]
               }
             },
             {
@@ -2841,7 +3549,15 @@
                   "Cantidad de invitados",
                   "Personalización de overlay"
                 ],
-                "realValueText": "Genera contenido altamente viral y moderno."
+                "realValueText": "Genera contenido altamente viral y moderno.",
+                "mainImage": "/images/services/main_video_booth_360.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_video_booth_360_0.jpg",
+                  "/images/services/gallery_video_booth_360_1.jpg",
+                  "/images/services/gallery_video_booth_360_2.jpg",
+                  "/images/services/gallery_video_booth_360_3.jpg",
+                  "/images/services/gallery_video_booth_360_4.jpg"
+                ]
               }
             }
           ]
@@ -2884,7 +3600,15 @@
                   "Acrílico o madera",
                   "Cantidad de invitaciones"
                 ],
-                "realValueText": "La invitación define la expectativa del evento desde el primer momento."
+                "realValueText": "La invitación define la expectativa del evento desde el primer momento.",
+                "mainImage": "/images/services/main_invitacion_fisica_premium.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_invitacion_fisica_premium_0.jpg",
+                  "/images/services/gallery_invitacion_fisica_premium_1.jpg",
+                  "/images/services/gallery_invitacion_fisica_premium_2.jpg",
+                  "/images/services/gallery_invitacion_fisica_premium_3.jpg",
+                  "/images/services/gallery_invitacion_fisica_premium_4.jpg"
+                ]
               }
             },
             {
@@ -2909,7 +3633,15 @@
                   "1–2 ajustes incluidos"
                 ],
                 "factorsText": [],
-                "realValueText": "Moderna, práctica y perfecta para complementar la invitación física."
+                "realValueText": "Moderna, práctica y perfecta para complementar la invitación física.",
+                "mainImage": "/images/services/main_invitacion_digital__whatsapp___redes_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_invitacion_digital__whatsapp___redes__0.jpg",
+                  "/images/services/gallery_invitacion_digital__whatsapp___redes__1.jpg",
+                  "/images/services/gallery_invitacion_digital__whatsapp___redes__2.jpg",
+                  "/images/services/gallery_invitacion_digital__whatsapp___redes__3.jpg",
+                  "/images/services/gallery_invitacion_digital__whatsapp___redes__4.jpg"
+                ]
               }
             },
             {
@@ -2933,7 +3665,15 @@
                   "Alineación con identidad visual"
                 ],
                 "factorsText": [],
-                "realValueText": "Permite a invitados reservar fecha con anticipación."
+                "realValueText": "Permite a invitados reservar fecha con anticipación.",
+                "mainImage": "/images/services/main_save_the_date.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_save_the_date_0.jpg",
+                  "/images/services/gallery_save_the_date_1.jpg",
+                  "/images/services/gallery_save_the_date_2.jpg",
+                  "/images/services/gallery_save_the_date_3.jpg",
+                  "/images/services/gallery_save_the_date_4.jpg"
+                ]
               }
             }
           ]
@@ -2963,7 +3703,15 @@
                   "Coordinación con paleta del evento"
                 ],
                 "factorsText": [],
-                "realValueText": "Refuerza percepción de organización y elegancia."
+                "realValueText": "Refuerza percepción de organización y elegancia.",
+                "mainImage": "/images/services/main_menus_impresos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_menus_impresos_0.jpg",
+                  "/images/services/gallery_menus_impresos_1.jpg",
+                  "/images/services/gallery_menus_impresos_2.jpg",
+                  "/images/services/gallery_menus_impresos_3.jpg",
+                  "/images/services/gallery_menus_impresos_4.jpg"
+                ]
               }
             },
             {
@@ -2987,7 +3735,15 @@
                   "Corte profesional"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita confusión y mejora experiencia del invitado."
+                "realValueText": "Evita confusión y mejora experiencia del invitado.",
+                "mainImage": "/images/services/main_place_cards___tarjetas_de_puesto.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_place_cards___tarjetas_de_puesto_0.jpg",
+                  "/images/services/gallery_place_cards___tarjetas_de_puesto_1.jpg",
+                  "/images/services/gallery_place_cards___tarjetas_de_puesto_2.jpg",
+                  "/images/services/gallery_place_cards___tarjetas_de_puesto_3.jpg",
+                  "/images/services/gallery_place_cards___tarjetas_de_puesto_4.jpg"
+                ]
               }
             },
             {
@@ -3010,7 +3766,15 @@
                   "Producción en material seleccionado"
                 ],
                 "factorsText": [],
-                "realValueText": "Mantiene coherencia estética en mesas."
+                "realValueText": "Mantiene coherencia estética en mesas.",
+                "mainImage": "/images/services/main_numeros_de_mesa.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_numeros_de_mesa_0.jpg",
+                  "/images/services/gallery_numeros_de_mesa_1.jpg",
+                  "/images/services/gallery_numeros_de_mesa_2.jpg",
+                  "/images/services/gallery_numeros_de_mesa_3.jpg",
+                  "/images/services/gallery_numeros_de_mesa_4.jpg"
+                ]
               }
             },
             {
@@ -3035,7 +3799,15 @@
                   "Coordinación con lista final"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita caos en ingreso al salón."
+                "realValueText": "Evita caos en ingreso al salón.",
+                "mainImage": "/images/services/main_seating_plan_impreso___instalado.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_seating_plan_impreso___instalado_0.jpg",
+                  "/images/services/gallery_seating_plan_impreso___instalado_1.jpg",
+                  "/images/services/gallery_seating_plan_impreso___instalado_2.jpg",
+                  "/images/services/gallery_seating_plan_impreso___instalado_3.jpg",
+                  "/images/services/gallery_seating_plan_impreso___instalado_4.jpg"
+                ]
               }
             },
             {
@@ -3059,7 +3831,15 @@
                   "Instalación"
                 ],
                 "factorsText": [],
-                "realValueText": "Marca inicio oficial del evento."
+                "realValueText": "Marca inicio oficial del evento.",
+                "mainImage": "/images/services/main_panel_de_bienvenida.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_panel_de_bienvenida_0.jpg",
+                  "/images/services/gallery_panel_de_bienvenida_1.jpg",
+                  "/images/services/gallery_panel_de_bienvenida_2.jpg",
+                  "/images/services/gallery_panel_de_bienvenida_3.jpg",
+                  "/images/services/gallery_panel_de_bienvenida_4.jpg"
+                ]
               }
             }
           ]
@@ -3089,7 +3869,15 @@
                   "Personalización básica"
                 ],
                 "factorsText": [],
-                "realValueText": "Cierra la experiencia con detalle elegante."
+                "realValueText": "Cierra la experiencia con detalle elegante.",
+                "mainImage": "/images/services/main_tarjetas_de_agradecimiento.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_tarjetas_de_agradecimiento_0.jpg",
+                  "/images/services/gallery_tarjetas_de_agradecimiento_1.jpg",
+                  "/images/services/gallery_tarjetas_de_agradecimiento_2.jpg",
+                  "/images/services/gallery_tarjetas_de_agradecimiento_3.jpg",
+                  "/images/services/gallery_tarjetas_de_agradecimiento_4.jpg"
+                ]
               }
             },
             {
@@ -3113,7 +3901,15 @@
                   "Corte profesional"
                 ],
                 "factorsText": [],
-                "realValueText": "Mantiene coherencia en recuerdos y packaging."
+                "realValueText": "Mantiene coherencia en recuerdos y packaging.",
+                "mainImage": "/images/services/main_etiquetas_personalizadas.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_etiquetas_personalizadas_0.jpg",
+                  "/images/services/gallery_etiquetas_personalizadas_1.jpg",
+                  "/images/services/gallery_etiquetas_personalizadas_2.jpg",
+                  "/images/services/gallery_etiquetas_personalizadas_3.jpg",
+                  "/images/services/gallery_etiquetas_personalizadas_4.jpg"
+                ]
               }
             }
           ]
@@ -3158,7 +3954,15 @@
                   "Evita elegir un venue que luego limite la producción o incremente costos ocultos."
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_busqueda_y_scouting_de_locacion.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_busqueda_y_scouting_de_locacion_0.jpg",
+                  "/images/services/gallery_busqueda_y_scouting_de_locacion_1.jpg",
+                  "/images/services/gallery_busqueda_y_scouting_de_locacion_2.jpg",
+                  "/images/services/gallery_busqueda_y_scouting_de_locacion_3.jpg",
+                  "/images/services/gallery_busqueda_y_scouting_de_locacion_4.jpg"
+                ]
               }
             },
             {
@@ -3185,7 +3989,15 @@
                   "Exclusividad del espacio",
                   "Cargos adicionales (limpieza, seguridad, horas extra)"
                 ],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_alquiler_de_locacion.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_alquiler_de_locacion_0.jpg",
+                  "/images/services/gallery_alquiler_de_locacion_1.jpg",
+                  "/images/services/gallery_alquiler_de_locacion_2.jpg",
+                  "/images/services/gallery_alquiler_de_locacion_3.jpg",
+                  "/images/services/gallery_alquiler_de_locacion_4.jpg"
+                ]
               }
             },
             {
@@ -3214,7 +4026,15 @@
                   "Evita ajustes costosos el día del montaje."
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_visita_tecnica__site_inspection_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_visita_tecnica__site_inspection__0.jpg",
+                  "/images/services/gallery_visita_tecnica__site_inspection__1.jpg",
+                  "/images/services/gallery_visita_tecnica__site_inspection__2.jpg",
+                  "/images/services/gallery_visita_tecnica__site_inspection__3.jpg",
+                  "/images/services/gallery_visita_tecnica__site_inspection__4.jpg"
+                ]
               }
             },
             {
@@ -3240,7 +4060,15 @@
                   "Recomendaciones antes de firma"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_asesoria_en_reserva_y_negociacion.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_asesoria_en_reserva_y_negociacion_0.jpg",
+                  "/images/services/gallery_asesoria_en_reserva_y_negociacion_1.jpg",
+                  "/images/services/gallery_asesoria_en_reserva_y_negociacion_2.jpg",
+                  "/images/services/gallery_asesoria_en_reserva_y_negociacion_3.jpg",
+                  "/images/services/gallery_asesoria_en_reserva_y_negociacion_4.jpg"
+                ]
               }
             },
             {
@@ -3269,7 +4097,15 @@
                   "Optimiza visibilidad y experiencia del invitado."
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_diseno_de_layout__plano_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_diseno_de_layout__plano__0.jpg",
+                  "/images/services/gallery_diseno_de_layout__plano__1.jpg",
+                  "/images/services/gallery_diseno_de_layout__plano__2.jpg",
+                  "/images/services/gallery_diseno_de_layout__plano__3.jpg",
+                  "/images/services/gallery_diseno_de_layout__plano__4.jpg"
+                ]
               }
             },
             {
@@ -3294,7 +4130,15 @@
                   "Instalación básica"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_senalizacion_de_flujos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_senalizacion_de_flujos_0.jpg",
+                  "/images/services/gallery_senalizacion_de_flujos_1.jpg",
+                  "/images/services/gallery_senalizacion_de_flujos_2.jpg",
+                  "/images/services/gallery_senalizacion_de_flujos_3.jpg",
+                  "/images/services/gallery_senalizacion_de_flujos_4.jpg"
+                ]
               }
             },
             {
@@ -3319,7 +4163,15 @@
                   "Coordinación con cronograma"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_auto_clasico_para_la_quinceanera.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_auto_clasico_para_la_quinceanera_0.jpg",
+                  "/images/services/gallery_auto_clasico_para_la_quinceanera_1.jpg",
+                  "/images/services/gallery_auto_clasico_para_la_quinceanera_2.jpg",
+                  "/images/services/gallery_auto_clasico_para_la_quinceanera_3.jpg",
+                  "/images/services/gallery_auto_clasico_para_la_quinceanera_4.jpg"
+                ]
               }
             },
             {
@@ -3343,7 +4195,15 @@
                   "Coordinación de ruta"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_limosina.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_limosina_0.jpg",
+                  "/images/services/gallery_limosina_1.jpg",
+                  "/images/services/gallery_limosina_2.jpg",
+                  "/images/services/gallery_limosina_3.jpg",
+                  "/images/services/gallery_limosina_4.jpg"
+                ]
               }
             },
             {
@@ -3367,7 +4227,15 @@
                   "Coordinación logística"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_van___shuttle_para_corte.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_van___shuttle_para_corte_0.jpg",
+                  "/images/services/gallery_van___shuttle_para_corte_1.jpg",
+                  "/images/services/gallery_van___shuttle_para_corte_2.jpg",
+                  "/images/services/gallery_van___shuttle_para_corte_3.jpg",
+                  "/images/services/gallery_van___shuttle_para_corte_4.jpg"
+                ]
               }
             },
             {
@@ -3392,7 +4260,15 @@
                   "Entrega organizada"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_valet_parking.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_valet_parking_0.jpg",
+                  "/images/services/gallery_valet_parking_1.jpg",
+                  "/images/services/gallery_valet_parking_2.jpg",
+                  "/images/services/gallery_valet_parking_3.jpg",
+                  "/images/services/gallery_valet_parking_4.jpg"
+                ]
               }
             },
             {
@@ -3418,7 +4294,15 @@
                   "El valor depende de tamaño y tipo de estructura."
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_plan_b_por_lluvia___clima.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_plan_b_por_lluvia___clima_0.jpg",
+                  "/images/services/gallery_plan_b_por_lluvia___clima_1.jpg",
+                  "/images/services/gallery_plan_b_por_lluvia___clima_2.jpg",
+                  "/images/services/gallery_plan_b_por_lluvia___clima_3.jpg",
+                  "/images/services/gallery_plan_b_por_lluvia___clima_4.jpg"
+                ]
               }
             },
             {
@@ -3443,7 +4327,15 @@
                   "Autorizaciones técnicas"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_permisos_y_autorizaciones.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_permisos_y_autorizaciones_0.jpg",
+                  "/images/services/gallery_permisos_y_autorizaciones_1.jpg",
+                  "/images/services/gallery_permisos_y_autorizaciones_2.jpg",
+                  "/images/services/gallery_permisos_y_autorizaciones_3.jpg",
+                  "/images/services/gallery_permisos_y_autorizaciones_4.jpg"
+                ]
               }
             },
             {
@@ -3467,7 +4359,15 @@
                   "Cobertura según plan contratado"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_seguro_de_responsabilidad_civil.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_seguro_de_responsabilidad_civil_0.jpg",
+                  "/images/services/gallery_seguro_de_responsabilidad_civil_1.jpg",
+                  "/images/services/gallery_seguro_de_responsabilidad_civil_2.jpg",
+                  "/images/services/gallery_seguro_de_responsabilidad_civil_3.jpg",
+                  "/images/services/gallery_seguro_de_responsabilidad_civil_4.jpg"
+                ]
               }
             }
           ]
@@ -3513,7 +4413,15 @@
                   "Permite anticipar riesgos"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_cronograma_maestro.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_cronograma_maestro_0.jpg",
+                  "/images/services/gallery_cronograma_maestro_1.jpg",
+                  "/images/services/gallery_cronograma_maestro_2.jpg",
+                  "/images/services/gallery_cronograma_maestro_3.jpg",
+                  "/images/services/gallery_cronograma_maestro_4.jpg"
+                ]
               }
             },
             {
@@ -3541,7 +4449,15 @@
                   "Priorización de inversión en momentos clave"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita sobrecostos Evita decisiones impulsivas Protege la inversión familiar"
+                "realValueText": "Evita sobrecostos Evita decisiones impulsivas Protege la inversión familiar",
+                "mainImage": "/images/services/main_control_de_presupuesto_y_priorizacion.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_control_de_presupuesto_y_priorizacion_0.jpg",
+                  "/images/services/gallery_control_de_presupuesto_y_priorizacion_1.jpg",
+                  "/images/services/gallery_control_de_presupuesto_y_priorizacion_2.jpg",
+                  "/images/services/gallery_control_de_presupuesto_y_priorizacion_3.jpg",
+                  "/images/services/gallery_control_de_presupuesto_y_priorizacion_4.jpg"
+                ]
               }
             },
             {
@@ -3572,7 +4488,15 @@
                   "Asegura calidad alineada"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_busqueda_y_negociacion_de_proveedores.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_busqueda_y_negociacion_de_proveedores_0.jpg",
+                  "/images/services/gallery_busqueda_y_negociacion_de_proveedores_1.jpg",
+                  "/images/services/gallery_busqueda_y_negociacion_de_proveedores_2.jpg",
+                  "/images/services/gallery_busqueda_y_negociacion_de_proveedores_3.jpg",
+                  "/images/services/gallery_busqueda_y_negociacion_de_proveedores_4.jpg"
+                ]
               }
             },
             {
@@ -3600,7 +4524,15 @@
                   "Respaldo documental"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita incumplimientos Evita penalizaciones Protege legalmente"
+                "realValueText": "Evita incumplimientos Evita penalizaciones Protege legalmente",
+                "mainImage": "/images/services/main_administracion_de_contratos_y_pagos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_administracion_de_contratos_y_pagos_0.jpg",
+                  "/images/services/gallery_administracion_de_contratos_y_pagos_1.jpg",
+                  "/images/services/gallery_administracion_de_contratos_y_pagos_2.jpg",
+                  "/images/services/gallery_administracion_de_contratos_y_pagos_3.jpg",
+                  "/images/services/gallery_administracion_de_contratos_y_pagos_4.jpg"
+                ]
               }
             },
             {
@@ -3630,7 +4562,15 @@
                   "Este rol garantiza ejecución profesional."
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_director_a__general_del_evento.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_director_a__general_del_evento_0.jpg",
+                  "/images/services/gallery_director_a__general_del_evento_1.jpg",
+                  "/images/services/gallery_director_a__general_del_evento_2.jpg",
+                  "/images/services/gallery_director_a__general_del_evento_3.jpg",
+                  "/images/services/gallery_director_a__general_del_evento_4.jpg"
+                ]
               }
             },
             {
@@ -3656,7 +4596,15 @@
                   "Comunicación con proveedores"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_asistentes_de_coordinacion.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_asistentes_de_coordinacion_0.jpg",
+                  "/images/services/gallery_asistentes_de_coordinacion_1.jpg",
+                  "/images/services/gallery_asistentes_de_coordinacion_2.jpg",
+                  "/images/services/gallery_asistentes_de_coordinacion_3.jpg",
+                  "/images/services/gallery_asistentes_de_coordinacion_4.jpg"
+                ]
               }
             },
             {
@@ -3681,7 +4629,15 @@
                   "Comunicación con dirección general"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_backstage_manager.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_backstage_manager_0.jpg",
+                  "/images/services/gallery_backstage_manager_1.jpg",
+                  "/images/services/gallery_backstage_manager_2.jpg",
+                  "/images/services/gallery_backstage_manager_3.jpg",
+                  "/images/services/gallery_backstage_manager_4.jpg"
+                ]
               }
             },
             {
@@ -3707,7 +4663,15 @@
                   "Pruebas musicales y cues"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_ensayo_general.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_ensayo_general_0.jpg",
+                  "/images/services/gallery_ensayo_general_1.jpg",
+                  "/images/services/gallery_ensayo_general_2.jpg",
+                  "/images/services/gallery_ensayo_general_3.jpg",
+                  "/images/services/gallery_ensayo_general_4.jpg"
+                ]
               }
             },
             {
@@ -3733,7 +4697,15 @@
                   "Actualización constante"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_sistema_de_lista_de_invitados.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_sistema_de_lista_de_invitados_0.jpg",
+                  "/images/services/gallery_sistema_de_lista_de_invitados_1.jpg",
+                  "/images/services/gallery_sistema_de_lista_de_invitados_2.jpg",
+                  "/images/services/gallery_sistema_de_lista_de_invitados_3.jpg",
+                  "/images/services/gallery_sistema_de_lista_de_invitados_4.jpg"
+                ]
               }
             },
             {
@@ -3758,7 +4730,15 @@
                   "Plano final validado"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_diseno_de_seating_plan.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_diseno_de_seating_plan_0.jpg",
+                  "/images/services/gallery_diseno_de_seating_plan_1.jpg",
+                  "/images/services/gallery_diseno_de_seating_plan_2.jpg",
+                  "/images/services/gallery_diseno_de_seating_plan_3.jpg",
+                  "/images/services/gallery_diseno_de_seating_plan_4.jpg"
+                ]
               }
             },
             {
@@ -3783,7 +4763,15 @@
                   "Coordinación de protocolo"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_coordinacion_de_padrinos_y_aportes.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_coordinacion_de_padrinos_y_aportes_0.jpg",
+                  "/images/services/gallery_coordinacion_de_padrinos_y_aportes_1.jpg",
+                  "/images/services/gallery_coordinacion_de_padrinos_y_aportes_2.jpg",
+                  "/images/services/gallery_coordinacion_de_padrinos_y_aportes_3.jpg",
+                  "/images/services/gallery_coordinacion_de_padrinos_y_aportes_4.jpg"
+                ]
               }
             }
           ]
@@ -3827,7 +4815,15 @@
                   "Entrega física (USB premium o caja personalizada)",
                   "Diseño de presentación"
                 ],
-                "realValueText": "Evita entregas desordenadas y asegura que la familia tenga todo organizado y accesible."
+                "realValueText": "Evita entregas desordenadas y asegura que la familia tenga todo organizado y accesible.",
+                "mainImage": "/images/services/main_paquete_de_entrega_final.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_paquete_de_entrega_final_0.jpg",
+                  "/images/services/gallery_paquete_de_entrega_final_1.jpg",
+                  "/images/services/gallery_paquete_de_entrega_final_2.jpg",
+                  "/images/services/gallery_paquete_de_entrega_final_3.jpg",
+                  "/images/services/gallery_paquete_de_entrega_final_4.jpg"
+                ]
               }
             },
             {
@@ -3854,7 +4850,15 @@
                   "Agradecimiento formal"
                 ],
                 "factorsText": [],
-                "realValueText": "Permite cerrar el proyecto profesionalmente Identifica oportunidades de mejora Refuerza relación con la familia Eleva percepción de marca"
+                "realValueText": "Permite cerrar el proyecto profesionalmente Identifica oportunidades de mejora Refuerza relación con la familia Eleva percepción de marca",
+                "mainImage": "/images/services/main_reunion_post_evento.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_reunion_post_evento_0.jpg",
+                  "/images/services/gallery_reunion_post_evento_1.jpg",
+                  "/images/services/gallery_reunion_post_evento_2.jpg",
+                  "/images/services/gallery_reunion_post_evento_3.jpg",
+                  "/images/services/gallery_reunion_post_evento_4.jpg"
+                ]
               }
             }
           ]
@@ -3897,7 +4901,15 @@
                   "Requerimientos técnicos adicionales"
                 ],
                 "factorsText": [],
-                "realValueText": "Un DJ profesional mantiene la energía correcta y evita cambios bruscos o silencios incómodos."
+                "realValueText": "Un DJ profesional mantiene la energía correcta y evita cambios bruscos o silencios incómodos.",
+                "mainImage": "/images/services/main_dj_profesional.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_dj_profesional_0.jpg",
+                  "/images/services/gallery_dj_profesional_1.jpg",
+                  "/images/services/gallery_dj_profesional_2.jpg",
+                  "/images/services/gallery_dj_profesional_3.jpg",
+                  "/images/services/gallery_dj_profesional_4.jpg"
+                ]
               }
             },
             {
@@ -3928,7 +4940,15 @@
                   "Requerimiento de line array vs sistema convencional"
                 ],
                 "factorsText": [],
-                "realValueText": "El sonido correcto define si el evento se percibe profesional o improvisado."
+                "realValueText": "El sonido correcto define si el evento se percibe profesional o improvisado.",
+                "mainImage": "/images/services/main_sistema_de_sonido_pa.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_sistema_de_sonido_pa_0.jpg",
+                  "/images/services/gallery_sistema_de_sonido_pa_1.jpg",
+                  "/images/services/gallery_sistema_de_sonido_pa_2.jpg",
+                  "/images/services/gallery_sistema_de_sonido_pa_3.jpg",
+                  "/images/services/gallery_sistema_de_sonido_pa_4.jpg"
+                ]
               }
             },
             {
@@ -3953,7 +4973,15 @@
                   "Soporte técnico"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_consola_digital.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_consola_digital_0.jpg",
+                  "/images/services/gallery_consola_digital_1.jpg",
+                  "/images/services/gallery_consola_digital_2.jpg",
+                  "/images/services/gallery_consola_digital_3.jpg",
+                  "/images/services/gallery_consola_digital_4.jpg"
+                ]
               }
             },
             {
@@ -3978,7 +5006,15 @@
                   "Baterías"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_microfonos_inalambricos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_microfonos_inalambricos_0.jpg",
+                  "/images/services/gallery_microfonos_inalambricos_1.jpg",
+                  "/images/services/gallery_microfonos_inalambricos_2.jpg",
+                  "/images/services/gallery_microfonos_inalambricos_3.jpg",
+                  "/images/services/gallery_microfonos_inalambricos_4.jpg"
+                ]
               }
             },
             {
@@ -4002,7 +5038,15 @@
                   "Ajuste técnico"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_microfono_headset_para_mc.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_microfono_headset_para_mc_0.jpg",
+                  "/images/services/gallery_microfono_headset_para_mc_1.jpg",
+                  "/images/services/gallery_microfono_headset_para_mc_2.jpg",
+                  "/images/services/gallery_microfono_headset_para_mc_3.jpg",
+                  "/images/services/gallery_microfono_headset_para_mc_4.jpg"
+                ]
               }
             },
             {
@@ -4026,7 +5070,15 @@
                   "Pruebas de sonido"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_monitores_de_escenario.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_monitores_de_escenario_0.jpg",
+                  "/images/services/gallery_monitores_de_escenario_1.jpg",
+                  "/images/services/gallery_monitores_de_escenario_2.jpg",
+                  "/images/services/gallery_monitores_de_escenario_3.jpg",
+                  "/images/services/gallery_monitores_de_escenario_4.jpg"
+                ]
               }
             },
             {
@@ -4052,7 +5104,15 @@
                   "Desmontaje"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_tecnico_de_sonido.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_tecnico_de_sonido_0.jpg",
+                  "/images/services/gallery_tecnico_de_sonido_1.jpg",
+                  "/images/services/gallery_tecnico_de_sonido_2.jpg",
+                  "/images/services/gallery_tecnico_de_sonido_3.jpg",
+                  "/images/services/gallery_tecnico_de_sonido_4.jpg"
+                ]
               }
             }
           ]
@@ -4086,7 +5146,15 @@
                   "Colores dinámicos vs estáticos"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_uplighting_arquitectonico.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_uplighting_arquitectonico_0.jpg",
+                  "/images/services/gallery_uplighting_arquitectonico_1.jpg",
+                  "/images/services/gallery_uplighting_arquitectonico_2.jpg",
+                  "/images/services/gallery_uplighting_arquitectonico_3.jpg",
+                  "/images/services/gallery_uplighting_arquitectonico_4.jpg"
+                ]
               }
             },
             {
@@ -4110,7 +5178,15 @@
                   "Coordinación con decoración"
                 ],
                 "factorsText": [],
-                "realValueText": "Mejora fotografía y ambiente emocional."
+                "realValueText": "Mejora fotografía y ambiente emocional.",
+                "mainImage": "/images/services/main_diseno_de_luz_calida_para_cena.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_diseno_de_luz_calida_para_cena_0.jpg",
+                  "/images/services/gallery_diseno_de_luz_calida_para_cena_1.jpg",
+                  "/images/services/gallery_diseno_de_luz_calida_para_cena_2.jpg",
+                  "/images/services/gallery_diseno_de_luz_calida_para_cena_3.jpg",
+                  "/images/services/gallery_diseno_de_luz_calida_para_cena_4.jpg"
+                ]
               }
             },
             {
@@ -4138,7 +5214,15 @@
                   "Estructura requerida"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_guirnaldas___string_lights.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_guirnaldas___string_lights_0.jpg",
+                  "/images/services/gallery_guirnaldas___string_lights_1.jpg",
+                  "/images/services/gallery_guirnaldas___string_lights_2.jpg",
+                  "/images/services/gallery_guirnaldas___string_lights_3.jpg",
+                  "/images/services/gallery_guirnaldas___string_lights_4.jpg"
+                ]
               }
             },
             {
@@ -4163,7 +5247,15 @@
                   "Operación en vivo"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_luces_roboticas__moving_heads_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_luces_roboticas__moving_heads__0.jpg",
+                  "/images/services/gallery_luces_roboticas__moving_heads__1.jpg",
+                  "/images/services/gallery_luces_roboticas__moving_heads__2.jpg",
+                  "/images/services/gallery_luces_roboticas__moving_heads__3.jpg",
+                  "/images/services/gallery_luces_roboticas__moving_heads__4.jpg"
+                ]
               }
             },
             {
@@ -4187,7 +5279,15 @@
                   "Integración con hazer"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_beam___efectos_de_haz.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_beam___efectos_de_haz_0.jpg",
+                  "/images/services/gallery_beam___efectos_de_haz_1.jpg",
+                  "/images/services/gallery_beam___efectos_de_haz_2.jpg",
+                  "/images/services/gallery_beam___efectos_de_haz_3.jpg",
+                  "/images/services/gallery_beam___efectos_de_haz_4.jpg"
+                ]
               }
             },
             {
@@ -4211,7 +5311,15 @@
                   "Montaje estratégico"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_seguidor___follow_spot.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_seguidor___follow_spot_0.jpg",
+                  "/images/services/gallery_seguidor___follow_spot_1.jpg",
+                  "/images/services/gallery_seguidor___follow_spot_2.jpg",
+                  "/images/services/gallery_seguidor___follow_spot_3.jpg",
+                  "/images/services/gallery_seguidor___follow_spot_4.jpg"
+                ]
               }
             },
             {
@@ -4235,7 +5343,15 @@
                   "Operación controlada"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_hazer__neblina_ligera_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_hazer__neblina_ligera__0.jpg",
+                  "/images/services/gallery_hazer__neblina_ligera__1.jpg",
+                  "/images/services/gallery_hazer__neblina_ligera__2.jpg",
+                  "/images/services/gallery_hazer__neblina_ligera__3.jpg",
+                  "/images/services/gallery_hazer__neblina_ligera__4.jpg"
+                ]
               }
             },
             {
@@ -4259,7 +5375,15 @@
                   "Coordinación con DJ y director"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_operador_de_iluminacion.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_operador_de_iluminacion_0.jpg",
+                  "/images/services/gallery_operador_de_iluminacion_1.jpg",
+                  "/images/services/gallery_operador_de_iluminacion_2.jpg",
+                  "/images/services/gallery_operador_de_iluminacion_3.jpg",
+                  "/images/services/gallery_operador_de_iluminacion_4.jpg"
+                ]
               }
             },
             {
@@ -4290,7 +5414,15 @@
                   "Complejidad estructural"
                 ],
                 "factorsText": [],
-                "realValueText": "Transforma completamente el nivel escénico y evita fondos improvisados."
+                "realValueText": "Transforma completamente el nivel escénico y evita fondos improvisados.",
+                "mainImage": "/images/services/main_pantalla_led.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pantalla_led_0.jpg",
+                  "/images/services/gallery_pantalla_led_1.jpg",
+                  "/images/services/gallery_pantalla_led_2.jpg",
+                  "/images/services/gallery_pantalla_led_3.jpg",
+                  "/images/services/gallery_pantalla_led_4.jpg"
+                ]
               }
             },
             {
@@ -4319,7 +5451,15 @@
                   "Luz ambiental del venue"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_proyector___pantalla.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_proyector___pantalla_0.jpg",
+                  "/images/services/gallery_proyector___pantalla_1.jpg",
+                  "/images/services/gallery_proyector___pantalla_2.jpg",
+                  "/images/services/gallery_proyector___pantalla_3.jpg",
+                  "/images/services/gallery_proyector___pantalla_4.jpg"
+                ]
               }
             },
             {
@@ -4344,7 +5484,15 @@
                   "Salida hacia pantalla"
                 ],
                 "factorsText": [],
-                "realValueText": "Permite que invitados lejanos vean claramente entrada, vals y brindis."
+                "realValueText": "Permite que invitados lejanos vean claramente entrada, vals y brindis.",
+                "mainImage": "/images/services/main_camaras_para_imag.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_camaras_para_imag_0.jpg",
+                  "/images/services/gallery_camaras_para_imag_1.jpg",
+                  "/images/services/gallery_camaras_para_imag_2.jpg",
+                  "/images/services/gallery_camaras_para_imag_3.jpg",
+                  "/images/services/gallery_camaras_para_imag_4.jpg"
+                ]
               }
             },
             {
@@ -4369,7 +5517,15 @@
                   "Transiciones entre fuentes"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_switcher___mezclador_de_video.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_switcher___mezclador_de_video_0.jpg",
+                  "/images/services/gallery_switcher___mezclador_de_video_1.jpg",
+                  "/images/services/gallery_switcher___mezclador_de_video_2.jpg",
+                  "/images/services/gallery_switcher___mezclador_de_video_3.jpg",
+                  "/images/services/gallery_switcher___mezclador_de_video_4.jpg"
+                ]
               }
             },
             {
@@ -4398,7 +5554,15 @@
                   "Cantidad de cámaras"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_streaming_privado.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_streaming_privado_0.jpg",
+                  "/images/services/gallery_streaming_privado_1.jpg",
+                  "/images/services/gallery_streaming_privado_2.jpg",
+                  "/images/services/gallery_streaming_privado_3.jpg",
+                  "/images/services/gallery_streaming_privado_4.jpg"
+                ]
               }
             },
             {
@@ -4426,7 +5590,15 @@
                   "Revestimiento"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_tarima___escenario_principal.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_tarima___escenario_principal_0.jpg",
+                  "/images/services/gallery_tarima___escenario_principal_1.jpg",
+                  "/images/services/gallery_tarima___escenario_principal_2.jpg",
+                  "/images/services/gallery_tarima___escenario_principal_3.jpg",
+                  "/images/services/gallery_tarima___escenario_principal_4.jpg"
+                ]
               }
             },
             {
@@ -4450,7 +5622,15 @@
                   "Revestimiento básico"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_tarima_para_dj.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_tarima_para_dj_0.jpg",
+                  "/images/services/gallery_tarima_para_dj_1.jpg",
+                  "/images/services/gallery_tarima_para_dj_2.jpg",
+                  "/images/services/gallery_tarima_para_dj_3.jpg",
+                  "/images/services/gallery_tarima_para_dj_4.jpg"
+                ]
               }
             },
             {
@@ -4477,7 +5657,15 @@
                   "Acabados"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_pasarela___runway.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pasarela___runway_0.jpg",
+                  "/images/services/gallery_pasarela___runway_1.jpg",
+                  "/images/services/gallery_pasarela___runway_2.jpg",
+                  "/images/services/gallery_pasarela___runway_3.jpg",
+                  "/images/services/gallery_pasarela___runway_4.jpg"
+                ]
               }
             },
             {
@@ -4505,7 +5693,15 @@
                   "Cantidad de puntos"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_estructura_truss.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_estructura_truss_0.jpg",
+                  "/images/services/gallery_estructura_truss_1.jpg",
+                  "/images/services/gallery_estructura_truss_2.jpg",
+                  "/images/services/gallery_estructura_truss_3.jpg",
+                  "/images/services/gallery_estructura_truss_4.jpg"
+                ]
               }
             },
             {
@@ -4532,7 +5728,15 @@
                   "Altura del venue"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_pista_de_baile.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pista_de_baile_0.jpg",
+                  "/images/services/gallery_pista_de_baile_1.jpg",
+                  "/images/services/gallery_pista_de_baile_2.jpg",
+                  "/images/services/gallery_pista_de_baile_3.jpg",
+                  "/images/services/gallery_pista_de_baile_4.jpg"
+                ]
               }
             },
             {
@@ -4557,7 +5761,15 @@
                   "Pruebas técnicas"
                 ],
                 "factorsText": [],
-                "realValueText": "Genera impacto visual inmediato y eleva el evento a nivel premium."
+                "realValueText": "Genera impacto visual inmediato y eleva el evento a nivel premium.",
+                "mainImage": "/images/services/main_pista_led__opcional_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pista_led__opcional__0.jpg",
+                  "/images/services/gallery_pista_led__opcional__1.jpg",
+                  "/images/services/gallery_pista_led__opcional__2.jpg",
+                  "/images/services/gallery_pista_led__opcional__3.jpg",
+                  "/images/services/gallery_pista_led__opcional__4.jpg"
+                ]
               }
             },
             {
@@ -4582,7 +5794,15 @@
                   "Supervisión técnica"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_distribucion_electrica_y_cableado.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_distribucion_electrica_y_cableado_0.jpg",
+                  "/images/services/gallery_distribucion_electrica_y_cableado_1.jpg",
+                  "/images/services/gallery_distribucion_electrica_y_cableado_2.jpg",
+                  "/images/services/gallery_distribucion_electrica_y_cableado_3.jpg",
+                  "/images/services/gallery_distribucion_electrica_y_cableado_4.jpg"
+                ]
               }
             },
             {
@@ -4606,7 +5826,15 @@
                   "Protección para consola, switcher y control"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_ups___respaldo_critico.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_ups___respaldo_critico_0.jpg",
+                  "/images/services/gallery_ups___respaldo_critico_1.jpg",
+                  "/images/services/gallery_ups___respaldo_critico_2.jpg",
+                  "/images/services/gallery_ups___respaldo_critico_3.jpg",
+                  "/images/services/gallery_ups___respaldo_critico_4.jpg"
+                ]
               }
             },
             {
@@ -4633,7 +5861,15 @@
                   "Duración del evento"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_generador_electrico.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_generador_electrico_0.jpg",
+                  "/images/services/gallery_generador_electrico_1.jpg",
+                  "/images/services/gallery_generador_electrico_2.jpg",
+                  "/images/services/gallery_generador_electrico_3.jpg",
+                  "/images/services/gallery_generador_electrico_4.jpg"
+                ]
               }
             },
             {
@@ -4658,7 +5894,15 @@
                   "Sin riesgo de incendio"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_chispas_frias__cold_sparks_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_chispas_frias__cold_sparks__0.jpg",
+                  "/images/services/gallery_chispas_frias__cold_sparks__1.jpg",
+                  "/images/services/gallery_chispas_frias__cold_sparks__2.jpg",
+                  "/images/services/gallery_chispas_frias__cold_sparks__3.jpg",
+                  "/images/services/gallery_chispas_frias__cold_sparks__4.jpg"
+                ]
               }
             },
             {
@@ -4682,7 +5926,15 @@
                   "Operación durante vals"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_humo_bajo__low_fog__para_vals.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_humo_bajo__low_fog__para_vals_0.jpg",
+                  "/images/services/gallery_humo_bajo__low_fog__para_vals_1.jpg",
+                  "/images/services/gallery_humo_bajo__low_fog__para_vals_2.jpg",
+                  "/images/services/gallery_humo_bajo__low_fog__para_vals_3.jpg",
+                  "/images/services/gallery_humo_bajo__low_fog__para_vals_4.jpg"
+                ]
               }
             },
             {
@@ -4706,7 +5958,15 @@
                   "Operación puntual"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_confeti__maquina___canon_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_confeti__maquina___canon__0.jpg",
+                  "/images/services/gallery_confeti__maquina___canon__1.jpg",
+                  "/images/services/gallery_confeti__maquina___canon__2.jpg",
+                  "/images/services/gallery_confeti__maquina___canon__3.jpg",
+                  "/images/services/gallery_confeti__maquina___canon__4.jpg"
+                ]
               }
             },
             {
@@ -4730,7 +5990,15 @@
                   "Operación sincronizada"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_co2_jets___efecto_frio.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_co2_jets___efecto_frio_0.jpg",
+                  "/images/services/gallery_co2_jets___efecto_frio_1.jpg",
+                  "/images/services/gallery_co2_jets___efecto_frio_2.jpg",
+                  "/images/services/gallery_co2_jets___efecto_frio_3.jpg",
+                  "/images/services/gallery_co2_jets___efecto_frio_4.jpg"
+                ]
               }
             },
             {
@@ -4754,7 +6022,15 @@
                   "Operación controlada"
                 ],
                 "factorsText": [],
-                "realValueText": ""
+                "realValueText": "",
+                "mainImage": "/images/services/main_maquina_de_burbujas.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_maquina_de_burbujas_0.jpg",
+                  "/images/services/gallery_maquina_de_burbujas_1.jpg",
+                  "/images/services/gallery_maquina_de_burbujas_2.jpg",
+                  "/images/services/gallery_maquina_de_burbujas_3.jpg",
+                  "/images/services/gallery_maquina_de_burbujas_4.jpg"
+                ]
               }
             }
           ]
@@ -4794,7 +6070,15 @@
                   "1 guardia cada 80–120 invitados"
                 ],
                 "factorsText": [],
-                "realValueText": "Reduce riesgos, controla consumo y protege a la familia."
+                "realValueText": "Reduce riesgos, controla consumo y protege a la familia.",
+                "mainImage": "/images/services/main_seguridad_privada.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_seguridad_privada_0.jpg",
+                  "/images/services/gallery_seguridad_privada_1.jpg",
+                  "/images/services/gallery_seguridad_privada_2.jpg",
+                  "/images/services/gallery_seguridad_privada_3.jpg",
+                  "/images/services/gallery_seguridad_privada_4.jpg"
+                ]
               }
             },
             {
@@ -4818,7 +6102,15 @@
                   "Apoyo ante incidentes menores"
                 ],
                 "factorsText": [],
-                "realValueText": "Protege vehículos y genera tranquilidad a invitados."
+                "realValueText": "Protege vehículos y genera tranquilidad a invitados.",
+                "mainImage": "/images/services/main_seguridad_en_parqueo.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_seguridad_en_parqueo_0.jpg",
+                  "/images/services/gallery_seguridad_en_parqueo_1.jpg",
+                  "/images/services/gallery_seguridad_en_parqueo_2.jpg",
+                  "/images/services/gallery_seguridad_en_parqueo_3.jpg",
+                  "/images/services/gallery_seguridad_en_parqueo_4.jpg"
+                ]
               }
             }
           ]
@@ -4849,7 +6141,15 @@
                   "Coordinación con seguridad"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita ingreso de personas no invitadas y mejora organización."
+                "realValueText": "Evita ingreso de personas no invitadas y mejora organización.",
+                "mainImage": "/images/services/main_staff_de_check_in.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_staff_de_check_in_0.jpg",
+                  "/images/services/gallery_staff_de_check_in_1.jpg",
+                  "/images/services/gallery_staff_de_check_in_2.jpg",
+                  "/images/services/gallery_staff_de_check_in_3.jpg",
+                  "/images/services/gallery_staff_de_check_in_4.jpg"
+                ]
               }
             },
             {
@@ -4878,7 +6178,15 @@
                   "Tipo de pulsera",
                   "Sistema digital o manual"
                 ],
-                "realValueText": "Ideal para eventos con alcohol o aforo controlado."
+                "realValueText": "Ideal para eventos con alcohol o aforo controlado.",
+                "mainImage": "/images/services/main_pulseras___qr_de_control.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_pulseras___qr_de_control_0.jpg",
+                  "/images/services/gallery_pulseras___qr_de_control_1.jpg",
+                  "/images/services/gallery_pulseras___qr_de_control_2.jpg",
+                  "/images/services/gallery_pulseras___qr_de_control_3.jpg",
+                  "/images/services/gallery_pulseras___qr_de_control_4.jpg"
+                ]
               }
             }
           ]
@@ -4912,7 +6220,15 @@
                   "Coordinación con MC y producción"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita desorden y mantiene fluidez ceremonial."
+                "realValueText": "Evita desorden y mantiene fluidez ceremonial.",
+                "mainImage": "/images/services/main_guion_de_protocolo.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_guion_de_protocolo_0.jpg",
+                  "/images/services/gallery_guion_de_protocolo_1.jpg",
+                  "/images/services/gallery_guion_de_protocolo_2.jpg",
+                  "/images/services/gallery_guion_de_protocolo_3.jpg",
+                  "/images/services/gallery_guion_de_protocolo_4.jpg"
+                ]
               }
             },
             {
@@ -4937,7 +6253,15 @@
                   "Supervisión durante evento"
                 ],
                 "factorsText": [],
-                "realValueText": "Evita extravíos y brinda tranquilidad a la familia."
+                "realValueText": "Evita extravíos y brinda tranquilidad a la familia.",
+                "mainImage": "/images/services/main_custodia_de_regalos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_custodia_de_regalos_0.jpg",
+                  "/images/services/gallery_custodia_de_regalos_1.jpg",
+                  "/images/services/gallery_custodia_de_regalos_2.jpg",
+                  "/images/services/gallery_custodia_de_regalos_3.jpg",
+                  "/images/services/gallery_custodia_de_regalos_4.jpg"
+                ]
               }
             }
           ]
@@ -4982,7 +6306,15 @@
                   "Tela importada",
                   "Marca o diseñador"
                 ],
-                "realValueText": "Es el elemento más importante de imagen y define el impacto visual en la entrada."
+                "realValueText": "Es el elemento más importante de imagen y define el impacto visual en la entrada.",
+                "mainImage": "/images/services/main_vestido_principal.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_vestido_principal_0.jpg",
+                  "/images/services/gallery_vestido_principal_1.jpg",
+                  "/images/services/gallery_vestido_principal_2.jpg",
+                  "/images/services/gallery_vestido_principal_3.jpg",
+                  "/images/services/gallery_vestido_principal_4.jpg"
+                ]
               }
             },
             {
@@ -5012,7 +6344,15 @@
                   "Marca",
                   "Tela"
                 ],
-                "realValueText": "Permite comodidad durante la fiesta sin sacrificar elegancia."
+                "realValueText": "Permite comodidad durante la fiesta sin sacrificar elegancia.",
+                "mainImage": "/images/services/main_segundo_vestido__cambio_para_fiesta_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_segundo_vestido__cambio_para_fiesta__0.jpg",
+                  "/images/services/gallery_segundo_vestido__cambio_para_fiesta__1.jpg",
+                  "/images/services/gallery_segundo_vestido__cambio_para_fiesta__2.jpg",
+                  "/images/services/gallery_segundo_vestido__cambio_para_fiesta__3.jpg",
+                  "/images/services/gallery_segundo_vestido__cambio_para_fiesta__4.jpg"
+                ]
               }
             },
             {
@@ -5042,7 +6382,15 @@
                   "Altura",
                   "Personalización"
                 ],
-                "realValueText": "Deben ser cómodos para soportar horas de pie y baile."
+                "realValueText": "Deben ser cómodos para soportar horas de pie y baile.",
+                "mainImage": "/images/services/main_zapatos.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_zapatos_0.jpg",
+                  "/images/services/gallery_zapatos_1.jpg",
+                  "/images/services/gallery_zapatos_2.jpg",
+                  "/images/services/gallery_zapatos_3.jpg",
+                  "/images/services/gallery_zapatos_4.jpg"
+                ]
               }
             },
             {
@@ -5070,7 +6418,15 @@
                   "Diseño artesanal",
                   "Material (metal, cristal, zirconia)"
                 ],
-                "realValueText": "Refuerza el concepto de princesa y protagonismo."
+                "realValueText": "Refuerza el concepto de princesa y protagonismo.",
+                "mainImage": "/images/services/main_tiara___corona.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_tiara___corona_0.jpg",
+                  "/images/services/gallery_tiara___corona_1.jpg",
+                  "/images/services/gallery_tiara___corona_2.jpg",
+                  "/images/services/gallery_tiara___corona_3.jpg",
+                  "/images/services/gallery_tiara___corona_4.jpg"
+                ]
               }
             },
             {
@@ -5098,7 +6454,15 @@
                   "Diseño",
                   "Marca"
                 ],
-                "realValueText": "Complementa el look sin sobrecargarlo."
+                "realValueText": "Complementa el look sin sobrecargarlo.",
+                "mainImage": "/images/services/main_joyeria___accesorios.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_joyeria___accesorios_0.jpg",
+                  "/images/services/gallery_joyeria___accesorios_1.jpg",
+                  "/images/services/gallery_joyeria___accesorios_2.jpg",
+                  "/images/services/gallery_joyeria___accesorios_3.jpg",
+                  "/images/services/gallery_joyeria___accesorios_4.jpg"
+                ]
               }
             },
             {
@@ -5122,7 +6486,15 @@
                   "Uso para fotos previas"
                 ],
                 "factorsText": [],
-                "realValueText": "Aporta contenido fotográfico profesional desde el inicio del día."
+                "realValueText": "Aporta contenido fotográfico profesional desde el inicio del día.",
+                "mainImage": "/images/services/main_bata__getting_ready_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_bata__getting_ready__0.jpg",
+                  "/images/services/gallery_bata__getting_ready__1.jpg",
+                  "/images/services/gallery_bata__getting_ready__2.jpg",
+                  "/images/services/gallery_bata__getting_ready__3.jpg",
+                  "/images/services/gallery_bata__getting_ready__4.jpg"
+                ]
               }
             },
             {
@@ -5152,7 +6524,15 @@
                   "Pedrería",
                   "Tiempo requerido"
                 ],
-                "realValueText": "Un vestido puede ser hermoso, pero sin ajuste perfecto pierde impacto."
+                "realValueText": "Un vestido puede ser hermoso, pero sin ajuste perfecto pierde impacto.",
+                "mainImage": "/images/services/main_ajustes_de_vestido__sastreria_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_ajustes_de_vestido__sastreria__0.jpg",
+                  "/images/services/gallery_ajustes_de_vestido__sastreria__1.jpg",
+                  "/images/services/gallery_ajustes_de_vestido__sastreria__2.jpg",
+                  "/images/services/gallery_ajustes_de_vestido__sastreria__3.jpg",
+                  "/images/services/gallery_ajustes_de_vestido__sastreria__4.jpg"
+                ]
               }
             }
           ]
@@ -5188,7 +6568,15 @@
                   "Tela",
                   "Sastrería personalizada"
                 ],
-                "realValueText": "El padre participa en protocolo, fotos oficiales y momentos simbólicos importantes."
+                "realValueText": "El padre participa en protocolo, fotos oficiales y momentos simbólicos importantes.",
+                "mainImage": "/images/services/main_traje_del_papa.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_traje_del_papa_0.jpg",
+                  "/images/services/gallery_traje_del_papa_1.jpg",
+                  "/images/services/gallery_traje_del_papa_2.jpg",
+                  "/images/services/gallery_traje_del_papa_3.jpg",
+                  "/images/services/gallery_traje_del_papa_4.jpg"
+                ]
               }
             },
             {
@@ -5217,7 +6605,15 @@
                   "Marca",
                   "Compra vs alquiler"
                 ],
-                "realValueText": "La madre es figura central en protocolo y fotografías oficiales."
+                "realValueText": "La madre es figura central en protocolo y fotografías oficiales.",
+                "mainImage": "/images/services/main_vestido_de_la_mama.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_vestido_de_la_mama_0.jpg",
+                  "/images/services/gallery_vestido_de_la_mama_1.jpg",
+                  "/images/services/gallery_vestido_de_la_mama_2.jpg",
+                  "/images/services/gallery_vestido_de_la_mama_3.jpg",
+                  "/images/services/gallery_vestido_de_la_mama_4.jpg"
+                ]
               }
             }
           ]
@@ -5252,7 +6648,15 @@
                   "Cantidad de integrantes",
                   "Nivel de formalidad"
                 ],
-                "realValueText": "La uniformidad visual es clave en entrada y coreografía."
+                "realValueText": "La uniformidad visual es clave en entrada y coreografía.",
+                "mainImage": "/images/services/main_vestuario_de_chambelanes.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_vestuario_de_chambelanes_0.jpg",
+                  "/images/services/gallery_vestuario_de_chambelanes_1.jpg",
+                  "/images/services/gallery_vestuario_de_chambelanes_2.jpg",
+                  "/images/services/gallery_vestuario_de_chambelanes_3.jpg",
+                  "/images/services/gallery_vestuario_de_chambelanes_4.jpg"
+                ]
               }
             },
             {
@@ -5280,7 +6684,15 @@
                   "Tela",
                   "Compra vs alquiler"
                 ],
-                "realValueText": "Refuerza estética del corte y coherencia en fotos grupales."
+                "realValueText": "Refuerza estética del corte y coherencia en fotos grupales.",
+                "mainImage": "/images/services/main_vestidos_de_damas_de_honor.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_vestidos_de_damas_de_honor_0.jpg",
+                  "/images/services/gallery_vestidos_de_damas_de_honor_1.jpg",
+                  "/images/services/gallery_vestidos_de_damas_de_honor_2.jpg",
+                  "/images/services/gallery_vestidos_de_damas_de_honor_3.jpg",
+                  "/images/services/gallery_vestidos_de_damas_de_honor_4.jpg"
+                ]
               }
             },
             {
@@ -5304,7 +6716,15 @@
                   "Coordinación con flor principal"
                 ],
                 "factorsText": [],
-                "realValueText": "Detalle pequeño que aporta elegancia y coherencia."
+                "realValueText": "Detalle pequeño que aporta elegancia y coherencia.",
+                "mainImage": "/images/services/main_boutonnieres_y_corsages.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_boutonnieres_y_corsages_0.jpg",
+                  "/images/services/gallery_boutonnieres_y_corsages_1.jpg",
+                  "/images/services/gallery_boutonnieres_y_corsages_2.jpg",
+                  "/images/services/gallery_boutonnieres_y_corsages_3.jpg",
+                  "/images/services/gallery_boutonnieres_y_corsages_4.jpg"
+                ]
               }
             }
           ]
@@ -5334,7 +6754,15 @@
                   "Accesorios decorativos"
                 ],
                 "factorsText": [],
-                "realValueText": "Elemento clave en fotografías y protocolo."
+                "realValueText": "Elemento clave en fotografías y protocolo.",
+                "mainImage": "/images/services/main_set_de_brindis__copas___accesorios_.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_set_de_brindis__copas___accesorios__0.jpg",
+                  "/images/services/gallery_set_de_brindis__copas___accesorios__1.jpg",
+                  "/images/services/gallery_set_de_brindis__copas___accesorios__2.jpg",
+                  "/images/services/gallery_set_de_brindis__copas___accesorios__3.jpg",
+                  "/images/services/gallery_set_de_brindis__copas___accesorios__4.jpg"
+                ]
               }
             },
             {
@@ -5359,7 +6787,15 @@
                   "Coordinación en protocolo"
                 ],
                 "factorsText": [],
-                "realValueText": "Aporta profundidad emocional al evento."
+                "realValueText": "Aporta profundidad emocional al evento.",
+                "mainImage": "/images/services/main_ceremonia_de_velas.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_ceremonia_de_velas_0.jpg",
+                  "/images/services/gallery_ceremonia_de_velas_1.jpg",
+                  "/images/services/gallery_ceremonia_de_velas_2.jpg",
+                  "/images/services/gallery_ceremonia_de_velas_3.jpg",
+                  "/images/services/gallery_ceremonia_de_velas_4.jpg"
+                ]
               }
             },
             {
@@ -5382,7 +6818,15 @@
                   "Coordinación con mesa de firmas"
                 ],
                 "factorsText": [],
-                "realValueText": "Se convierte en recuerdo tangible para la familia."
+                "realValueText": "Se convierte en recuerdo tangible para la familia.",
+                "mainImage": "/images/services/main_libro_de_firmas.jpg",
+                "galleryImages": [
+                  "/images/services/gallery_libro_de_firmas_0.jpg",
+                  "/images/services/gallery_libro_de_firmas_1.jpg",
+                  "/images/services/gallery_libro_de_firmas_2.jpg",
+                  "/images/services/gallery_libro_de_firmas_3.jpg",
+                  "/images/services/gallery_libro_de_firmas_4.jpg"
+                ]
               }
             }
           ]
