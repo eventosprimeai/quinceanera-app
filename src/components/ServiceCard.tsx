@@ -83,13 +83,15 @@ export default function ServiceCard({ item, categoryName, subcategoryName, guest
                                     <CircleDollarSign className="w-3 h-3" />
                                     A cotizar
                                 </span>
-                            ) : estimatedPrice.min === 0 && estimatedPrice.max === 0 ? (
+                            ) : item.pricingType === 'range' && item.priceRange ? (
+                                <span className="text-sm font-semibold text-[#c9a96e]">
+                                    ${item.priceRange.min.toLocaleString('es-ES')} - ${item.priceRange.max.toLocaleString('es-ES')}
+                                </span>
+                            ) : item.priceUSD === 0 ? (
                                 <span className="text-xs font-semibold text-emerald-400">Gratis</span>
                             ) : (
                                 <span className="text-sm font-semibold text-[#c9a96e]">
-                                    {estimatedPrice.min !== estimatedPrice.max
-                                        ? `$${estimatedPrice.min.toLocaleString()} - $${estimatedPrice.max.toLocaleString()}`
-                                        : `$${estimatedPrice.min.toLocaleString('en-US', { minimumFractionDigits: 2 })}`}
+                                    ${item.priceUSD?.toLocaleString('es-ES', { minimumFractionDigits: 2 })}
                                 </span>
                             )}
                             <span className="text-xs text-[#555]">{item.unitLabel}</span>
