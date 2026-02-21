@@ -119,20 +119,19 @@ export async function POST(req: NextRequest) {
       </div>
     `;
 
-    // 4. Send email — DESACTIVADO temporalmente
-    // try {
-    //   const emailSent = await sendQuoteEmail({
-    //     to: cleanData.email,
-    //     clientName: cleanData.fullName,
-    //     quoteId,
-    //     htmlBody: emailHtml,
-    //     pdfBuffer,
-    //   });
-    //   if (emailSent) markEmailSent(quoteId);
-    // } catch (emailErr) {
-    //   console.error('[EMAIL] Error:', emailErr);
-    // }
-    console.log('[EMAIL] Envío de email desactivado temporalmente.');
+    // 4. Send email
+    try {
+      const emailSent = await sendQuoteEmail({
+        to: cleanData.email,
+        clientName: cleanData.fullName,
+        quoteId,
+        htmlBody: emailHtml,
+        pdfBuffer,
+      });
+      if (emailSent) markEmailSent(quoteId);
+    } catch (emailErr) {
+      console.error('[EMAIL] Error:', emailErr);
+    }
 
     return NextResponse.json({
       success: true,
