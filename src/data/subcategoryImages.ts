@@ -2,7 +2,7 @@
 
 // Premium Unsplash imagery curated for each Quinceañera luxury subcategory
 export const subcategoryImages: Record<string, string> = {
-    "Quinceañera": "https://images.unsplash.com/photo-1542385262-cdf06b29cd16?q=80&w=2000&auto=format&fit=crop", // Elegant dress / detail
+    "Quinceañera": "https://images.unsplash.com/photo-1509927083803-4bd519298ac4?q=80&w=2000&auto=format&fit=crop", // Elegant dress / detail
     "Familia y corte": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2000&auto=format&fit=crop", // Elegant group / wedding style
     "Pre evento": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2000&auto=format&fit=crop", // Engagement/Pre-shoot style
     "Catering y bebidas": "https://images.unsplash.com/photo-1654922207993-2952fec328ae?q=80&w=2000&auto=format&fit=crop", // Elegant plating

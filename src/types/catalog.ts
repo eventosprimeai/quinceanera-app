@@ -23,6 +23,8 @@ export interface ServiceItem {
         includedText: string[];
         factorsText?: string[];
         realValueText?: string;
+        mainImage?: string;
+        galleryImages?: string[];
     };
 }
 

@@ -1,5 +1,6 @@
-import { X, CheckCircle2 } from 'lucide-react';
-import { useEffect } from 'react';
+import { X, CheckCircle2, Image as ImageIcon } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 interface PopupInfo {
     shortText: string;
@@ -9,6 +10,8 @@ interface PopupInfo {
     includedText: string[];
     factorsText?: string[];
     realValueText?: string;
+    mainImage?: string;
+    galleryImages?: string[];
 }
 
 interface Props {
@@ -48,56 +51,93 @@ export default function ServiceInfoPopup({ info, onClose }: Props) {
                 </div>
 
                 {/* Scrollable Content */}
-                <div className="p-5 overflow-y-auto custom-scrollbar flex-1 space-y-6">
-                    {/* Short Text Intro */}
-                    <p className="text-[#aaa] text-sm leading-relaxed">
-                        {info.shortText}
-                    </p>
-
-                    {/* Includes Section */}
-                    {info.includedText && info.includedText.length > 0 && (
-                        <div>
-                            <h4 className="text-sm font-semibold text-[#c9a96e] mb-3 uppercase tracking-wider text-[11px]">
-                                ¿Qué incluye generalmente?
-                            </h4>
-                            <ul className="space-y-2">
-                                {info.includedText.map((item, idx) => (
-                                    <li key={idx} className="flex items-start gap-2 text-sm text-[#ddd]">
-                                        <CheckCircle2 className="w-4 h-4 text-[#c9a96e]/60 mt-0.5 flex-shrink-0" />
-                                        <span className="leading-snug">{item}</span>
-                                    </li>
-                                ))}
-                            </ul>
+                <div className="overflow-y-auto custom-scrollbar flex-1 flex flex-col">
+                    {/* Main Image Header (Optional) */}
+                    {info.mainImage && (
+                        <div className="relative w-full h-48 md:h-56 shrink-0 border-b border-[#2a2a2a]">
+                            <Image
+                                src={info.mainImage}
+                                alt={info.title}
+                                fill
+                                className="object-cover"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
                         </div>
                     )}
 
-                    {/* Factors Section */}
-                    {info.factorsText && info.factorsText.length > 0 && (
-                        <div>
-                            <h4 className="text-sm font-semibold text-[#c9a96e] mb-3 uppercase tracking-wider text-[11px]">
-                                Qué influye en el precio
-                            </h4>
-                            <ul className="list-disc pl-4 space-y-1.5 marker:text-[#555]">
-                                {info.factorsText.map((item, idx) => (
-                                    <li key={idx} className="text-sm text-[#aaa]">
-                                        {item}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    )}
+                    <div className="p-5 space-y-6">
+                        {/* Short Text Intro */}
+                        <p className="text-[#aaa] text-sm leading-relaxed">
+                            {info.shortText}
+                        </p>
 
-                    {/* Real Value Section */}
-                    {info.realValueText && (
-                        <div className="bg-[#c9a96e]/10 border border-[#c9a96e]/20 p-4 rounded-xl">
-                            <h4 className="text-sm font-semibold text-[#c9a96e] mb-1">
-                                Valor Real
-                            </h4>
-                            <p className="text-sm text-[#eee] leading-relaxed">
-                                {info.realValueText}
-                            </p>
-                        </div>
-                    )}
+                        {/* Includes Section */}
+                        {info.includedText && info.includedText.length > 0 && (
+                            <div>
+                                <h4 className="text-sm font-semibold text-[#c9a96e] mb-3 uppercase tracking-wider text-[11px]">
+                                    ¿Qué incluye generalmente?
+                                </h4>
+                                <ul className="space-y-2">
+                                    {info.includedText.map((item, idx) => (
+                                        <li key={idx} className="flex items-start gap-2 text-sm text-[#ddd]">
+                                            <CheckCircle2 className="w-4 h-4 text-[#c9a96e]/60 mt-0.5 flex-shrink-0" />
+                                            <span className="leading-snug">{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+
+                        {/* Factors Section */}
+                        {info.factorsText && info.factorsText.length > 0 && (
+                            <div>
+                                <h4 className="text-sm font-semibold text-[#c9a96e] mb-3 uppercase tracking-wider text-[11px]">
+                                    Qué influye en el precio
+                                </h4>
+                                <ul className="list-disc pl-4 space-y-1.5 marker:text-[#555]">
+                                    {info.factorsText.map((item, idx) => (
+                                        <li key={idx} className="text-sm text-[#aaa]">
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+
+                        {/* Real Value Section */}
+                        {info.realValueText && (
+                            <div className="bg-[#c9a96e]/10 border border-[#c9a96e]/20 p-4 rounded-xl">
+                                <h4 className="text-sm font-semibold text-[#c9a96e] mb-1">
+                                    Valor Real
+                                </h4>
+                                <p className="text-sm text-[#eee] leading-relaxed">
+                                    {info.realValueText}
+                                </p>
+                            </div>
+                        )}
+
+                        {/* Reference Gallery Section */}
+                        {info.galleryImages && info.galleryImages.length > 0 && (
+                            <div>
+                                <h4 className="text-sm font-semibold text-[#c9a96e] mb-3 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
+                                    <ImageIcon className="w-3.5 h-3.5" />
+                                    Galería de Referencias ({info.galleryImages.length})
+                                </h4>
+                                <div className="grid grid-cols-2 gap-2 mt-2">
+                                    {info.galleryImages.map((img, idx) => (
+                                        <div key={idx} className="relative w-full h-32 rounded-lg overflow-hidden border border-[#2a2a2a]">
+                                            <Image
+                                                src={img}
+                                                alt={`Referencia ${idx + 1}`}
+                                                fill
+                                                className="object-cover hover:scale-105 transition-transform duration-500"
+                                            />
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                    </div>
                 </div>
 
                 {/* Footer */}
