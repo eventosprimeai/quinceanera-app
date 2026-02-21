@@ -128,10 +128,10 @@ export default function QuoteSummaryPanel({ onRequestPDF, mobileMode }: Props) {
                     <FileText className="w-4 h-4" />
                     Ver resumen y descargar PDF
                 </Link>
-                <button className="btn-ghost w-full justify-center text-sm !py-3">
+                <Link href="/cotizar/resumen" className="btn-ghost w-full justify-center text-sm !py-3">
                     <Mail className="w-4 h-4" />
                     Enviar a mi correo
-                </button>
+                </Link>
             </div>
 
             <p className="text-[10px] text-[#444] text-center">
