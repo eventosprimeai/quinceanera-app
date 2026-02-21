@@ -34,6 +34,7 @@ export default function CotizarPage() {
     const [activeCategory, setActiveCategory] = useState<string | null>(null);
     const [searchQuery, setSearchQuery] = useState('');
     const [showForm, setShowForm] = useState(true);
+    const [formErrors, setFormErrors] = useState<{ fullName?: boolean; email?: boolean; whatsapp?: boolean; invalidEmail?: boolean }>({});
 
     /* ── Parallax: measure banner dimensions for fixed background ── */
     const bannerRef = useRef<HTMLDivElement>(null);
@@ -97,33 +98,42 @@ export default function CotizarPage() {
                                 </h3>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                     <div>
-                                        <label className="text-xs text-[#888] mb-1 block">Tu nombre</label>
+                                        <label className="text-xs text-[#888] mb-1 block">Tu nombre <span className="text-[#c9a96e] font-bold">*</span></label>
                                         <input
                                             type="text"
                                             value={formData.fullName}
-                                            onChange={e => setFormData({ fullName: e.target.value })}
+                                            onChange={e => {
+                                                setFormData({ fullName: e.target.value });
+                                                if (formErrors.fullName) setFormErrors({ ...formErrors, fullName: false });
+                                            }}
                                             placeholder="María García"
-                                            className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-3 py-2.5 text-sm text-white placeholder:text-[#444] focus:border-[#c9a96e]/50 focus:outline-none transition-colors"
+                                            className={`w-full bg-[#0a0a0a] border rounded-lg px-3 py-2.5 text-sm text-white placeholder:text-[#444] focus:outline-none transition-colors ${formErrors.fullName ? 'border-red-500/50 focus:border-red-500/50' : 'border-[#2a2a2a] focus:border-[#c9a96e]/50'}`}
                                         />
                                     </div>
                                     <div>
-                                        <label className="text-xs text-[#888] mb-1 block">Email</label>
+                                        <label className="text-xs text-[#888] mb-1 block">Email <span className="text-[#c9a96e] font-bold">*</span></label>
                                         <input
                                             type="email"
                                             value={formData.email}
-                                            onChange={e => setFormData({ email: e.target.value })}
+                                            onChange={e => {
+                                                setFormData({ email: e.target.value });
+                                                if (formErrors.email || formErrors.invalidEmail) setFormErrors({ ...formErrors, email: false, invalidEmail: false });
+                                            }}
                                             placeholder="maria@email.com"
-                                            className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-3 py-2.5 text-sm text-white placeholder:text-[#444] focus:border-[#c9a96e]/50 focus:outline-none transition-colors"
+                                            className={`w-full bg-[#0a0a0a] border rounded-lg px-3 py-2.5 text-sm text-white placeholder:text-[#444] focus:outline-none transition-colors ${(formErrors.email || formErrors.invalidEmail) ? 'border-red-500/50 focus:border-red-500/50' : 'border-[#2a2a2a] focus:border-[#c9a96e]/50'}`}
                                         />
                                     </div>
                                     <div>
-                                        <label className="text-xs text-[#888] mb-1 block">WhatsApp</label>
+                                        <label className="text-xs text-[#888] mb-1 block">WhatsApp <span className="text-[#c9a96e] font-bold">*</span></label>
                                         <input
                                             type="tel"
                                             value={formData.whatsapp}
-                                            onChange={e => setFormData({ whatsapp: e.target.value })}
+                                            onChange={e => {
+                                                setFormData({ whatsapp: e.target.value });
+                                                if (formErrors.whatsapp) setFormErrors({ ...formErrors, whatsapp: false });
+                                            }}
                                             placeholder="+593 99 999 9999"
-                                            className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-3 py-2.5 text-sm text-white placeholder:text-[#444] focus:border-[#c9a96e]/50 focus:outline-none transition-colors"
+                                            className={`w-full bg-[#0a0a0a] border rounded-lg px-3 py-2.5 text-sm text-white placeholder:text-[#444] focus:outline-none transition-colors ${formErrors.whatsapp ? 'border-red-500/50 focus:border-red-500/50' : 'border-[#2a2a2a] focus:border-[#c9a96e]/50'}`}
                                         />
                                     </div>
                                     <div>
@@ -189,9 +199,32 @@ export default function CotizarPage() {
                                     </div>
                                 )}
 
+                                {formErrors.invalidEmail && (
+                                    <p className="text-red-400 text-xs text-center mt-5">Por favor ingresa un correo electrónico válido.</p>
+                                )}
+                                {(formErrors.fullName || formErrors.email || formErrors.whatsapp) && !formErrors.invalidEmail && (
+                                    <p className="text-red-400 text-xs text-center mt-5">Por favor completa todos los campos obligatorios (*) para cotizar.</p>
+                                )}
                                 <button
-                                    className="btn-gold w-full mt-6 justify-center"
-                                    onClick={() => setShowForm(false)}
+                                    className="btn-gold w-full mt-4 justify-center"
+                                    onClick={() => {
+                                        const rawEmail = formData.email.trim();
+                                        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                                        const errors = {
+                                            fullName: !formData.fullName.trim(),
+                                            email: !rawEmail,
+                                            whatsapp: !formData.whatsapp.trim(),
+                                            invalidEmail: rawEmail ? !emailRegex.test(rawEmail) : false
+                                        };
+
+                                        if (errors.fullName || errors.email || errors.whatsapp || errors.invalidEmail) {
+                                            setFormErrors(errors);
+                                        } else {
+                                            setFormErrors({});
+                                            setShowForm(false);
+                                        }
+                                    }}
                                 >
                                     <Sparkles className="w-4 h-4" />
                                     Continuar a servicios
