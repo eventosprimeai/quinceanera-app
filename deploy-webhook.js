@@ -49,7 +49,7 @@ const server = http.createServer((req, res) => {
 
             // Run deploy in background
             try {
-                execSync(`cd ${APP_DIR} && git pull origin main 2>&1`, { timeout: 30000 });
+                execSync(`cd ${APP_DIR} && git fetch origin main && git reset --hard origin/main 2>&1`, { timeout: 30000 });
                 log('Git pull OK');
                 execSync(`cd ${APP_DIR} && npm install --production 2>&1`, { timeout: 120000 });
                 log('npm install OK');
