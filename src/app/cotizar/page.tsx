@@ -8,6 +8,7 @@ import QuoteSummaryPanel from '@/components/QuoteSummaryPanel';
 import { useQuoteStore } from '@/store/quoteStore';
 import catalogData from '@/data/serviceCatalog.json';
 import { getCategoryImage } from '@/data/categoryImages';
+import { getSubcategoryImage } from '@/data/subcategoryImages';
 import type { ServiceCategory, ServiceSubcategory, ServiceItem } from '@/types/catalog';
 import Image from 'next/image';
 import {
@@ -362,46 +363,81 @@ export default function CotizarPage() {
                                         {/* Title is now inside the parallax banner above */}
 
                                         {/* Render subcategories and items */}
-                                        {activeCat?.subcategories?.map(sub => (
-                                            <div key={sub.id} className="mb-6">
-                                                <h3 className="text-sm font-semibold text-[#c9a96e] uppercase tracking-wider mb-3">
-                                                    {sub.name}
-                                                </h3>
-                                                {/* Nested subcategories */}
-                                                {sub.subcategories?.map(nested => (
-                                                    <div key={nested.id} className="mb-4 ml-2">
-                                                        <h4 className="text-xs font-medium text-[#888] mb-2">{nested.name}</h4>
+                                        {activeCat?.subcategories?.map(sub => {
+                                            const subImg = getSubcategoryImage(sub.name);
+                                            return (
+                                                <div key={sub.id} className="mb-8">
+                                                    {/* Subcategory Header Banner */}
+                                                    {subImg ? (
+                                                        <div className="relative w-full h-32 md:h-40 rounded-xl overflow-hidden mb-4 group">
+                                                            <Image src={subImg} alt={sub.name} fill className="object-cover opacity-60 group-hover:opacity-80 transition-all duration-700 group-hover:scale-105" />
+                                                            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/40 to-transparent" />
+                                                            <div className="absolute bottom-3 left-4 z-10 flex items-center gap-2">
+                                                                <div className="w-1 h-5 bg-[#c9a96e] rounded-full" />
+                                                                <h3 className="text-lg md:text-xl font-bold text-white drop-shadow-lg tracking-wide" style={{ fontFamily: 'var(--font-serif)' }}>
+                                                                    {sub.name}
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                    ) : (
+                                                        <h3 className="text-sm font-semibold text-[#c9a96e] uppercase tracking-wider mb-4 flex items-center gap-2">
+                                                            <div className="w-1 h-3 bg-[#c9a96e] rounded-full" />
+                                                            {sub.name}
+                                                        </h3>
+                                                    )}
+                                                    {/* Nested subcategories */}
+                                                    {sub.subcategories?.map(nested => {
+                                                        const nestedImg = getSubcategoryImage(nested.name);
+                                                        return (
+                                                            <div key={nested.id} className="mb-6 ml-0 md:ml-4">
+                                                                {nestedImg ? (
+                                                                    <div className="relative w-full h-24 md:h-32 rounded-lg overflow-hidden mb-4 group mt-1">
+                                                                        <Image src={nestedImg} alt={nested.name} fill className="object-cover opacity-50 group-hover:opacity-75 transition-all duration-700" />
+                                                                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
+                                                                        <h4 className="absolute bottom-2 left-3 text-sm font-semibold text-white drop-shadow-md shadow-black flex items-center gap-1.5">
+                                                                            <div className="w-1 h-3 bg-[#c9a96e]/60 rounded-full" />
+                                                                            {nested.name}
+                                                                        </h4>
+                                                                    </div>
+                                                                ) : (
+                                                                    <h4 className="text-xs font-semibold text-[#888] mb-3 uppercase tracking-wider flex items-center gap-1.5">
+                                                                        <div className="w-1 h-2 bg-[#888] rounded-full" />
+                                                                        {nested.name}
+                                                                    </h4>
+                                                                )}
+                                                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                                                    {nested.items?.map(item => (
+                                                                        <ServiceCard
+                                                                            key={item.id}
+                                                                            item={item as ServiceItem}
+                                                                            categoryName={activeCat.name}
+                                                                            subcategoryName={nested.name}
+                                                                            guestCount={formData.guestCount}
+                                                                            eventHours={formData.eventHours}
+                                                                        />
+                                                                    ))}
+                                                                </div>
+                                                            </div>
+                                                        )
+                                                    })}
+                                                    {/* Direct items */}
+                                                    {sub.items && (
                                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                                            {nested.items?.map(item => (
+                                                            {sub.items.map(item => (
                                                                 <ServiceCard
                                                                     key={item.id}
                                                                     item={item as ServiceItem}
                                                                     categoryName={activeCat.name}
-                                                                    subcategoryName={nested.name}
+                                                                    subcategoryName={sub.name}
                                                                     guestCount={formData.guestCount}
                                                                     eventHours={formData.eventHours}
                                                                 />
                                                             ))}
                                                         </div>
-                                                    </div>
-                                                ))}
-                                                {/* Direct items */}
-                                                {sub.items && (
-                                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                                        {sub.items.map(item => (
-                                                            <ServiceCard
-                                                                key={item.id}
-                                                                item={item as ServiceItem}
-                                                                categoryName={activeCat.name}
-                                                                subcategoryName={sub.name}
-                                                                guestCount={formData.guestCount}
-                                                                eventHours={formData.eventHours}
-                                                            />
-                                                        ))}
-                                                    </div>
-                                                )}
-                                            </div>
-                                        ))}
+                                                    )}
+                                                </div>
+                                            )
+                                        })}
 
                                         {/* Items directly on category */}
                                         {activeCat?.items && (
