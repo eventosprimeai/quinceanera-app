@@ -1,0 +1,2084 @@
+{
+  "version": "2.0",
+  "currency": "USD",
+  "locationRules": {
+    "baseCity": "Guayaquil",
+    "outsideCityLogisticsRule": {
+      "modeOptions": [
+        "percent",
+        "fixed_fee",
+        "quote_only"
+      ],
+      "defaultMode": "quote_only",
+      "percentDefault": 0.15,
+      "fixedFeeDefaultUSD": 250,
+      "note": "Si el evento es fuera de Guayaquil, se puede aplicar un porcentaje sobre el subtotal cotizable o un fee fijo; o dejar como 'A cotizar'."
+    },
+    "outsideCityLogisticsItem": {
+      "id": "logistics_outside_city",
+      "name": "Logística y viáticos fuera de Guayaquil",
+      "description": "Traslado de equipo y staff a otra provincia. Se calcula según ciudad, carga, tiempos y condiciones del venue.",
+      "pricingType": "quoteOnly",
+      "priceUSD": null,
+      "unitLabel": "por proyecto",
+      "imageQuery": "event production truck loading equipment"
+    }
+  },
+  "categories": [
+    {
+      "id": "creative_direction",
+      "name": "Concepto y dirección creativa",
+      "description": "Definimos la visión estética, narrativa y experiencia del evento.",
+      "subcategories": [
+        {
+          "id": "concept_theme",
+          "name": "Concepto, temática y moodboard",
+          "items": [
+            {
+              "id": "creative_brief_session",
+              "name": "Sesión creativa inicial (brief + estilo)",
+              "description": "Definición de estilo, paleta preliminar y prioridades. Entrega: mismo día. Proceso: reunión guiada y dirección inicial.",
+              "pricingType": "fixed",
+              "priceUSD": 80,
+              "unitLabel": "por sesión",
+              "imageQuery": "luxury event planning moodboard meeting"
+            },
+            {
+              "id": "theme_development",
+              "name": "Desarrollo de temática completa",
+              "description": "Concepto integral: estética, dress code, atmósfera y momentos icónicos. Entrega: 2–3 semanas. Proceso: investigación, propuesta y validación.",
+              "pricingType": "fixed",
+              "priceUSD": 400,
+              "unitLabel": "por proyecto",
+              "imageQuery": "luxury quinceanera theme concept design"
+            },
+            {
+              "id": "color_palette_design",
+              "name": "Paleta de color + guía de estilo",
+              "description": "Documento visual con colores, tipografías, texturas y lineamientos. Entrega: 1–2 semanas. Proceso: diseño y ajustes según feedback.",
+              "pricingType": "fixed",
+              "priceUSD": 200,
+              "unitLabel": "por proyecto",
+              "imageQuery": "event color palette luxury pastel gold"
+            },
+            {
+              "id": "storyboard_experience",
+              "name": "Storyboard de experiencia",
+              "description": "Mapa narrativo de la noche: entrada, protocolo, show y cierre. Entrega: 2–3 semanas. Proceso: conceptualización y aprobación final.",
+              "pricingType": "fixed",
+              "priceUSD": 300,
+              "unitLabel": "por proyecto",
+              "imageQuery": "event storyboard luxury timeline planning"
+            }
+          ]
+        },
+        {
+          "id": "branding_graphics",
+          "name": "Branding del evento",
+          "items": [
+            {
+              "id": "monogram_logo",
+              "name": "Monograma / logo del evento",
+              "description": "Identidad visual para invitaciones, pantallas y recuerdos. Entrega: 1–2 semanas. Proceso: diseño y validación.",
+              "pricingType": "fixed",
+              "priceUSD": 150,
+              "unitLabel": "por proyecto",
+              "imageQuery": "luxury monogram design quinceanera"
+            },
+            {
+              "id": "visual_assets_pack",
+              "name": "Paquete de assets visuales",
+              "description": "Fondos, patterns y firmas digitales para coherencia visual. Entrega: 1–2 semanas. Proceso: creación y entrega de archivos.",
+              "pricingType": "fixed",
+              "priceUSD": 200,
+              "unitLabel": "por proyecto",
+              "imageQuery": "graphic design assets luxury branding"
+            },
+            {
+              "id": "screen_content_design",
+              "name": "Diseño de contenido para pantalla",
+              "description": "Nombre, monograma, transiciones, fondos y loop para LED. Entrega: 1–2 semanas. Proceso: diseño audiovisual y pruebas técnicas.",
+              "pricingType": "fixed",
+              "priceUSD": 300,
+              "unitLabel": "por proyecto",
+              "imageQuery": "LED screen content design event"
+            }
+          ]
+        },
+        {
+          "id": "musical_identity",
+          "name": "Identidad musical",
+          "items": [
+            {
+              "id": "music_curation",
+              "name": "Curaduría musical por momentos",
+              "description": "Selección por bloques: entrada, cena, vals, brindis, fiesta y cierre. Entrega: 1 semana. Proceso: propuesta y ajustes con cliente.",
+              "pricingType": "fixed",
+              "priceUSD": 150,
+              "unitLabel": "por evento",
+              "imageQuery": "DJ music playlist luxury event"
+            },
+            {
+              "id": "no_play_list",
+              "name": "Lista 'No poner' + tonos sensibles",
+              "description": "Control de canciones prohibidas y alineación con familia. Entrega: mismo día. Proceso: recopilación y validación.",
+              "pricingType": "fixed",
+              "priceUSD": 0,
+              "unitLabel": "por evento",
+              "imageQuery": "music production headphones studio",
+              "freeWithBundle": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planning_management",
+      "name": "Planificación y producción ejecutiva",
+      "description": "Gestión profesional: cronograma, proveedores, presupuesto y control.",
+      "subcategories": [
+        {
+          "id": "project_management",
+          "name": "Gestión del proyecto",
+          "items": [
+            {
+              "id": "master_timeline",
+              "name": "Cronograma maestro",
+              "description": "Run of show y calendarización por hitos: reuniones, pagos, pruebas y ensayos.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "event run of show timeline production sheet"
+            },
+            {
+              "id": "budget_control",
+              "name": "Control de presupuesto y priorización",
+              "description": "Estructura por categorías; control de desviaciones.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "budget spreadsheet planning financial"
+            },
+            {
+              "id": "vendor_sourcing",
+              "name": "Búsqueda y negociación de proveedores",
+              "description": "Selección, negociación, contratación y coordinación.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "event planner vendor coordination"
+            },
+            {
+              "id": "contract_admin",
+              "name": "Administración de contratos y pagos",
+              "description": "Gestión documental: anticipos, calendarios, supervisión.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "contract signing business document"
+            }
+          ]
+        },
+        {
+          "id": "on_site_coordination",
+          "name": "Coordinación en sitio",
+          "items": [
+            {
+              "id": "event_day_director",
+              "name": "Director(a) general del evento",
+              "description": "Dirección en sitio: tiempos, proveedores, protocolo y contingencias.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "event director headset luxury gala"
+            },
+            {
+              "id": "assistant_coordinators",
+              "name": "Asistentes de coordinación",
+              "description": "Equipo de apoyo para backstage, invitados y timing.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por persona",
+              "imageQuery": "event staff coordination team",
+              "defaultQty": 2,
+              "allowCustomQty": true
+            },
+            {
+              "id": "backstage_manager",
+              "name": "Backstage manager",
+              "description": "Responsable de camerinos, cambios y cues de entrada.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "backstage event manager production"
+            },
+            {
+              "id": "rehearsal_coordination",
+              "name": "Ensayo general",
+              "description": "Ensayo de entrada, vals, coreografías y cues.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por ensayo",
+              "imageQuery": "quinceanera rehearsal ballroom"
+            }
+          ]
+        },
+        {
+          "id": "guests_protocol",
+          "name": "Invitados, padrinos y protocolo",
+          "items": [
+            {
+              "id": "guest_list_system",
+              "name": "Sistema de lista de invitados",
+              "description": "Consolidación, RSVP, control de mesas y recordatorios.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "guest list invitation event management"
+            },
+            {
+              "id": "seating_plan_design",
+              "name": "Diseño de seating plan",
+              "description": "Estrategia de mesas, jerarquías y plano final.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "seating chart design luxury wedding"
+            },
+            {
+              "id": "padrinos_coordination",
+              "name": "Coordinación de padrinos y aportes",
+              "description": "Control de compromisos, entregas y aportes.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "family meeting planning celebration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venue_logistics",
+      "name": "Locación y logística",
+      "description": "Selección de espacio, layout, transporte, permisos y plan B.",
+      "subcategories": [
+        {
+          "id": "venue_selection",
+          "name": "Locación",
+          "items": [
+            {
+              "id": "venue_scouting",
+              "name": "Búsqueda y scouting de locación",
+              "description": "Opciones y visitas para evaluar aforo, acústica, energía y altura.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "luxury event venue scouting walkthrough"
+            },
+            {
+              "id": "site_inspection",
+              "name": "Visita técnica (site inspection)",
+              "description": "Mediciones, accesos, energía, rigging y plan de montaje.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por visita",
+              "imageQuery": "event venue technical inspection"
+            },
+            {
+              "id": "venue_negotiation",
+              "name": "Asesoría en reserva y negociación",
+              "description": "Soporte para cerrar contrato: horarios, restricciones, staff.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "venue contract negotiation meeting"
+            }
+          ]
+        },
+        {
+          "id": "layout_zoning",
+          "name": "Layout y zoning",
+          "items": [
+            {
+              "id": "space_layout_design",
+              "name": "Diseño de layout (plano)",
+              "description": "Plano con mesas, pista, escenario, DJ, barras, backstage y flujos.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por plano",
+              "imageQuery": "event floor plan layout design"
+            },
+            {
+              "id": "flow_signage",
+              "name": "Señalización de flujos",
+              "description": "Señalización de circulación para evitar congestión.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "event directional signage elegant"
+            }
+          ]
+        },
+        {
+          "id": "transport_parking",
+          "name": "Transporte y parqueo",
+          "items": [
+            {
+              "id": "classic_car",
+              "name": "Auto clásico para la quinceañera",
+              "description": "Llegada icónica según disponibilidad.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "classic car quinceanera arrival luxury"
+            },
+            {
+              "id": "limousine",
+              "name": "Limosina",
+              "description": "Transporte premium para quinceañera y corte.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "limousine luxury event transport"
+            },
+            {
+              "id": "shuttle_service",
+              "name": "Van / shuttle para corte",
+              "description": "Transporte coordinado para damas y chambelanes.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por ruta",
+              "imageQuery": "event shuttle van luxury transportation"
+            },
+            {
+              "id": "valet_service",
+              "name": "Valet parking",
+              "description": "Recepción premium de invitados.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "valet parking luxury event entrance"
+            }
+          ]
+        },
+        {
+          "id": "permits_planb",
+          "name": "Permisos y plan B",
+          "items": [
+            {
+              "id": "rain_plan_b",
+              "name": "Plan B por lluvia / clima",
+              "description": "Carpas, toldos, reubicación y plan alterno.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "outdoor event tent rain cover luxury"
+            },
+            {
+              "id": "permits",
+              "name": "Permisos y autorizaciones",
+              "description": "Gestión de permisos municipales, ruidos, pirotecnia fría.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "event permit document city hall"
+            },
+            {
+              "id": "liability_insurance",
+              "name": "Seguro de responsabilidad civil",
+              "description": "Cobertura según requerimientos del venue.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "insurance document event coverage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technical_production",
+      "name": "Producción técnica",
+      "description": "Audio, iluminación, video, escenario, energía y efectos.",
+      "subcategories": [
+        {
+          "id": "sound",
+          "name": "Sonido",
+          "items": [
+            {
+              "id": "dj_service",
+              "name": "DJ profesional",
+              "description": "DJ con guía musical por momentos y lectura de pista.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "professional DJ setup luxury event"
+            },
+            {
+              "id": "sound_system_pa",
+              "name": "Sistema de sonido PA",
+              "description": "Sistema principal + subwoofers ajustado al venue.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "concert sound system speakers line array"
+            },
+            {
+              "id": "mixing_console",
+              "name": "Consola digital",
+              "description": "Consola adecuada al número de canales.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "digital mixing console audio event"
+            },
+            {
+              "id": "wireless_microphones",
+              "name": "Micrófonos inalámbricos",
+              "description": "Para discursos, MC, brindis y protocolo.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "wireless microphone handheld premium",
+              "defaultQty": 2,
+              "allowCustomQty": true
+            },
+            {
+              "id": "headset_mic",
+              "name": "Micrófono headset para MC",
+              "description": "Para maestro de ceremonias.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "headset microphone event MC",
+              "defaultQty": 1
+            },
+            {
+              "id": "stage_monitors",
+              "name": "Monitores de escenario",
+              "description": "Para performances, vals y músicos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "stage monitor speaker event"
+            },
+            {
+              "id": "sound_technician",
+              "name": "Técnico de sonido",
+              "description": "Operación durante montaje, pruebas y evento.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "sound engineer mixing live event"
+            }
+          ]
+        },
+        {
+          "id": "lighting",
+          "name": "Iluminación",
+          "subcategories": [
+            {
+              "id": "ambient_lighting",
+              "name": "Ambientación y arquitectura",
+              "items": [
+                {
+                  "id": "architectural_uplighting",
+                  "name": "Uplighting arquitectónico",
+                  "description": "Iluminación de paredes/columnas para transformar el espacio.",
+                  "pricingType": "quoteOnly",
+                  "priceUSD": null,
+                  "unitLabel": "por evento",
+                  "imageQuery": "architectural uplighting ballroom"
+                },
+                {
+                  "id": "warm_dinner_lighting",
+                  "name": "Diseño de luz cálida para cena",
+                  "description": "Capa de iluminación cálida para mesa y rostros.",
+                  "pricingType": "quoteOnly",
+                  "priceUSD": null,
+                  "unitLabel": "por evento",
+                  "imageQuery": "warm dinner lighting luxury event candles"
+                },
+                {
+                  "id": "string_lights",
+                  "name": "Guirnaldas / string lights",
+                  "description": "Luces cálidas decorativas estilo jardín romántico.",
+                  "pricingType": "quoteOnly",
+                  "priceUSD": null,
+                  "unitLabel": "por montaje",
+                  "imageQuery": "string lights luxury event ceiling"
+                }
+              ]
+            },
+            {
+              "id": "dancefloor_lighting",
+              "name": "Pista, show y dinámica",
+              "items": [
+                {
+                  "id": "moving_heads",
+                  "name": "Luces robóticas (moving heads)",
+                  "description": "Iluminación dinámica para show y fiesta.",
+                  "pricingType": "quoteOnly",
+                  "priceUSD": null,
+                  "unitLabel": "por set",
+                  "imageQuery": "moving head lights stage club"
+                },
+                {
+                  "id": "beam_effects",
+                  "name": "Beam / efectos de haz",
+                  "description": "Efectos de haz finos para momentos de alto impacto.",
+                  "pricingType": "quoteOnly",
+                  "priceUSD": null,
+                  "unitLabel": "por set",
+                  "imageQuery": "beam lights event stage effects"
+                },
+                {
+                  "id": "follow_spot",
+                  "name": "Seguidor / follow spot",
+                  "description": "Seguimiento puntual para entrada, vals y momentos principales.",
+                  "pricingType": "quoteOnly",
+                  "priceUSD": null,
+                  "unitLabel": "por evento",
+                  "imageQuery": "follow spot light event stage"
+                },
+                {
+                  "id": "hazer",
+                  "name": "Hazer (neblina ligera)",
+                  "description": "Realza haces de luz; ideal para show y fotos.",
+                  "pricingType": "quoteOnly",
+                  "priceUSD": null,
+                  "unitLabel": "por evento",
+                  "imageQuery": "hazer fog machine light beams event"
+                },
+                {
+                  "id": "lighting_operator",
+                  "name": "Operador de iluminación",
+                  "description": "Programación y operación en vivo por momentos.",
+                  "pricingType": "fixed",
+                  "priceUSD": null,
+                  "unitLabel": "por evento",
+                  "imageQuery": "lighting operator console event"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "video_screens",
+          "name": "Video y pantallas",
+          "items": [
+            {
+              "id": "led_screen",
+              "name": "Pantalla LED",
+              "description": "Para visuales, videos, nombre y cámara en vivo.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "LED screen event stage quinceanera"
+            },
+            {
+              "id": "projection_system",
+              "name": "Proyector + pantalla",
+              "description": "Alternativa a LED según venue y luz.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "projector screen ballroom event"
+            },
+            {
+              "id": "live_cameras",
+              "name": "Cámaras para IMAG",
+              "description": "Para mostrar en pantallas momentos clave.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "live camera event IMAG production"
+            },
+            {
+              "id": "video_switcher",
+              "name": "Switcher / mezclador de video",
+              "description": "Control de fuentes: cámaras + videos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "video switcher production event"
+            },
+            {
+              "id": "private_streaming",
+              "name": "Streaming privado",
+              "description": "Transmisión para familiares que no asisten.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "live streaming event private broadcast"
+            }
+          ]
+        },
+        {
+          "id": "stage_structures",
+          "name": "Escenario y estructuras",
+          "items": [
+            {
+              "id": "main_stage",
+              "name": "Tarima / escenario principal",
+              "description": "Plataforma para entrada, protocolo y performance.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "event stage platform truss luxury"
+            },
+            {
+              "id": "dj_stage",
+              "name": "Tarima para DJ",
+              "description": "Tarima dedicada para DJ y control técnico.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "DJ booth stage platform event"
+            },
+            {
+              "id": "runway_pasarela",
+              "name": "Pasarela / runway",
+              "description": "Pasarela para entrada y fotos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "event runway pasarela quinceanera entrance"
+            },
+            {
+              "id": "truss_structure",
+              "name": "Estructura truss",
+              "description": "Para colgar iluminación y elementos escénicos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "truss lighting structure event"
+            },
+            {
+              "id": "dance_floor",
+              "name": "Pista de baile",
+              "description": "Pista según tamaño (m²).",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "dance floor luxury event ballroom"
+            },
+            {
+              "id": "led_dance_floor",
+              "name": "Pista LED (opcional)",
+              "description": "Pista de baile LED para efecto wow.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "LED dance floor party lights"
+            }
+          ]
+        },
+        {
+          "id": "power_distribution",
+          "name": "Energía y distribución",
+          "items": [
+            {
+              "id": "power_distribution",
+              "name": "Distribución eléctrica y cableado",
+              "description": "Plan de energía para audio/luces/LED; canalización segura.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "electrical distribution event power cable"
+            },
+            {
+              "id": "ups_backup",
+              "name": "UPS / respaldo crítico",
+              "description": "Respaldo para equipos de control.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "UPS backup power event production"
+            },
+            {
+              "id": "generator",
+              "name": "Generador eléctrico",
+              "description": "Para venues sin capacidad suficiente.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por día",
+              "imageQuery": "generator outdoor event power"
+            }
+          ]
+        },
+        {
+          "id": "special_effects",
+          "name": "Efectos especiales",
+          "items": [
+            {
+              "id": "cold_sparks",
+              "name": "Chispas frías (cold sparks)",
+              "description": "Efecto seguro para entrada/vals.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "cold sparks indoor event entrance"
+            },
+            {
+              "id": "low_fog",
+              "name": "Humo bajo (low fog) para vals",
+              "description": "Efecto 'nube' para un vals cinematográfico.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "low fog dance floor wedding quinceanera"
+            },
+            {
+              "id": "confetti_cannon",
+              "name": "Confeti (máquina/cañón)",
+              "description": "Confeti para clímax musical o cierre.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por activación",
+              "imageQuery": "confetti cannon luxury party"
+            },
+            {
+              "id": "co2_jets",
+              "name": "CO2 jets / efecto frío",
+              "description": "Efecto de impacto para momentos de fiesta.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "CO2 jet blast event stage effect"
+            },
+            {
+              "id": "bubble_machine",
+              "name": "Máquina de burbujas",
+              "description": "Efecto suave para entradas o momentos familiares.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "bubble machine event outdoor ceremony"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decor_design",
+      "name": "Decoración y ambientación",
+      "description": "Diseño estético completo: flor, mobiliario, backdrops, mesas y espacios.",
+      "subcategories": [
+        {
+          "id": "decor_integral",
+          "name": "Diseño decorativo integral",
+          "items": [
+            {
+              "id": "decor_concept",
+              "name": "Diseño decorativo (concepto + render)",
+              "description": "Dirección decor con referencias y criterios.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "luxury event decoration concept render"
+            },
+            {
+              "id": "decor_team",
+              "name": "Equipo de montaje decor",
+              "description": "Personal para instalación y desmontaje.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "event decoration team setup installation"
+            }
+          ]
+        },
+        {
+          "id": "main_areas",
+          "name": "Áreas principales",
+          "items": [
+            {
+              "id": "welcome_area",
+              "name": "Área de bienvenida + photo moment",
+              "description": "Panel de bienvenida y spot fotográfico.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "event welcome area photo backdrop luxury"
+            },
+            {
+              "id": "main_stage_backdrop",
+              "name": "Backdrop principal (escenografía)",
+              "description": "Fondo principal personalizado.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "luxury quinceanera backdrop stage floral"
+            },
+            {
+              "id": "floral_wall",
+              "name": "Muro floral (floral wall)",
+              "description": "Pared floral para fotos de alto impacto.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "luxury floral wall photo backdrop"
+            },
+            {
+              "id": "sweet_table_styling",
+              "name": "Mesa de dulces: diseño y styling",
+              "description": "Diseño visual de mesa dulce.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "luxury dessert table candy bar styling"
+            },
+            {
+              "id": "guest_book_table",
+              "name": "Mesa de firmas / libro de recuerdos",
+              "description": "Mesa para firmas y mensajes.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "guest book table event elegant"
+            },
+            {
+              "id": "gift_table",
+              "name": "Mesa de regalos",
+              "description": "Mesa dedicada y señalización.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "gift table event display luxury"
+            }
+          ]
+        },
+        {
+          "id": "floristry",
+          "name": "Florería",
+          "items": [
+            {
+              "id": "low_centerpieces",
+              "name": "Centros de mesa bajos",
+              "description": "Arreglos bajos elegantes.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por mesa",
+              "imageQuery": "low floral centerpiece luxury",
+              "defaultQty": 10,
+              "allowCustomQty": true
+            },
+            {
+              "id": "tall_centerpieces",
+              "name": "Centros de mesa altos",
+              "description": "Arreglos altos para impacto visual.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por mesa",
+              "imageQuery": "tall floral centerpiece luxury ballroom",
+              "defaultQty": 10,
+              "allowCustomQty": true
+            },
+            {
+              "id": "main_table_flowers",
+              "name": "Flor para mesa principal",
+              "description": "Arreglo floral central o lineal.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "luxury head table floral arrangement"
+            },
+            {
+              "id": "quince_bouquet",
+              "name": "Ramo de quinceañera",
+              "description": "Ramo para fotos y momentos ceremoniales.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por ramo",
+              "imageQuery": "quinceanera bouquet elegant flowers"
+            }
+          ]
+        },
+        {
+          "id": "furniture_textiles",
+          "name": "Mobiliario y textiles",
+          "items": [
+            {
+              "id": "lounge_furniture",
+              "name": "Mobiliario lounge",
+              "description": "Sofás, puffs y mesas auxiliares.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "luxury lounge area event furniture"
+            },
+            {
+              "id": "premium_chairs",
+              "name": "Sillas premium (Tiffany/Ghost)",
+              "description": "Sillas de lujo.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "tiffany chairs luxury event table setup"
+            },
+            {
+              "id": "premium_linens",
+              "name": "Mantelería premium + caminos",
+              "description": "Mantelería, overlays y servilletas de tela.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por mesa",
+              "imageQuery": "luxury table linen overlay event",
+              "defaultQty": 10,
+              "allowCustomQty": true
+            },
+            {
+              "id": "premium_tableware",
+              "name": "Vajilla y cristalería premium",
+              "description": "Cargadores, vajilla, cristalería.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "luxury table setting charger plates glassware"
+            },
+            {
+              "id": "ceiling_draping",
+              "name": "Drapeado con telas (techo/pared)",
+              "description": "Telas para transformar espacio.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "ceiling draping fabric luxury event"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catering_bar",
+      "name": "Catering y bebidas",
+      "description": "Experiencia gastronómica: cena, estaciones, postres, bar y mesa dulce.",
+      "subcategories": [
+        {
+          "id": "food_service",
+          "name": "Tipo de servicio",
+          "items": [
+            {
+              "id": "plated_dinner",
+              "name": "Cena servida (plato a la mesa)",
+              "description": "Servicio formal premium.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "plated dinner luxury banquet"
+            },
+            {
+              "id": "buffet",
+              "name": "Buffet",
+              "description": "Variedad con logística de flujo.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "buffet luxury event catering"
+            },
+            {
+              "id": "cocktail_style",
+              "name": "Cóctel / finger food premium",
+              "description": "Formato social con estaciones.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "finger food cocktail reception luxury"
+            }
+          ]
+        },
+        {
+          "id": "menu_options",
+          "name": "Menú y restricciones",
+          "items": [
+            {
+              "id": "menu_design",
+              "name": "Diseño de menú (propuesta gastronómica)",
+              "description": "Propuesta de menú por tiempos.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "luxury menu design food photography"
+            },
+            {
+              "id": "kids_menu",
+              "name": "Menú infantil",
+              "description": "Opción para niños.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "kids menu event fun food"
+            },
+            {
+              "id": "vegetarian_option",
+              "name": "Opción vegetariana/vegana",
+              "description": "Alternativas alimentarias.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "vegetarian vegan gourmet plate"
+            }
+          ]
+        },
+        {
+          "id": "beverages",
+          "name": "Bebidas",
+          "items": [
+            {
+              "id": "soft_drinks_unlimited",
+              "name": "Bebidas soft ilimitadas",
+              "description": "Bebidas no alcohólicas ilimitadas.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "soft drinks station event"
+            },
+            {
+              "id": "coffee_tea_station",
+              "name": "Estación de café, agua, té",
+              "description": "Estación permanente de bebidas calientes.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "coffee station event hospitality"
+            },
+            {
+              "id": "mocktail_bar",
+              "name": "Bar de mocktails (sin alcohol)",
+              "description": "Coctelería sin alcohol premium.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "mocktail bar setup luxury event"
+            }
+          ]
+        },
+        {
+          "id": "desserts",
+          "name": "Postres y mesa dulce",
+          "items": [
+            {
+              "id": "main_cake",
+              "name": "Pastel/torta principal",
+              "description": "Pastel acorde a temática.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por pastel",
+              "imageQuery": "luxury quinceanera cake multi tier"
+            },
+            {
+              "id": "fake_cake",
+              "name": "Torta falsa para foto",
+              "description": "Torta falsa para sesión + torta real.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "fake cake display event photo"
+            },
+            {
+              "id": "dessert_table",
+              "name": "Mesa dulce / candy bar",
+              "description": "Mesa temática con dulces.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "luxury dessert table candy bar quinceanera"
+            },
+            {
+              "id": "chocolate_fountain",
+              "name": "Fuente de chocolate",
+              "description": "Estación de chocolate con frutas.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "chocolate fountain luxury dessert"
+            }
+          ]
+        },
+        {
+          "id": "service_staff",
+          "name": "Personal de servicio",
+          "items": [
+            {
+              "id": "waiters",
+              "name": "Meseros",
+              "description": "Meseros según aforo.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "waiter formal event service",
+              "defaultQty": 6,
+              "allowCustomQty": true
+            },
+            {
+              "id": "bartenders",
+              "name": "Bartenders / baristas",
+              "description": "Personal para barras.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "bartender cocktail luxury event",
+              "defaultQty": 4,
+              "allowCustomQty": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beauty_aesthetics",
+      "name": "Belleza y estética",
+      "description": "Imagen personal para quinceañera y familia.",
+      "subcategories": [
+        {
+          "id": "quince_beauty",
+          "name": "Quinceañera",
+          "items": [
+            {
+              "id": "makeup_professional",
+              "name": "Maquillaje profesional",
+              "description": "Maquillaje fotográfico acorde a temática.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "quinceanera makeup glam soft glam"
+            },
+            {
+              "id": "hair_quinceanera",
+              "name": "Peinado quinceañera",
+              "description": "Peinado ceremonial resistente para baile.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "beautiful quinceanera hairstyle updo tiara"
+            },
+            {
+              "id": "beauty_trial",
+              "name": "Prueba previa (makeup + peinado)",
+              "description": "Prueba completa para definir estilo final.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por prueba",
+              "imageQuery": "hair and makeup trial bridal studio"
+            },
+            {
+              "id": "touch_up_kit",
+              "name": "Kit de retoque",
+              "description": "Kit personalizado para mantener el look.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por kit",
+              "imageQuery": "makeup touch up kit event"
+            },
+            {
+              "id": "event_touch_up",
+              "name": "Retoque durante el evento",
+              "description": "Retoque de maquillaje y peinado.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "makeup artist event touch up",
+              "defaultQty": 2,
+              "allowCustomQty": true
+            }
+          ]
+        },
+        {
+          "id": "family_beauty",
+          "name": "Familia y corte",
+          "items": [
+            {
+              "id": "mom_makeup",
+              "name": "Maquillaje mamá",
+              "description": "Maquillaje elegante y fotográfico.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "mother event makeup elegant"
+            },
+            {
+              "id": "mom_hair",
+              "name": "Peinado mamá",
+              "description": "Peinado acorde a estilo general.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "mother elegant hairstyle event"
+            },
+            {
+              "id": "court_beauty_pack",
+              "name": "Paquete belleza corte",
+              "description": "Makeup/peinado para corte.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por persona",
+              "imageQuery": "bridesmaids makeup hairstyle event",
+              "defaultQty": 6,
+              "allowCustomQty": true
+            },
+            {
+              "id": "family_look_coordination",
+              "name": "Coordinación de look familiar",
+              "description": "Coherencia de colores/estilo en familia.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por familia",
+              "imageQuery": "family formal wear coordinated outfits"
+            }
+          ]
+        },
+        {
+          "id": "pre_event_beauty",
+          "name": "Pre evento",
+          "items": [
+            {
+              "id": "facial_treatments",
+              "name": "Plan de cuidado de piel",
+              "description": "Rutina previa sugerida por profesional.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por plan",
+              "imageQuery": "facial treatment spa skincare"
+            },
+            {
+              "id": "manicure",
+              "name": "Manicure",
+              "description": "Manicure (clásico, gel, diseño).",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "luxury manicure nude nails"
+            },
+            {
+              "id": "pedicure",
+              "name": "Pedicure",
+              "description": "Pedicure completo con esmalte.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por servicio",
+              "imageQuery": "spa pedicure elegant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wardrobe",
+      "name": "Vestuario y accesorios",
+      "description": "Vestido principal, segundo vestido, calzado, accesorios y corte.",
+      "subcategories": [
+        {
+          "id": "quince_wardrobe",
+          "name": "Quinceañera",
+          "items": [
+            {
+              "id": "main_dress",
+              "name": "Vestido principal",
+              "description": "Vestido ceremonial + fittings.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por vestido",
+              "imageQuery": "luxury quinceanera dress ball gown"
+            },
+            {
+              "id": "second_dress",
+              "name": "Segundo vestido (cambio para fiesta)",
+              "description": "Vestido más cómodo para bailar.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por vestido",
+              "imageQuery": "quinceanera second dress party dress"
+            },
+            {
+              "id": "shoes",
+              "name": "Zapatos",
+              "description": "Calzado elegante y cómodo.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por par",
+              "imageQuery": "quinceanera heels glitter shoes"
+            },
+            {
+              "id": "tiara_crown",
+              "name": "Tiara / corona",
+              "description": "Accesorio principal.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "quinceanera tiara crystal crown"
+            },
+            {
+              "id": "jewelry",
+              "name": "Joyería / accesorios",
+              "description": "Aretes, collar, pulsera.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "luxury jewelry set quinceanera"
+            },
+            {
+              "id": "getting_ready_robe",
+              "name": "Bata 'getting ready'",
+              "description": "Bata para preparación y fotos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "getting ready robe quinceanera silk"
+            },
+            {
+              "id": "dress_alterations",
+              "name": "Ajustes de vestido (sastrería)",
+              "description": "Ajustes según complejidad.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por vestido",
+              "imageQuery": "dress alteration tailor fitting"
+            }
+          ]
+        },
+        {
+          "id": "family_wardrobe",
+          "name": "Familia y corte",
+          "items": [
+            {
+              "id": "dad_suit",
+              "name": "Traje del papá",
+              "description": "Traje formal acorde a temática.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por traje",
+              "imageQuery": "formal suit father luxury event"
+            },
+            {
+              "id": "mom_dress",
+              "name": "Vestido de la mamá",
+              "description": "Vestido formal acorde a estética.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por vestido",
+              "imageQuery": "mother formal dress luxury event"
+            },
+            {
+              "id": "chambelanes_suits",
+              "name": "Vestuario de chambelanes",
+              "description": "Trajes / camisas / corbatas.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por persona",
+              "imageQuery": "chambelanes suit formal event",
+              "defaultQty": 6,
+              "allowCustomQty": true
+            },
+            {
+              "id": "damas_dresses",
+              "name": "Vestidos de damas de honor",
+              "description": "Vestidos coordinados.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por persona",
+              "imageQuery": "bridesmaids dresses quinceanera coordinated",
+              "defaultQty": 6,
+              "allowCustomQty": true
+            },
+            {
+              "id": "boutonnieres_corsages",
+              "name": "Boutonnieres y corsages",
+              "description": "Flores para solapas y muñecas.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "boutonniere corsage luxury event flowers",
+              "defaultQty": 8,
+              "allowCustomQty": true
+            }
+          ]
+        },
+        {
+          "id": "ceremonial_accessories",
+          "name": "Accesorios ceremoniales",
+          "items": [
+            {
+              "id": "toast_set",
+              "name": "Set de brindis (copas + accesorios)",
+              "description": "Copas y accesorios para brindis.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "champagne toast set quinceanera"
+            },
+            {
+              "id": "candle_ceremony",
+              "name": "Ceremonia de velas",
+              "description": "Velas, set ceremonial y guion.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "candle ceremony quinceanera symbolic"
+            },
+            {
+              "id": "guest_book",
+              "name": "Libro de firmas",
+              "description": "Libro físico para mensajes.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "guest book signing luxury event"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choreography_entertainment",
+      "name": "Coreografía y entretenimiento",
+      "description": "Vals, coreografías, shows, artistas y animación.",
+      "subcategories": [
+        {
+          "id": "dance",
+          "name": "Vals y coreografías",
+          "items": [
+            {
+              "id": "traditional_waltz",
+              "name": "Vals tradicional",
+              "description": "Dirección de vals clásico con marcas escénicas.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "quinceanera waltz ballroom dance"
+            },
+            {
+              "id": "father_daughter_dance",
+              "name": "Baile quinceañera + papá",
+              "description": "Montaje de baile emotivo.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "father daughter dance quinceanera emotional"
+            },
+            {
+              "id": "surprise_dance",
+              "name": "Baile sorpresa (coreografía moderna)",
+              "description": "Coreografía moderna para impacto.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "quinceanera surprise dance performance"
+            },
+            {
+              "id": "extra_rehearsals",
+              "name": "Ensayos adicionales",
+              "description": "Ensayos por hora.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "dance rehearsal studio practice",
+              "defaultQty": 4,
+              "allowCustomQty": true
+            },
+            {
+              "id": "choreographer",
+              "name": "Coreógrafo(a)",
+              "description": "Dirección artística y técnica.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por proyecto",
+              "imageQuery": "choreographer dance director event"
+            }
+          ]
+        },
+        {
+          "id": "mc_music",
+          "name": "Maestro de ceremonias y música",
+          "items": [
+            {
+              "id": "mc_host",
+              "name": "Maestro(a) de ceremonias (MC)",
+              "description": "Conduce protocolo con tono elegante.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "master of ceremonies MC quinceanera"
+            },
+            {
+              "id": "live_band",
+              "name": "Banda en vivo",
+              "description": "Música en vivo para bloques seleccionados.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "live band performance luxury event"
+            },
+            {
+              "id": "mariachi",
+              "name": "Mariachi (opcional)",
+              "description": "Bloque musical tradicional.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "mariachi band celebration traditional"
+            },
+            {
+              "id": "saxophonist",
+              "name": "Saxofonista / música ambiental",
+              "description": "Música elegante para cóctel o cena.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "saxophone ambient music elegant dinner",
+              "defaultQty": 2,
+              "allowCustomQty": true
+            }
+          ]
+        },
+        {
+          "id": "hora_loca",
+          "name": "Hora loca y show",
+          "items": [
+            {
+              "id": "hora_loca_classic",
+              "name": "Hora loca clásica (show)",
+              "description": "Show con animación, segmentos y cotillón.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por show",
+              "imageQuery": "hora loca dancers led costumes party"
+            },
+            {
+              "id": "hora_loca_characters",
+              "name": "Hora loca: paquete de personajes",
+              "description": "Packs de 2–5 personajes. Duración ~40 min.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por show",
+              "imageQuery": "hora loca characters costumes party performers"
+            },
+            {
+              "id": "extra_cotillon",
+              "name": "Cotillón adicional",
+              "description": "Accesorios adicionales para invitados.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "party cotillon accessories neon glow"
+            },
+            {
+              "id": "themed_show",
+              "name": "Show temático",
+              "description": "Show alineado a temática.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por show",
+              "imageQuery": "themed performance luxury event show"
+            }
+          ]
+        },
+        {
+          "id": "special_acts",
+          "name": "Actos especiales",
+          "items": [
+            {
+              "id": "surprise_artist",
+              "name": "Artista sorpresa / performance",
+              "description": "Acto especial según preferencia.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por acto",
+              "imageQuery": "surprise performer singer event stage"
+            },
+            {
+              "id": "cold_pyro",
+              "name": "Pirotecnia fría (si aplica)",
+              "description": "Efecto pirotecnia fría sujeto a permisos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "cold pyrotechnics event celebration sparks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photo_video",
+      "name": "Fotografía y video",
+      "description": "Cobertura profesional: pre-quince, evento, highlight, álbum, reels.",
+      "subcategories": [
+        {
+          "id": "pre_event_photo",
+          "name": "Pre evento",
+          "items": [
+            {
+              "id": "pre_quince_session",
+              "name": "Sesión pre quince (foto)",
+              "description": "Sesión conceptual en locación.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por sesión",
+              "imageQuery": "quinceanera photoshoot outdoor luxury"
+            },
+            {
+              "id": "save_the_date_video",
+              "name": "Video save-the-date",
+              "description": "Video corto para invitación digital.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "save the date video cinematic short"
+            }
+          ]
+        },
+        {
+          "id": "event_coverage",
+          "name": "Cobertura del evento",
+          "items": [
+            {
+              "id": "photo_coverage",
+              "name": "Cobertura fotográfica",
+              "description": "Fotografía profesional por horas.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "event photographer luxury quinceanera",
+              "defaultQty": 6,
+              "allowCustomQty": true
+            },
+            {
+              "id": "video_coverage",
+              "name": "Cobertura de video",
+              "description": "Video por horas con edición.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "videographer event cinematic filming",
+              "defaultQty": 6,
+              "allowCustomQty": true
+            },
+            {
+              "id": "drone",
+              "name": "Drone (si el venue permite)",
+              "description": "Tomas aéreas en exteriores.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "drone aerial video event outdoor"
+            }
+          ]
+        },
+        {
+          "id": "deliverables",
+          "name": "Entregables",
+          "items": [
+            {
+              "id": "cinematic_highlight",
+              "name": "Video highlight cinematográfico",
+              "description": "Resumen emocionante 3–6 min.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "cinematic event video filming gimbal"
+            },
+            {
+              "id": "full_event_video",
+              "name": "Video completo del evento",
+              "description": "Registro extendido con edición.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "full event video recording production"
+            },
+            {
+              "id": "reels_pack",
+              "name": "Paquete de reels (vertical)",
+              "description": "Clips verticales para Instagram/TikTok.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por pack",
+              "imageQuery": "vertical video reels social media event"
+            },
+            {
+              "id": "online_gallery",
+              "name": "Galería online privada",
+              "description": "Galería para compartir con invitados.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "online photo gallery private sharing"
+            },
+            {
+              "id": "premium_album",
+              "name": "Álbum físico premium",
+              "description": "Álbum impreso de lujo.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por álbum",
+              "imageQuery": "luxury photo album coffee table"
+            }
+          ]
+        },
+        {
+          "id": "booths",
+          "name": "Cabinas y activaciones",
+          "items": [
+            {
+              "id": "photobooth",
+              "name": "Cabina fotográfica / photobooth",
+              "description": "Cabina con cámara, props e impresión.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "photobooth event props luxury setup"
+            },
+            {
+              "id": "mirror_booth",
+              "name": "Espejo mágico (mirror booth)",
+              "description": "Photobooth tipo espejo interactivo.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "mirror booth event interactive photo"
+            },
+            {
+              "id": "video_360",
+              "name": "Video booth 360",
+              "description": "Plataforma 360 para clips cortos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "360 video booth platform event"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stationery",
+      "name": "Invitaciones, papelería y señalética",
+      "description": "Invitación, menús, seating plan, números de mesa y recuerdos.",
+      "subcategories": [
+        {
+          "id": "invitations",
+          "name": "Invitaciones",
+          "items": [
+            {
+              "id": "invitations_printed",
+              "name": "Invitación física premium",
+              "description": "Diseño + impresión (foil, relieve, acrílico).",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "luxury quinceanera invitation gold foil"
+            },
+            {
+              "id": "invitations_digital",
+              "name": "Invitación digital (WhatsApp/redes)",
+              "description": "Diseño digital animada.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "digital invitation animated luxury"
+            },
+            {
+              "id": "save_the_date",
+              "name": "Save the date",
+              "description": "Pieza previa (digital o impresa).",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "save the date card elegant luxury"
+            }
+          ]
+        },
+        {
+          "id": "event_day_stationery",
+          "name": "Papelería del día",
+          "items": [
+            {
+              "id": "printed_menus",
+              "name": "Menús impresos",
+              "description": "Menú por mesa o invitado.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "printed menu card luxury event",
+              "defaultQty": 10,
+              "allowCustomQty": true
+            },
+            {
+              "id": "place_cards",
+              "name": "Place cards / tarjetas de puesto",
+              "description": "Tarjetas para asignar lugar.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "place card name tag event luxury",
+              "defaultQty": 80,
+              "allowCustomQty": true
+            },
+            {
+              "id": "table_numbers",
+              "name": "Números de mesa",
+              "description": "Acrílico, papel o metal.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por unidad",
+              "imageQuery": "table number acrylic luxury event",
+              "defaultQty": 10,
+              "allowCustomQty": true
+            },
+            {
+              "id": "seating_plan_printed",
+              "name": "Seating plan impreso/instalado",
+              "description": "Panel de asignación de mesas.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "seating chart board luxury event"
+            },
+            {
+              "id": "welcome_panel",
+              "name": "Panel de bienvenida",
+              "description": "Panel con monograma y tema.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "welcome sign board luxury event entrance"
+            }
+          ]
+        },
+        {
+          "id": "souvenirs_labels",
+          "name": "Recuerdos y etiquetas",
+          "items": [
+            {
+              "id": "thank_you_cards",
+              "name": "Tarjetas de agradecimiento",
+              "description": "Tarjetas para recuerdos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "thank you card luxury event stationery"
+            },
+            {
+              "id": "custom_labels",
+              "name": "Etiquetas personalizadas",
+              "description": "Etiquetas adhesivas con monograma.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por set",
+              "imageQuery": "custom label sticker event branding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security_protocol",
+      "name": "Seguridad y protocolo",
+      "description": "Control de acceso, seguridad, protocolo ceremonial.",
+      "subcategories": [
+        {
+          "id": "security",
+          "name": "Seguridad",
+          "items": [
+            {
+              "id": "private_security",
+              "name": "Seguridad privada",
+              "description": "Personal de seguridad para control.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "event security staff suit",
+              "defaultQty": 6,
+              "allowCustomQty": true
+            },
+            {
+              "id": "parking_security",
+              "name": "Seguridad en parqueo",
+              "description": "Personal adicional para exterior.",
+              "pricingType": "perHour",
+              "priceUSD": null,
+              "unitLabel": "por hora",
+              "imageQuery": "parking security event outdoor",
+              "defaultQty": 4,
+              "allowCustomQty": true
+            }
+          ]
+        },
+        {
+          "id": "checkin",
+          "name": "Ingreso y control",
+          "items": [
+            {
+              "id": "checkin_staff",
+              "name": "Staff de check-in",
+              "description": "Recepción con lista y pulseras/QR.",
+              "pricingType": "perUnit",
+              "priceUSD": null,
+              "unitLabel": "por persona",
+              "imageQuery": "event check in desk qr code",
+              "defaultQty": 2,
+              "allowCustomQty": true
+            },
+            {
+              "id": "wristbands_qr",
+              "name": "Pulseras/QR de control",
+              "description": "Sistema de control para invitados.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "event wristband QR access control"
+            }
+          ]
+        },
+        {
+          "id": "ceremony_protocol",
+          "name": "Protocolo ceremonial",
+          "items": [
+            {
+              "id": "protocol_script",
+              "name": "Guion de protocolo",
+              "description": "Guion: entrada, brindis, vals, cake, speeches.",
+              "pricingType": "fixed",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "event protocol script ceremony guide"
+            },
+            {
+              "id": "gift_custody",
+              "name": "Custodia de regalos",
+              "description": "Zona segura y responsable asignado.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "gift area event security custody"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guest_experience",
+      "name": "Experiencia para invitados",
+      "description": "Lounge, activaciones, regalos y momentos instagrammables.",
+      "subcategories": [
+        {
+          "id": "hospitality",
+          "name": "Hospitalidad",
+          "items": [
+            {
+              "id": "welcome_drink",
+              "name": "Bebida de bienvenida",
+              "description": "Recepción con mocktail/soft.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "welcome drink reception event elegant"
+            },
+            {
+              "id": "amenities_kit",
+              "name": "Kit de amenidades",
+              "description": "Abanicos, pañuelos, mini hidratación.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "event amenity kit fan cooling luxury"
+            },
+            {
+              "id": "lounge_area",
+              "name": "Área lounge",
+              "description": "Zona de descanso premium.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "luxury lounge area event furniture"
+            }
+          ]
+        },
+        {
+          "id": "activations",
+          "name": "Activaciones",
+          "items": [
+            {
+              "id": "instagram_spot",
+              "name": "Zona instagrammable",
+              "description": "Rincón de foto con iluminación.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por montaje",
+              "imageQuery": "instagrammable spot event photo neon"
+            },
+            {
+              "id": "glitter_bar",
+              "name": "Glitter bar / beauty bar",
+              "description": "Station de brillo para fiesta.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "glitter bar beauty station event party"
+            },
+            {
+              "id": "neon_sign",
+              "name": "Neón personalizado",
+              "description": "Letrero tipo neón para fondo y fotos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por pieza",
+              "imageQuery": "custom neon sign event quinceanera name"
+            }
+          ]
+        },
+        {
+          "id": "souvenirs",
+          "name": "Recuerdos",
+          "items": [
+            {
+              "id": "personalized_favors",
+              "name": "Recuerdos personalizados",
+              "description": "Recuerdos con empaque premium.",
+              "pricingType": "perPerson",
+              "priceUSD": null,
+              "unitLabel": "por invitado",
+              "imageQuery": "luxury event favors personalized"
+            },
+            {
+              "id": "on_site_prints",
+              "name": "Impresión de fotos en sitio",
+              "description": "Impresión para recuerdos.",
+              "pricingType": "quoteOnly",
+              "priceUSD": null,
+              "unitLabel": "por evento",
+              "imageQuery": "instant photo printing event souvenir"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post_event",
+      "name": "Post evento",
+      "description": "Entregables finales, cierre y memoria del evento.",
+      "items": [
+        {
+          "id": "final_delivery",
+          "name": "Paquete de entrega final",
+          "description": "Entrega organizada de fotos, videos y materiales.",
+          "pricingType": "fixed",
+          "priceUSD": null,
+          "unitLabel": "por proyecto",
+          "imageQuery": "digital delivery gallery event photos"
+        },
+        {
+          "id": "post_event_meeting",
+          "name": "Reunión post evento",
+          "description": "Revisión final, aprendizajes y pendientes.",
+          "pricingType": "fixed",
+          "priceUSD": null,
+          "unitLabel": "por sesión",
+          "imageQuery": "post event meeting review feedback"
+        }
+      ]
+    }
+  ]
+}
