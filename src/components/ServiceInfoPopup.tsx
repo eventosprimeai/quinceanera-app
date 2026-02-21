@@ -141,7 +141,7 @@ export default function ServiceInfoPopup({ info, onClose }: Props) {
                                                 src={img}
                                                 alt={`Referencia ${idx + 1}`}
                                                 fill
-                                                className="object-cover hover:scale-105 transition-transform duration-500"
+                                                className="object-cover object-top hover:scale-105 transition-transform duration-500"
                                             />
                                         </div>
                                     ))}
