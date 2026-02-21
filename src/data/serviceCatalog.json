@@ -64,12 +64,12 @@
                   "Desplazamiento"
                 ],
                 "realValueText": "Garantiza que el maquillaje luzca perfecto en fotos, video y bajo iluminación escénica.",
-                "mainImage": "https://images.unsplash.com/photo-1512496015851-a1c84883bb17?q=80&w=2000&auto=format&fit=crop",
+                "mainImage": "/images/services/main_maquillaje_profesional.jpg",
                 "galleryImages": [
-                  "https://images.unsplash.com/photo-1596704017254-9b121068fb29?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1620067667503-4852c92b23a5?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1588829584485-6d734eacaf37?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1503236823255-94609f598e71?q=80&w=2000&auto=format&fit=crop"
+                  "/images/services/gallery_maquillaje_profesional.jpg_0.jpg",
+                  "/images/services/gallery_maquillaje_profesional.jpg_1.jpg",
+                  "/images/services/gallery_maquillaje_profesional.jpg_2.jpg",
+                  "/images/services/gallery_maquillaje_profesional.jpg_3.jpg"
                 ]
               }
             },
@@ -102,11 +102,11 @@
                   "Estilista seleccionado"
                 ],
                 "realValueText": "Debe resistir calor, movimiento y horas de celebración.",
-                "mainImage": "https://images.unsplash.com/photo-1487627448888-2ed3383084ba?q=80&w=2000&auto=format&fit=crop",
+                "mainImage": "/images/services/main_peinado_quincea_era.jpg",
                 "galleryImages": [
-                  "https://images.unsplash.com/photo-1560014285-d6e3fb06a928?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1520607162513-7770400dd8c3?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1511116245362-e95c1c4f2bb4?q=80&w=2000&auto=format&fit=crop"
+                  "/images/services/gallery_peinado_quincea_era.jpg_0.jpg",
+                  "/images/services/gallery_peinado_quincea_era.jpg_1.jpg",
+                  "/images/services/gallery_peinado_quincea_era.jpg_2.jpg"
                 ]
               }
             },
@@ -135,10 +135,10 @@
                 ],
                 "factorsText": [],
                 "realValueText": "Reduce estrés el día del evento y evita sorpresas.",
-                "mainImage": "https://images.unsplash.com/photo-1457984483737-cd34c91b5c2c?q=80&w=2000&auto=format&fit=crop",
+                "mainImage": "/images/services/main_prueba_previa__makeup___peinado_.jpg",
                 "galleryImages": [
-                  "https://images.unsplash.com/photo-1487537023671-8dce1b78f8ee?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2000&auto=format&fit=crop"
+                  "/images/services/gallery_prueba_previa__makeup___peinado_.jpg_0.jpg",
+                  "/images/services/gallery_prueba_previa__makeup___peinado_.jpg_1.jpg"
                 ]
               }
             },
@@ -166,10 +166,10 @@
                 ],
                 "factorsText": [],
                 "realValueText": "Permite mantener frescura durante fotos y baile.",
-                "mainImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=2000&auto=format&fit=crop",
+                "mainImage": "/images/services/main_kit_de_retoque.jpg",
                 "galleryImages": [
-                  "https://images.unsplash.com/photo-1599305090598-fe179d501227?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1629814427506-618e7e11f715?q=80&w=2000&auto=format&fit=crop"
+                  "/images/services/gallery_kit_de_retoque.jpg_0.jpg",
+                  "/images/services/gallery_kit_de_retoque.jpg_1.jpg"
                 ]
               }
             },
@@ -201,10 +201,10 @@
                   "Horario nocturno"
                 ],
                 "realValueText": "Garantiza que la quinceañera luzca impecable hasta el final.",
-                "mainImage": "https://images.unsplash.com/photo-1521783592809-5100085d7fca?q=80&w=2000&auto=format&fit=crop",
+                "mainImage": "/images/services/main_retoque_durante_el_evento.jpg",
                 "galleryImages": [
-                  "https://images.unsplash.com/photo-1512496015851-a1c84883bb17?q=80&w=2000&auto=format&fit=crop",
-                  "https://images.unsplash.com/photo-1507290439931-a861cfedc27e?q=80&w=2000&auto=format&fit=crop"
+                  "/images/services/gallery_retoque_durante_el_evento.jpg_0.jpg",
+                  "/images/services/gallery_retoque_durante_el_evento.jpg_1.jpg"
                 ]
               }
             }

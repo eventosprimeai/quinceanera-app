@@ -20,6 +20,8 @@ interface Props {
 }
 
 export default function ServiceInfoPopup({ info, onClose }: Props) {
+    const [expandedImage, setExpandedImage] = useState<string | null>(null);
+
     // Prevent scrolling behind modal
     useEffect(() => {
         document.body.style.overflow = 'hidden';
@@ -54,12 +56,15 @@ export default function ServiceInfoPopup({ info, onClose }: Props) {
                 <div className="overflow-y-auto custom-scrollbar flex-1 flex flex-col">
                     {/* Main Image Header (Optional) */}
                     {info.mainImage && (
-                        <div className="relative w-full h-48 md:h-56 shrink-0 border-b border-[#2a2a2a]">
+                        <div
+                            className="relative w-full h-48 md:h-56 shrink-0 border-b border-[#2a2a2a] cursor-pointer group"
+                            onClick={() => setExpandedImage(info.mainImage as string)}
+                        >
                             <Image
                                 src={info.mainImage}
                                 alt={info.title}
                                 fill
-                                className="object-cover"
+                                className="object-cover group-hover:scale-105 transition-transform duration-500"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
                         </div>
@@ -125,7 +130,11 @@ export default function ServiceInfoPopup({ info, onClose }: Props) {
                                 </h4>
                                 <div className="grid grid-cols-2 gap-2 mt-2">
                                     {info.galleryImages.map((img, idx) => (
-                                        <div key={idx} className="relative w-full h-32 rounded-lg overflow-hidden border border-[#2a2a2a]">
+                                        <div
+                                            key={idx}
+                                            className="relative w-full h-32 rounded-lg overflow-hidden border border-[#2a2a2a] cursor-pointer"
+                                            onClick={() => setExpandedImage(img)}
+                                        >
                                             <Image
                                                 src={img}
                                                 alt={`Referencia ${idx + 1}`}
@@ -150,6 +159,30 @@ export default function ServiceInfoPopup({ info, onClose }: Props) {
                     </button>
                 </div>
             </div>
+
+            {/* Lightbox / Expanded Image Overlay */}
+            {expandedImage && (
+                <div
+                    className="fixed inset-0 z-[60] flex items-center justify-center bg-black/95 backdrop-blur-md p-4 animate-in fade-in duration-200"
+                    onClick={() => setExpandedImage(null)}
+                >
+                    <button
+                        onClick={() => setExpandedImage(null)}
+                        className="absolute top-6 right-6 w-12 h-12 rounded-full bg-[#1e1e1e]/80 flex items-center justify-center text-white hover:bg-[#c9a96e] transition-colors z-[70] shadow-xl border border-white/10"
+                    >
+                        <X className="w-6 h-6" />
+                    </button>
+                    <div className="relative w-full max-w-5xl aspect-square md:aspect-video rounded-xl overflow-hidden shadow-2xl border border-[#333]">
+                        <Image
+                            src={expandedImage}
+                            alt="Vista ampliada"
+                            fill
+                            className="object-contain"
+                            quality={100}
+                        />
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
