@@ -57,7 +57,7 @@ export default function ServiceInfoPopup({ info, onClose }: Props) {
                     {/* Main Image Header (Optional) */}
                     {info.mainImage && (
                         <div
-                            className="relative w-full h-48 md:h-56 shrink-0 border-b border-[#2a2a2a] cursor-pointer group"
+                            className="relative w-full h-64 md:h-72 shrink-0 border-b border-[#2a2a2a] cursor-pointer group"
                             onClick={() => setExpandedImage(info.mainImage as string)}
                         >
                             <Image
@@ -167,12 +167,19 @@ export default function ServiceInfoPopup({ info, onClose }: Props) {
                     onClick={() => setExpandedImage(null)}
                 >
                     <button
-                        onClick={() => setExpandedImage(null)}
-                        className="absolute top-6 right-6 w-12 h-12 rounded-full bg-[#1e1e1e]/80 flex items-center justify-center text-white hover:bg-[#c9a96e] transition-colors z-[70] shadow-xl border border-white/10"
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            setExpandedImage(null);
+                        }}
+                        className="absolute top-6 right-6 w-12 h-12 rounded-full bg-[#1e1e1e] flex items-center justify-center text-white hover:bg-[#c9a96e] hover:text-black transition-colors z-[70] shadow-2xl border border-white/20"
+                        title="Cerrar imagen"
                     >
                         <X className="w-6 h-6" />
                     </button>
-                    <div className="relative w-full max-w-5xl aspect-square md:aspect-video rounded-xl overflow-hidden shadow-2xl border border-[#333]">
+                    <div
+                        className="relative w-full max-w-5xl aspect-square md:aspect-video rounded-xl overflow-hidden shadow-2xl border border-[#333]"
+                        onClick={(e) => e.stopPropagation()}
+                    >
                         <Image
                             src={expandedImage}
                             alt="Vista ampliada"
