@@ -104,6 +104,7 @@ export async function POST(req: NextRequest) {
         <div style="background: #141414; border: 1px solid #2a2a2a; border-radius: 10px; padding: 16px; margin-bottom: 16px;">
           <p style="color: #888; font-size: 12px; margin: 3px 0;"><strong style="color: #ccc;">Nombre:</strong> ${cleanData.fullName}</p>
           <p style="color: #888; font-size: 12px; margin: 3px 0;"><strong style="color: #ccc;">Email:</strong> ${cleanData.email}</p>
+          <p style="color: #888; font-size: 12px; margin: 3px 0;"><strong style="color: #ccc;">Teléfono:</strong> ${cleanData.whatsapp || '—'}</p>
           <p style="color: #888; font-size: 12px; margin: 3px 0;"><strong style="color: #ccc;">Ciudad:</strong> ${cleanData.city || '—'}</p>
           <p style="color: #888; font-size: 12px; margin: 3px 0;"><strong style="color: #ccc;">Invitados:</strong> ${cleanData.guestCount} · <strong style="color: #ccc;">Horas:</strong> ${cleanData.eventHours}</p>
         </div>
