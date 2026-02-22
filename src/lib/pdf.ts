@@ -4,6 +4,7 @@ import {
     Document,
     Page,
     Text,
+    Link,
     View,
     StyleSheet,
 } from '@react-pdf/renderer';
@@ -47,7 +48,7 @@ const s = StyleSheet.create({
     totalNote: { fontSize: 7, color: c.muted, marginTop: 4 },
     footer: { position: 'absolute', bottom: 30, left: 40, right: 40, borderTopWidth: 1, borderTopColor: c.border, paddingTop: 10 },
     footerText: { fontSize: 7, color: '#555555', textAlign: 'center', lineHeight: 1.5 },
-    cta: { backgroundColor: c.gold, color: c.dark, borderRadius: 20, paddingVertical: 10, paddingHorizontal: 24, textAlign: 'center', marginTop: 16, fontSize: 11, fontFamily: 'Helvetica-Bold' },
+    cta: { backgroundColor: c.gold, color: c.dark, borderRadius: 20, paddingVertical: 10, paddingHorizontal: 24, textAlign: 'center', marginTop: 16, fontSize: 11, fontFamily: 'Helvetica-Bold', textDecoration: 'none' },
 });
 
 /* ─── TYPES ─── */
@@ -172,7 +173,7 @@ function QuoteDocument({ data }: { data: QuotePDFData }) {
 
             // CTA
             React.createElement(View, { style: { alignItems: 'center', marginTop: 20 } },
-                React.createElement(Text, { style: s.cta }, 'Agendar llamada: wa.me/593969324140')
+                React.createElement(Link, { src: 'https://wa.me/593969324140', style: s.cta }, 'Agendar llamada: wa.me/593969324140')
             ),
 
             // Footer
