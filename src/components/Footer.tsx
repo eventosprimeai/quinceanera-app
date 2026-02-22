@@ -26,9 +26,9 @@ export default function Footer() {
                     <div>
                         <h4 className="text-sm font-semibold text-white mb-4 uppercase tracking-wider">Navegación</h4>
                         <ul className="space-y-3 text-sm text-[#888]">
-                            <li><a href="#resultados" className="hover:text-[#c9a96e] transition-colors">Resultados</a></li>
-                            <li><a href="#como-funciona" className="hover:text-[#c9a96e] transition-colors">Cómo funciona</a></li>
-                            <li><a href="#inversion" className="hover:text-[#c9a96e] transition-colors">Inversión</a></li>
+                            <li><Link href="/#resultados" className="hover:text-[#c9a96e] transition-colors">Resultados</Link></li>
+                            <li><Link href="/#como-funciona" className="hover:text-[#c9a96e] transition-colors">Cómo funciona</Link></li>
+                            <li><Link href="/#inversion" className="hover:text-[#c9a96e] transition-colors">Inversión</Link></li>
                             <li><Link href="/cotizar" className="hover:text-[#c9a96e] transition-colors">Cotizador</Link></li>
                         </ul>
                     </div>
