@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import { Menu, X, Sparkles, ArrowLeft } from 'lucide-react';
+import { Menu, X, Sparkles, ArrowLeft, ExternalLink } from 'lucide-react';
 
 export default function Header() {
     const [scrolled, setScrolled] = useState(false);
@@ -39,6 +39,10 @@ export default function Header() {
                     <a href={sectionLink('#como-funciona')} className="text-[#888] hover:text-white transition-colors">Cómo funciona</a>
                     <a href={sectionLink('#inversion')} className="text-[#888] hover:text-white transition-colors">Inversión</a>
                     <a href={sectionLink('#faq')} className="text-[#888] hover:text-white transition-colors">FAQ</a>
+                    <a href="https://eventosprimeai.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-[#c9a96e] hover:text-white transition-colors">
+                        E-Prime
+                        <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
                     {isHome ? (
                         <Link href="/cotizar" className="btn-gold text-sm !py-2.5 !px-5">
                             Cotizar en 3 min
@@ -62,6 +66,10 @@ export default function Header() {
                     <a href={sectionLink('#como-funciona')} className="text-[#ccc] py-2" onClick={() => setMenuOpen(false)}>Cómo funciona</a>
                     <a href={sectionLink('#inversion')} className="text-[#ccc] py-2" onClick={() => setMenuOpen(false)}>Inversión</a>
                     <a href={sectionLink('#faq')} className="text-[#ccc] py-2" onClick={() => setMenuOpen(false)}>FAQ</a>
+                    <a href="https://eventosprimeai.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-[#c9a96e] py-2" onClick={() => setMenuOpen(false)}>
+                        E-Prime
+                        <ExternalLink className="w-4 h-4" />
+                    </a>
                     {isHome ? (
                         <Link href="/cotizar" className="btn-gold text-center mt-2" onClick={() => setMenuOpen(false)}>
                             Cotizar en 3 min
